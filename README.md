@@ -1,117 +1,403 @@
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   └── package.json
+# 🏟️ Stadium AI Assistant
+### AI-Powered Smart Stadium Assistant using Gemini + Retrieval-Augmented Generation (RAG)
+
+An intelligent stadium assistant built for **Smart Stadium & Tournament Operations**, enabling spectators to instantly access accurate information about stadium navigation, accessibility, parking, emergency services, transportation, food courts, rules, and more through natural language conversations.
+
+Unlike traditional chatbots, this assistant uses **Retrieval-Augmented Generation (RAG)** with **Google Gemini** and **Qdrant Vector Database** to generate responses grounded in official stadium knowledge.
+
+---
+
+# 🚀 Features
+
+- 🤖 AI-powered conversational assistant
+- 🧠 Retrieval-Augmented Generation (RAG)
+- 📚 Vector search using Qdrant
+- ✨ Gemini 2.5 Flash integration
+- 🗺️ Stadium navigation assistance
+- 🚪 Gate & section information
+- 🚗 Parking guidance
+- ♿ Accessibility assistance
+- 🚑 Emergency response guidance
+- 🍔 Food court recommendations
+- 🚇 Transportation information
+- 📖 Stadium rules & prohibited items
+- ⚡ Charging stations
+- 🚻 Restroom locations
+- 💧 Water stations
+- 🛍️ Merchandise stores
+
+---
+
+# 🏗️ System Architecture
+
+```
+                   +----------------------+
+                   |    React Frontend    |
+                   +----------+-----------+
+                              |
+                              |
+                    REST API (FastAPI)
+                              |
+                              |
+                  +-----------v------------+
+                  |     Gemini Service     |
+                  +-----------+------------+
+                              |
+                              |
+                   Retrieves Relevant Context
+                              |
+                              |
+                    +---------v----------+
+                    |   RAG Service      |
+                    +---------+----------+
+                              |
+                              |
+                    Similarity Search
+                              |
+                              |
+                    +---------v----------+
+                    |   Qdrant Vector DB |
+                    +---------+----------+
+                              |
+                    Embedded Documents
+                              |
+                    Gemini Embeddings
+                              |
+                    Stadium Knowledge Base
+```
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+- React
+- Vite
+- React Router
+- Firebase Authentication
+
+## Backend
+
+- FastAPI
+- Python
+- Google Gemini API
+- LangChain
+- Qdrant
+- dotenv
+
+## AI Stack
+
+- Gemini 2.5 Flash
+- Gemini Embedding Model
+- Retrieval-Augmented Generation (RAG)
+- Qdrant Vector Database
+
+---
+
+# 📂 Project Structure
+
+```
+backend
 │
-├── backend/
-│   ├── app/
-│   │   ├── api/
-│   │   ├── services/
-│   │   ├── rag/
-│   │   ├── models/
-│   │   ├── auth/
-│   │   └── main.py
-│   │
-│   ├── data/
-│   │   ├── stadium.pdf
-│   │   ├── food.json
-│   │   ├── faq.json
-│   │   └── gates.json
-│   │
-│   ├── vector_store/
-│   └── requirements.txt
+├── KnowledgeBase
+│   ├── events
+│   ├── services
+│   └── stadium
 │
-└── README.md
-
-FACILITIES:
-food courts
-Medical Centers
-Information Desks
-Restrooms
-Charging Stations
-Water Stations
-ATMs
-Elevators
-Merchandise Stores
+├── app
+│   ├── api
+│   ├── auth
+│   ├── models
+│   ├── prompts
+│   ├── rag
+│   ├── services
+│   └── main.py
+│
+└── requirements.txt
 
 
+frontend
+│
+├── src
+│   ├── components
+│   ├── pages
+│   ├── context
+│   ├── services
+│   └── assets
+│
+└── package.json
+```
 
-parking.json
-transportation.json
-accessibility.json
-rules.json
-emergency.json
+---
 
+# 📚 Knowledge Base
 
+The assistant currently indexes over **300+ structured stadium documents** covering:
 
+- Stadium Sections
+- Gates
+- Parking Zones
+- Food Courts
+- Medical Centers
+- Information Desks
+- Restrooms
+- Charging Stations
+- Water Stations
+- Elevators
+- Merchandise Stores
+- Transportation
+- Accessibility
+- Stadium Rules
+- Emergency Procedures
+- Event Schedule
+- Announcements
 
-Batch 1:
+Each knowledge object is embedded and stored individually for high-quality semantic retrieval.
 
-TS-01 → TS-04
+---
 
-Stadium shuttle services
-Batch 2:
+# 🧠 RAG Pipeline
 
-BT-01 → BT-04
+```
+JSON Knowledge Base
+        │
+        ▼
+Document Loader
+        │
+        ▼
+Document Formatting
+        │
+        ▼
+Gemini Embeddings
+        │
+        ▼
+Qdrant Vector Database
+        │
+        ▼
+Similarity Search
+        │
+        ▼
+Relevant Context
+        │
+        ▼
+Gemini 2.5 Flash
+        │
+        ▼
+Grounded Response
+```
 
-Bus terminals
-Batch 3:
+---
 
-TZ-01 → TZ-04
+# ⚙️ Installation
 
-Taxi/Rideshare zones
-Batch 4:
+## Clone Repository
 
-MT-01 → MT-02
+```bash
+git clone https://github.com/<your-username>/<repo>.git
 
-Metro/train connectivity
+cd <repo>
+```
 
+---
 
+# Backend Setup
 
+Create a virtual environment
 
-Batch 1:
-AE-01 → AE-04
+```bash
+python -m venv venv
+```
 
-Accessible Entrances
+Activate
 
-North
-East
-Batch 2:
-AE-05 → AE-08
+Windows
 
-Accessible Entrances
+```bash
+venv\Scripts\activate
+```
 
-South
-West
-Batch 3:
-AD-01 → AD-04
+Linux / macOS
 
-Accessibility Assistance Desks
+```bash
+source venv/bin/activate
+```
 
-Batch 4:
-WC-01 → WC-04
+Install dependencies
 
-Wheelchair Service Points
+```bash
+pip install -r requirements.txt
+```
 
-Batch 5:
-SA-01 → SA-04
+Create a `.env`
 
-Sensory Assistance Zones
+```env
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
 
-Batch 6:
-AS-01 → AS-08
+QDRANT_URL=http://localhost:6333
 
-Accessible Seating Areas
+QDRANT_API_KEY=
+```
 
+---
 
+# Frontend Setup
 
-emergency.json Design
-Structure
-Category	IDs	Purpose
-Emergency Medical Points	EMP-01 → EMP-08	Medical response locations
-Emergency Exits	EX-01 → EX-16	Evacuation exits
-Fire Safety Points	FS-01 → FS-08	Fire response equipment
-Evacuation Routes	EV-01 → EV-08	Crowd evacuation paths
-Assembly Areas	AA-01 → AA-04	Safe gathering locations
-Security Response Points	SR-01 → SR-08	Emergency security support
-Emergency Contacts	EC-01 → EC-05	Communication channels
+```bash
+cd frontend
+
+npm install
+
+npm run dev
+```
+
+---
+
+# Running Backend
+
+```bash
+uvicorn app.main:app --reload
+```
+
+Backend API
+
+```
+http://localhost:8000
+```
+
+Swagger Documentation
+
+```
+http://localhost:8000/docs
+```
+
+---
+
+# Building the Knowledge Base
+
+After updating any JSON files, rebuild the vector database.
+
+```bash
+python app/rag/ingest.py
+```
+
+This will
+
+- Parse all JSON files
+- Generate embeddings
+- Upload documents to Qdrant
+
+---
+
+# Example Queries
+
+```
+Where can I charge my laptop?
+
+Nearest medical center
+
+Where is Gate A?
+
+Which entrance is wheelchair accessible?
+
+Where should VIP visitors park?
+
+Can I bring a drone?
+
+Nearest food court
+
+How do I reach Section C?
+
+Emergency exits near Section B
+```
+
+---
+
+# API
+
+## POST `/chat`
+
+### Request
+
+```json
+{
+    "message":"Where can I charge my laptop?"
+}
+```
+
+### Response
+
+```json
+{
+    "response":"You can charge your laptop at North Charging Hub (CS-01)..."
+}
+```
+
+---
+
+# AI Workflow
+
+```
+User Query
+      │
+      ▼
+Embedding
+      │
+      ▼
+Qdrant Search
+      │
+      ▼
+Top-K Stadium Documents
+      │
+      ▼
+Gemini Prompt
+      │
+      ▼
+Grounded Response
+```
+
+---
+
+# Current Capabilities
+
+- Stadium Navigation
+- Parking Guidance
+- Accessibility Assistance
+- Emergency Information
+- Food & Dining
+- Transportation
+- Rules & Regulations
+- Facility Lookup
+- Semantic Search
+- Context-Aware AI Responses
+
+---
+
+# Future Enhancements
+
+- Voice Assistant
+- Indoor Live Navigation
+- Real-time Crowd Density
+- Live Parking Availability
+- Live Queue Monitoring
+- Multi-language Support
+- QR Code Navigation
+- Push Notifications
+- Event Recommendations
+- Personalized Visitor Experience
+
+---
+
+# License
+
+This project was developed as part of the Virtual PromptWars challenge-4.
+
+---
+
+# Author
+
+**Ajay B**
+
+AIML Engineer
+
+Built using ❤️ with **FastAPI**, **React**, **Google Gemini**, **LangChain**, and **Qdrant**.
