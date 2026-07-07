@@ -1,0 +1,577 @@
+{
+    "gates": [
+        {
+            "id": "GATE-A",
+            "name": "Gate A",
+            "display_name": "North Entrance",
+            "zone": "North",
+            "coordinates": {
+                "latitude": 32.776500,
+                "longitude": -96.797100
+            },
+            "connected_sections": [
+                "A",
+                "B",
+                "C"
+            ],
+            "nearest_parking": [
+                "P1"
+            ],
+            "nearest_transport": [
+                "Metro Station",
+                "Bus Terminal"
+            ],
+            "walking_time_to_center": "6 mins",
+            "security": {
+                "screening_lanes": 8,
+                "metal_detectors": 6,
+                "bag_check": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "ramp": true,
+                "elevator": true,
+                "accessible_entry": true
+            },
+            "facilities": [
+                "Information Desk 1",
+                "Restroom R01",
+                "Coffee Corner",
+                "ATM 01",
+                "Water Refill 01"
+            ],
+            "capacity": {
+                "maximum_capacity": 7000,
+                "recommended_capacity": 5500
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "LOW",
+                "current_people": 2840,
+                "queue_length": 42,
+                "estimated_wait_time_minutes": 3,
+                "entry_rate_per_minute": 145,
+                "exit_rate_per_minute": 18,
+                "security_alert": false,
+                "medical_incident": false,
+                "weather_alert": false,
+                "recommended_action": "Normal operations",
+                "last_updated": "2026-07-11T17:20:00Z",
+                "trend": {
+                    "direction": "STABLE",
+                    "change_percentage_last_15_minutes": 2.4,
+                    "predicted_crowd_level_in_30_minutes": "LOW"
+                }
+            },
+            "relationships": {
+                "nearest_medical_center": "MC-01",
+                "nearest_information_desk": "INFO-01",
+                "nearest_food_court": "FC-01",
+                "nearest_restroom": "RR-01",
+                "nearest_charging_station": "CS-01",
+                "nearest_water_station": "WS-01",
+                "nearest_elevator": "EL-01"
+            }
+        },
+        {
+            "id": "GATE-B",
+            "name": "Gate B",
+            "display_name": "North-East Entrance",
+            "zone": "North-East",
+            "coordinates": {
+                "latitude": 32.776900,
+                "longitude": -96.796000
+            },
+            "connected_sections": [
+                "D",
+                "E",
+                "F"
+            ],
+            "nearest_parking": [
+                "P1",
+                "P2"
+            ],
+            "nearest_transport": [
+                "Taxi Zone"
+            ],
+            "walking_time_to_center": "7 mins",
+            "security": {
+                "screening_lanes": 6,
+                "metal_detectors": 5,
+                "bag_check": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "ramp": true,
+                "elevator": false,
+                "accessible_entry": true
+            },
+            "facilities": [
+                "Information Desk 2",
+                "Coffee Point",
+                "Restroom R02",
+                "Charging Station"
+            ],
+            "capacity": {
+                "maximum_capacity": 6500,
+                "recommended_capacity": 5000
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "MEDIUM",
+                "current_people": 4385,
+                "queue_length": 118,
+                "estimated_wait_time_minutes": 7,
+                "entry_rate_per_minute": 182,
+                "exit_rate_per_minute": 35,
+                "security_alert": false,
+                "medical_incident": false,
+                "weather_alert": false,
+                "recommended_action": "Open one additional screening lane.",
+                "last_updated": "2026-07-11T17:20:00Z",
+                "trend": {
+                    "direction": "INCREASING",
+                    "change_percentage_last_15_minutes": 11.8,
+                    "predicted_crowd_level_in_30_minutes": "HIGH"
+                }
+            },
+            "relationships": {
+                "nearest_medical_center": "MC-01",
+                "nearest_information_desk": "INFO-02",
+                "nearest_food_court": "FC-02",
+                "nearest_restroom": "RR-03",
+                "nearest_charging_station": "CS-02",
+                "nearest_water_station": "WS-03",
+                "nearest_elevator": "EL-02"
+            }
+        },
+        {
+            "id": "GATE-C",
+            "name": "Gate C",
+            "display_name": "East Entrance",
+            "zone": "East",
+            "coordinates": {
+                "latitude": 32.777300,
+                "longitude": -96.794900
+            },
+            "connected_sections": [
+                "G",
+                "H",
+                "I"
+            ],
+            "nearest_parking": [
+                "P2"
+            ],
+            "nearest_transport": [
+                "Ride Share Zone"
+            ],
+            "walking_time_to_center": "5 mins",
+            "security": {
+                "screening_lanes": 8,
+                "metal_detectors": 6,
+                "bag_check": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "ramp": true,
+                "elevator": true,
+                "accessible_entry": true
+            },
+            "facilities": [
+                "Medical Center 1",
+                "Food Court East",
+                "ATM 02",
+                "Restroom R03"
+            ],
+            "capacity": {
+                "maximum_capacity": 8000,
+                "recommended_capacity": 6000
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "HIGH",
+                "current_people": 6120,
+                "queue_length": 245,
+                "estimated_wait_time_minutes": 14,
+                "entry_rate_per_minute": 235,
+                "exit_rate_per_minute": 52,
+                "security_alert": false,
+                "medical_incident": false,
+                "weather_alert": false,
+                "recommended_action": "Redirect arriving fans to Gate B and Gate D.",
+                "last_updated": "2026-07-11T17:20:00Z",
+                "trend": {
+                    "direction": "INCREASING",
+                    "change_percentage_last_15_minutes": 19.6,
+                    "predicted_crowd_level_in_30_minutes": "VERY_HIGH"
+                }
+            },
+            "relationships": {
+                "nearest_medical_center": "MC-02",
+                "nearest_information_desk": "INFO-03",
+                "nearest_food_court": "FC-03",
+                "nearest_restroom": "RR-07",
+                "nearest_charging_station": "CS-04",
+                "nearest_water_station": "WS-06",
+                "nearest_elevator": "EL-03"
+            }
+        },
+        {
+            "id": "GATE-D",
+            "name": "Gate D",
+            "display_name": "South-East Entrance",
+            "zone": "South-East",
+            "coordinates": {
+                "latitude": 32.775900,
+                "longitude": -96.794100
+            },
+            "connected_sections": [
+                "J",
+                "K",
+                "L",
+                "M"
+            ],
+            "nearest_parking": [
+                "P3"
+            ],
+            "nearest_transport": [
+                "Airport Shuttle"
+            ],
+            "walking_time_to_center": "5 mins",
+            "security": {
+                "screening_lanes": 10,
+                "metal_detectors": 8,
+                "bag_check": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "ramp": true,
+                "elevator": true,
+                "accessible_entry": true
+            },
+            "facilities": [
+                "Information Desk",
+                "Medical Center 2",
+                "Restroom R04",
+                "Charging Hub"
+            ],
+            "capacity": {
+                "maximum_capacity": 9000,
+                "recommended_capacity": 7000
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "MEDIUM",
+                "current_people": 4920,
+                "queue_length": 136,
+                "estimated_wait_time_minutes": 8,
+                "entry_rate_per_minute": 205,
+                "exit_rate_per_minute": 40,
+                "security_alert": false,
+                "medical_incident": true,
+                "weather_alert": false,
+                "recommended_action": "Medical team responding. Keep one lane reserved.",
+                "last_updated": "2026-07-11T17:20:00Z",
+                "trend": {
+                    "direction": "STABLE",
+                    "change_percentage_last_15_minutes": 4.1,
+                    "predicted_crowd_level_in_30_minutes": "MEDIUM"
+                }
+            },
+            "relationships": {
+                "nearest_medical_center": "MC-02",
+                "nearest_information_desk": "INFO-04",
+                "nearest_food_court": "FC-04",
+                "nearest_restroom": "RR-12",
+                "nearest_charging_station": "CS-06",
+                "nearest_water_station": "WS-08",
+                "nearest_elevator": "EL-04"
+            }
+        },
+        {
+            "id": "GATE-E",
+            "name": "Gate E",
+            "display_name": "South Entrance",
+            "zone": "South",
+            "coordinates": {
+                "latitude": 32.775000,
+                "longitude": -96.795300
+            },
+            "connected_sections": [
+                "N",
+                "O",
+                "P"
+            ],
+            "nearest_parking": [
+                "P4"
+            ],
+            "nearest_transport": [
+                "City Bus"
+            ],
+            "walking_time_to_center": "6 mins",
+            "security": {
+                "screening_lanes": 7,
+                "metal_detectors": 6,
+                "bag_check": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "ramp": true,
+                "elevator": false,
+                "accessible_entry": true
+            },
+            "facilities": [
+                "Prayer Room",
+                "Restroom R05",
+                "Family Lounge"
+            ],
+            "capacity": {
+                "maximum_capacity": 7000,
+                "recommended_capacity": 5500
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "LOW",
+                "current_people": 2675,
+                "queue_length": 36,
+                "estimated_wait_time_minutes": 2,
+                "entry_rate_per_minute": 120,
+                "exit_rate_per_minute": 21,
+                "security_alert": false,
+                "medical_incident": false,
+                "weather_alert": false,
+                "recommended_action": "Suitable alternative entrance for arriving spectators.",
+                "last_updated": "2026-07-11T17:20:00Z",
+                "trend": {
+                    "direction": "DECREASING",
+                    "change_percentage_last_15_minutes": -8.3,
+                    "predicted_crowd_level_in_30_minutes": "LOW"
+                }
+            },
+            "relationships": {
+                "nearest_medical_center": "MC-03",
+                "nearest_information_desk": "INFO-05",
+                "nearest_food_court": "FC-05",
+                "nearest_restroom": "RR-19",
+                "nearest_charging_station": "CS-08",
+                "nearest_water_station": "WS-11",
+                "nearest_elevator": "EL-05"
+            }
+        },
+        {
+            "id": "GATE-F",
+            "name": "Gate F",
+            "display_name": "South-West Entrance",
+            "zone": "South-West",
+            "coordinates": {
+                "latitude": 32.774600,
+                "longitude": -96.796500
+            },
+            "connected_sections": [
+                "Q",
+                "R",
+                "S"
+            ],
+            "nearest_parking": [
+                "P4",
+                "P5"
+            ],
+            "nearest_transport": [
+                "Taxi Zone"
+            ],
+            "walking_time_to_center": "7 mins",
+            "security": {
+                "screening_lanes": 6,
+                "metal_detectors": 5,
+                "bag_check": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "ramp": true,
+                "elevator": true,
+                "accessible_entry": true
+            },
+            "facilities": [
+                "Food Court South",
+                "ATM 03",
+                "Restroom R06"
+            ],
+            "capacity": {
+                "maximum_capacity": 6500,
+                "recommended_capacity": 5000
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "MEDIUM",
+                "current_people": 4210,
+                "queue_length": 101,
+                "estimated_wait_time_minutes": 6,
+                "entry_rate_per_minute": 171,
+                "exit_rate_per_minute": 47,
+                "security_alert": false,
+                "medical_incident": false,
+                "weather_alert": true,
+                "recommended_action": "Light rain expected. Open covered waiting area.",
+                "last_updated": "2026-07-11T17:20:00Z",
+                "trend": {
+                    "direction": "INCREASING",
+                    "change_percentage_last_15_minutes": 9.7,
+                    "predicted_crowd_level_in_30_minutes": "HIGH"
+                }
+            },
+            "relationships": {
+                "nearest_medical_center": "MC-04",
+                "nearest_information_desk": "INFO-06",
+                "nearest_food_court": "FC-06",
+                "nearest_restroom": "RR-26",
+                "nearest_charging_station": "CS-10",
+                "nearest_water_station": "WS-15",
+                "nearest_elevator": "EL-06"
+            }
+        },
+        {
+            "id": "GATE-G",
+            "name": "Gate G",
+            "display_name": "West Entrance",
+            "zone": "West",
+            "coordinates": {
+                "latitude": 32.775700,
+                "longitude": -96.798000
+            },
+            "connected_sections": [
+                "T",
+                "U",
+                "V"
+            ],
+            "nearest_parking": [
+                "P5"
+            ],
+            "nearest_transport": [
+                "Metro Station"
+            ],
+            "walking_time_to_center": "5 mins",
+            "security": {
+                "screening_lanes": 8,
+                "metal_detectors": 6,
+                "bag_check": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "ramp": true,
+                "elevator": true,
+                "accessible_entry": true
+            },
+            "facilities": [
+                "Medical Center 3",
+                "Information Desk",
+                "Restroom R07"
+            ],
+            "capacity": {
+                "maximum_capacity": 8000,
+                "recommended_capacity": 6000
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "VERY_HIGH",
+                "current_people": 7085,
+                "queue_length": 364,
+                "estimated_wait_time_minutes": 21,
+                "entry_rate_per_minute": 258,
+                "exit_rate_per_minute": 62,
+                "security_alert": true,
+                "medical_incident": false,
+                "weather_alert": false,
+                "recommended_action": "Temporarily redirect spectators to Gate F and Gate H.",
+                "last_updated": "2026-07-11T17:20:00Z",
+                "trend": {
+                    "direction": "INCREASING",
+                    "change_percentage_last_15_minutes": 24.8,
+                    "predicted_crowd_level_in_30_minutes": "CRITICAL"
+                }
+            },
+            "relationships": {
+                "nearest_medical_center": "MC-05",
+                "nearest_information_desk": "INFO-07",
+                "nearest_food_court": "FC-07",
+                "nearest_restroom": "RR-38",
+                "nearest_charging_station": "CS-13",
+                "nearest_water_station": "WS-18",
+                "nearest_elevator": "EL-07"
+            }
+        },
+        {
+            "id": "GATE-H",
+            "name": "Gate H",
+            "display_name": "VIP & Media Entrance",
+            "zone": "West",
+            "coordinates": {
+                "latitude": 32.776300,
+                "longitude": -96.799000
+            },
+            "connected_sections": [
+                "W",
+                "X",
+                "Y",
+                "Z"
+            ],
+            "nearest_parking": [
+                "P6"
+            ],
+            "nearest_transport": [
+                "VIP Shuttle"
+            ],
+            "walking_time_to_center": "4 mins",
+            "security": {
+                "screening_lanes": 12,
+                "metal_detectors": 10,
+                "bag_check": true,
+                "biometric_verification": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "ramp": true,
+                "elevator": true,
+                "accessible_entry": true
+            },
+            "facilities": [
+                "VIP Lounge",
+                "Media Center",
+                "Premium Restaurant",
+                "Medical Center 4",
+                "Restroom R08"
+            ],
+            "capacity": {
+                "maximum_capacity": 5000,
+                "recommended_capacity": 3500
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "LOW",
+                "current_people": 1840,
+                "queue_length": 18,
+                "estimated_wait_time_minutes": 1,
+                "entry_rate_per_minute": 72,
+                "exit_rate_per_minute": 12,
+                "security_alert": false,
+                "medical_incident": false,
+                "weather_alert": false,
+                "recommended_action": "VIP access operating normally.",
+                "last_updated": "2026-07-11T17:20:00Z",
+                "trend": {
+                    "direction": "STABLE",
+                    "change_percentage_last_15_minutes": 1.3,
+                    "predicted_crowd_level_in_30_minutes": "LOW"
+                }
+            },
+            "relationships": {
+                "nearest_medical_center": "MC-06",
+                "nearest_information_desk": "INFO-08",
+                "nearest_food_court": "FC-08",
+                "nearest_restroom": "RR-48",
+                "nearest_charging_station": "CS-16",
+                "nearest_water_station": "WS-20",
+                "nearest_elevator": "EL-08"
+            }
+        }
+    ]
+}

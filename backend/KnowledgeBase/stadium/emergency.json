@@ -1,0 +1,2037 @@
+{
+    "emergency_medical_points": [
+        {
+            "emergency_id": "EMP-01",
+            "category": "Emergency Medical Point",
+            "name": "North Rapid Medical Response Station",
+            "location": {
+                "zone": "North",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "North Entrance",
+                    "Gate N1"
+                ]
+            },
+            "coverage_area": [
+                "North Seating",
+                "North Concourse",
+                "North Entrance"
+            ],
+            "linked_medical_center": "MC-01",
+            "response_team": {
+                "paramedics": 4,
+                "emergency_physician": 1,
+                "ambulance_available": true
+            },
+            "services": [
+                "First Aid",
+                "Medical Assessment",
+                "Emergency Stabilization",
+                "CPR",
+                "AED"
+            ],
+            "availability": {
+                "operational_hours": "Match Days",
+                "status": "Operational"
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "stretcher_access": true
+            },
+            "emergency_priority": "HIGH",
+            "ai_metadata": {
+                "common_questions": [
+                    "I need medical help",
+                    "Where is the nearest first aid station?"
+                ],
+                "recommended_response": "Proceed to the North Rapid Medical Response Station or alert the nearest staff member."
+            }
+        },
+        {
+            "emergency_id": "EMP-02",
+            "category": "Emergency Medical Point",
+            "name": "East Rapid Medical Response Station",
+            "location": {
+                "zone": "East",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "East Entrance",
+                    "Gate E2"
+                ]
+            },
+            "coverage_area": [
+                "East Seating",
+                "East Concourse",
+                "East Entrance"
+            ],
+            "linked_medical_center": "MC-02",
+            "response_team": {
+                "paramedics": 4,
+                "emergency_physician": 1,
+                "ambulance_available": true
+            },
+            "services": [
+                "First Aid",
+                "Medical Assessment",
+                "Emergency Stabilization",
+                "CPR",
+                "AED"
+            ],
+            "availability": {
+                "operational_hours": "Match Days",
+                "status": "Operational"
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "stretcher_access": true
+            },
+            "emergency_priority": "HIGH",
+            "ai_metadata": {
+                "common_questions": [
+                    "Where can I get emergency medical help?"
+                ],
+                "recommended_response": "The East Rapid Medical Response Station can provide immediate medical assistance."
+            }
+        },
+        {
+            "emergency_id": "EMP-03",
+            "category": "Emergency Medical Point",
+            "name": "South Rapid Medical Response Station",
+            "location": {
+                "zone": "South",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "South Entrance",
+                    "Gate S1"
+                ]
+            },
+            "coverage_area": [
+                "South Seating",
+                "South Concourse",
+                "South Entrance"
+            ],
+            "linked_medical_center": "MC-03",
+            "response_team": {
+                "paramedics": 4,
+                "emergency_physician": 1,
+                "ambulance_available": true
+            },
+            "services": [
+                "First Aid",
+                "Medical Assessment",
+                "Emergency Stabilization",
+                "CPR",
+                "AED"
+            ],
+            "availability": {
+                "operational_hours": "Match Days",
+                "status": "Operational"
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "stretcher_access": true
+            },
+            "emergency_priority": "HIGH",
+            "ai_metadata": {
+                "common_questions": [
+                    "Where is the nearest emergency medical point?"
+                ],
+                "recommended_response": "The South Rapid Medical Response Station is available for immediate assistance."
+            }
+        },
+        {
+            "emergency_id": "EMP-04",
+            "category": "Emergency Medical Point",
+            "name": "West Rapid Medical Response Station",
+            "location": {
+                "zone": "West",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "West Entrance",
+                    "Gate W2"
+                ]
+            },
+            "coverage_area": [
+                "West Seating",
+                "West Concourse",
+                "West Entrance"
+            ],
+            "linked_medical_center": "MC-04",
+            "response_team": {
+                "paramedics": 4,
+                "emergency_physician": 1,
+                "ambulance_available": true
+            },
+            "services": [
+                "First Aid",
+                "Medical Assessment",
+                "Emergency Stabilization",
+                "CPR",
+                "AED"
+            ],
+            "availability": {
+                "operational_hours": "Match Days",
+                "status": "Operational"
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "stretcher_access": true
+            },
+            "emergency_priority": "HIGH",
+            "ai_metadata": {
+                "common_questions": [
+                    "Is there medical help near the west side?"
+                ],
+                "recommended_response": "The West Rapid Medical Response Station provides immediate emergency care."
+            }
+        },
+        {
+            "emergency_id": "EMP-05",
+            "category": "Emergency Medical Point",
+            "name": "Upper Tier Medical Response Unit",
+            "location": {
+                "zone": "Upper Tier",
+                "level": "Level 2",
+                "nearby_landmarks": [
+                    "Upper Concourse"
+                ]
+            },
+            "coverage_area": [
+                "Upper Seating Sections"
+            ],
+            "linked_medical_center": "MC-01",
+            "response_team": {
+                "paramedics": 3,
+                "emergency_physician": 0,
+                "ambulance_available": false
+            },
+            "services": [
+                "First Aid",
+                "AED",
+                "Patient Stabilization"
+            ],
+            "availability": {
+                "operational_hours": "Match Days",
+                "status": "Operational"
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "stretcher_access": true
+            },
+            "emergency_priority": "MEDIUM",
+            "ai_metadata": {
+                "common_questions": [
+                    "Is there first aid upstairs?"
+                ],
+                "recommended_response": "An Upper Tier Medical Response Unit is available for immediate first aid."
+            }
+        },
+        {
+            "emergency_id": "EMP-06",
+            "category": "Emergency Medical Point",
+            "name": "VIP Medical Response Unit",
+            "location": {
+                "zone": "VIP",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "VIP Lounge"
+                ]
+            },
+            "coverage_area": [
+                "VIP Hospitality",
+                "Executive Suites"
+            ],
+            "linked_medical_center": "MC-02",
+            "response_team": {
+                "paramedics": 2,
+                "emergency_physician": 1,
+                "ambulance_available": false
+            },
+            "services": [
+                "First Aid",
+                "Medical Consultation",
+                "Emergency Stabilization"
+            ],
+            "availability": {
+                "operational_hours": "Match Days",
+                "status": "Operational"
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "stretcher_access": true
+            },
+            "emergency_priority": "MEDIUM",
+            "ai_metadata": {
+                "common_questions": [
+                    "Is medical assistance available in the VIP area?"
+                ],
+                "recommended_response": "A dedicated VIP Medical Response Unit is available during events."
+            }
+        },
+        {
+            "emergency_id": "EMP-07",
+            "category": "Emergency Medical Point",
+            "name": "Player & Staff Emergency Medical Unit",
+            "location": {
+                "zone": "Restricted Operations",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "Players Tunnel"
+                ]
+            },
+            "coverage_area": [
+                "Players",
+                "Match Officials",
+                "Operational Staff"
+            ],
+            "linked_medical_center": "MC-03",
+            "response_team": {
+                "paramedics": 4,
+                "sports_physician": 2,
+                "ambulance_available": true
+            },
+            "services": [
+                "Sports Medicine",
+                "Trauma Care",
+                "Emergency Response"
+            ],
+            "availability": {
+                "operational_hours": "Match Days",
+                "status": "Restricted Access"
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "stretcher_access": true
+            },
+            "emergency_priority": "HIGH",
+            "ai_metadata": {
+                "common_questions": [
+                    "Can spectators use this medical unit?"
+                ],
+                "recommended_response": "This medical unit is reserved for players, officials, and authorized staff."
+            }
+        },
+        {
+            "emergency_id": "EMP-08",
+            "category": "Emergency Medical Point",
+            "name": "Central Emergency Coordination Medical Unit",
+            "location": {
+                "zone": "Central Operations",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "Security Operations Center"
+                ]
+            },
+            "coverage_area": [
+                "Entire Stadium"
+            ],
+            "linked_medical_center": "MC-04",
+            "response_team": {
+                "paramedics": 6,
+                "emergency_physician": 2,
+                "ambulance_available": true
+            },
+            "services": [
+                "Emergency Dispatch",
+                "Incident Coordination",
+                "Advanced Life Support"
+            ],
+            "availability": {
+                "operational_hours": "24/7 During Events",
+                "status": "Operational"
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "stretcher_access": true
+            },
+            "emergency_priority": "CRITICAL",
+            "ai_metadata": {
+                "common_questions": [
+                    "Who coordinates medical emergencies?"
+                ],
+                "recommended_response": "The Central Emergency Coordination Medical Unit manages stadium-wide medical incidents."
+            }
+        }
+    ],
+    "emergency_exits": [
+        {
+            "emergency_id": "EX-01",
+            "category": "Emergency Exit",
+            "name": "North Exit A",
+            "location": {
+                "zone": "North",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "North Concourse",
+                    "Section N101"
+                ]
+            },
+            "serves_sections": [
+                "N101",
+                "N102",
+                "N103",
+                "N104"
+            ],
+            "connected_evacuation_route": "EV-01",
+            "capacity_per_minute": 800,
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "elevator_available": true,
+                "stair_access": true
+            },
+            "status": "Operational",
+            "ai_metadata": {
+                "common_questions": [
+                    "Where is the nearest emergency exit?"
+                ],
+                "recommended_response": "Proceed to North Exit A using evacuation route EV-01."
+            }
+        },
+        {
+            "emergency_id": "EX-02",
+            "category": "Emergency Exit",
+            "name": "North Exit B",
+            "location": {
+                "zone": "North",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "North Food Court"
+                ]
+            },
+            "serves_sections": [
+                "N105",
+                "N106",
+                "N107",
+                "N108"
+            ],
+            "connected_evacuation_route": "EV-01",
+            "capacity_per_minute": 800,
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "elevator_available": false,
+                "stair_access": true
+            },
+            "status": "Operational",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Use North Exit B during evacuation."
+            }
+        },
+        {
+            "emergency_id": "EX-03",
+            "category": "Emergency Exit",
+            "name": "East Exit A",
+            "location": {
+                "zone": "East",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "East Concourse"
+                ]
+            },
+            "serves_sections": [
+                "E101",
+                "E102",
+                "E103",
+                "E104"
+            ],
+            "connected_evacuation_route": "EV-02",
+            "capacity_per_minute": 850,
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "elevator_available": true,
+                "stair_access": true
+            },
+            "status": "Operational",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Proceed to East Exit A."
+            }
+        },
+        {
+            "emergency_id": "EX-04",
+            "category": "Emergency Exit",
+            "name": "East Exit B",
+            "location": {
+                "zone": "East",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "East Information Desk"
+                ]
+            },
+            "serves_sections": [
+                "E105",
+                "E106",
+                "E107",
+                "E108"
+            ],
+            "connected_evacuation_route": "EV-02",
+            "capacity_per_minute": 850,
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "elevator_available": false,
+                "stair_access": true
+            },
+            "status": "Operational",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Proceed to East Exit B."
+            }
+        },
+        {
+            "emergency_id": "EX-05",
+            "category": "Emergency Exit",
+            "name": "South Exit A",
+            "location": {
+                "zone": "South",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "South Concourse"
+                ]
+            },
+            "serves_sections": [
+                "S101",
+                "S102",
+                "S103",
+                "S104"
+            ],
+            "connected_evacuation_route": "EV-03",
+            "capacity_per_minute": 850,
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "elevator_available": true,
+                "stair_access": true
+            },
+            "status": "Operational",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Proceed to South Exit A."
+            }
+        },
+        {
+            "emergency_id": "EX-06",
+            "category": "Emergency Exit",
+            "name": "South Exit B",
+            "location": {
+                "zone": "South",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "South Food Court"
+                ]
+            },
+            "serves_sections": [
+                "S105",
+                "S106",
+                "S107",
+                "S108"
+            ],
+            "connected_evacuation_route": "EV-03",
+            "capacity_per_minute": 850,
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "elevator_available": false,
+                "stair_access": true
+            },
+            "status": "Operational",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Proceed to South Exit B."
+            }
+        },
+        {
+            "emergency_id": "EX-07",
+            "category": "Emergency Exit",
+            "name": "West Exit A",
+            "location": {
+                "zone": "West",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "West Concourse"
+                ]
+            },
+            "serves_sections": [
+                "W101",
+                "W102",
+                "W103",
+                "W104"
+            ],
+            "connected_evacuation_route": "EV-04",
+            "capacity_per_minute": 800,
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "elevator_available": true,
+                "stair_access": true
+            },
+            "status": "Operational",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Proceed to West Exit A."
+            }
+        },
+        {
+            "emergency_id": "EX-08",
+            "category": "Emergency Exit",
+            "name": "West Exit B",
+            "location": {
+                "zone": "West",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "West Merchandise Store"
+                ]
+            },
+            "serves_sections": [
+                "W105",
+                "W106",
+                "W107",
+                "W108"
+            ],
+            "connected_evacuation_route": "EV-04",
+            "capacity_per_minute": 800,
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "elevator_available": false,
+                "stair_access": true
+            },
+            "status": "Operational",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Proceed to West Exit B."
+            }
+        },
+        {
+            "emergency_id": "EX-09",
+            "category": "Emergency Exit",
+            "name": "Upper North Exit",
+            "location": {
+                "zone": "North",
+                "level": "Level 2",
+                "nearby_landmarks": [
+                    "Upper North Concourse"
+                ]
+            },
+            "serves_sections": [
+                "UN201",
+                "UN202"
+            ],
+            "connected_evacuation_route": "EV-05",
+            "capacity_per_minute": 500,
+            "accessibility": {
+                "wheelchair_accessible": false,
+                "elevator_available": true,
+                "stair_access": true
+            },
+            "status": "Operational",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Proceed to the Upper North Exit."
+            }
+        },
+        {
+            "emergency_id": "EX-10",
+            "category": "Emergency Exit",
+            "name": "Upper East Exit",
+            "location": {
+                "zone": "East",
+                "level": "Level 2",
+                "nearby_landmarks": [
+                    "Upper East Concourse"
+                ]
+            },
+            "serves_sections": [
+                "UE201",
+                "UE202"
+            ],
+            "connected_evacuation_route": "EV-06",
+            "capacity_per_minute": 500,
+            "accessibility": {
+                "wheelchair_accessible": false,
+                "elevator_available": true,
+                "stair_access": true
+            },
+            "status": "Operational",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Proceed to the Upper East Exit."
+            }
+        },
+        {
+            "emergency_id": "EX-11",
+            "category": "Emergency Exit",
+            "name": "Upper South Exit",
+            "location": {
+                "zone": "South",
+                "level": "Level 2",
+                "nearby_landmarks": [
+                    "Upper South Concourse"
+                ]
+            },
+            "serves_sections": [
+                "US201",
+                "US202"
+            ],
+            "connected_evacuation_route": "EV-07",
+            "capacity_per_minute": 500,
+            "accessibility": {
+                "wheelchair_accessible": false,
+                "elevator_available": true,
+                "stair_access": true
+            },
+            "status": "Operational",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Proceed to the Upper South Exit."
+            }
+        },
+        {
+            "emergency_id": "EX-12",
+            "category": "Emergency Exit",
+            "name": "Upper West Exit",
+            "location": {
+                "zone": "West",
+                "level": "Level 2",
+                "nearby_landmarks": [
+                    "Upper West Concourse"
+                ]
+            },
+            "serves_sections": [
+                "UW201",
+                "UW202"
+            ],
+            "connected_evacuation_route": "EV-08",
+            "capacity_per_minute": 500,
+            "accessibility": {
+                "wheelchair_accessible": false,
+                "elevator_available": true,
+                "stair_access": true
+            },
+            "status": "Operational",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Proceed to the Upper West Exit."
+            }
+        },
+        {
+            "emergency_id": "EX-13",
+            "category": "Emergency Exit",
+            "name": "Central Exit A",
+            "location": {
+                "zone": "Central",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "Central Concourse"
+                ]
+            },
+            "serves_sections": [
+                "C101",
+                "C102"
+            ],
+            "connected_evacuation_route": "EV-05",
+            "capacity_per_minute": 600,
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "elevator_available": true,
+                "stair_access": true
+            },
+            "status": "Operational",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Proceed to Central Exit A."
+            }
+        },
+        {
+            "emergency_id": "EX-14",
+            "category": "Emergency Exit",
+            "name": "Central Exit B",
+            "location": {
+                "zone": "Central",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "Central Plaza"
+                ]
+            },
+            "serves_sections": [
+                "C103",
+                "C104"
+            ],
+            "connected_evacuation_route": "EV-06",
+            "capacity_per_minute": 600,
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "elevator_available": true,
+                "stair_access": true
+            },
+            "status": "Operational",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Proceed to Central Exit B."
+            }
+        },
+        {
+            "emergency_id": "EX-15",
+            "category": "Emergency Exit",
+            "name": "VIP Emergency Exit",
+            "location": {
+                "zone": "VIP",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "VIP Lounge"
+                ]
+            },
+            "serves_sections": [
+                "VIP"
+            ],
+            "connected_evacuation_route": "EV-07",
+            "capacity_per_minute": 300,
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "elevator_available": true,
+                "stair_access": true
+            },
+            "status": "Restricted",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Reserved for VIP evacuation unless directed otherwise."
+            }
+        },
+        {
+            "emergency_id": "EX-16",
+            "category": "Emergency Exit",
+            "name": "Operations Emergency Exit",
+            "location": {
+                "zone": "Operations",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "Security Operations Center"
+                ]
+            },
+            "serves_sections": [
+                "Operations"
+            ],
+            "connected_evacuation_route": "EV-08",
+            "capacity_per_minute": 300,
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "elevator_available": true,
+                "stair_access": true
+            },
+            "status": "Restricted",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Restricted to authorized personnel unless instructed during an emergency."
+            }
+        }
+    ],
+    "fire_safety_points": [
+        {
+            "emergency_id": "FS-01",
+            "category": "Fire Safety Point",
+            "name": "North Fire Safety Station",
+            "location": {
+                "zone": "North",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "North Concourse",
+                    "North Exit A"
+                ]
+            },
+            "coverage_area": [
+                "North Seating",
+                "North Concourse",
+                "North Food Court"
+            ],
+            "equipment": [
+                "Fire Extinguishers",
+                "Fire Hose Reel",
+                "Fire Alarm Pull Station",
+                "Smoke Detector",
+                "Emergency Communication Panel"
+            ],
+            "response_team": {
+                "fire_marshals": 3,
+                "trained_staff": 8
+            },
+            "linked_exit": "EX-01",
+            "availability": {
+                "operational": true,
+                "monitoring": "24/7 During Events"
+            },
+            "emergency_priority": "HIGH",
+            "ai_metadata": {
+                "common_questions": [
+                    "Where is the nearest fire station?",
+                    "There is a fire nearby."
+                ],
+                "recommended_response": "Alert stadium staff immediately and proceed to the nearest emergency exit."
+            }
+        },
+        {
+            "emergency_id": "FS-02",
+            "category": "Fire Safety Point",
+            "name": "East Fire Safety Station",
+            "location": {
+                "zone": "East",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "East Concourse",
+                    "East Exit A"
+                ]
+            },
+            "coverage_area": [
+                "East Seating",
+                "East Concourse",
+                "East Food Court"
+            ],
+            "equipment": [
+                "Fire Extinguishers",
+                "Fire Hose Reel",
+                "Fire Alarm Pull Station",
+                "Smoke Detector",
+                "Emergency Communication Panel"
+            ],
+            "response_team": {
+                "fire_marshals": 3,
+                "trained_staff": 8
+            },
+            "linked_exit": "EX-03",
+            "availability": {
+                "operational": true,
+                "monitoring": "24/7 During Events"
+            },
+            "emergency_priority": "HIGH",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Use East Exit A if instructed during evacuation."
+            }
+        },
+        {
+            "emergency_id": "FS-03",
+            "category": "Fire Safety Point",
+            "name": "South Fire Safety Station",
+            "location": {
+                "zone": "South",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "South Concourse",
+                    "South Exit A"
+                ]
+            },
+            "coverage_area": [
+                "South Seating",
+                "South Concourse",
+                "South Food Court"
+            ],
+            "equipment": [
+                "Fire Extinguishers",
+                "Fire Hose Reel",
+                "Fire Alarm Pull Station",
+                "Smoke Detector",
+                "Emergency Communication Panel"
+            ],
+            "response_team": {
+                "fire_marshals": 3,
+                "trained_staff": 8
+            },
+            "linked_exit": "EX-05",
+            "availability": {
+                "operational": true,
+                "monitoring": "24/7 During Events"
+            },
+            "emergency_priority": "HIGH",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Follow emergency announcements and evacuate calmly."
+            }
+        },
+        {
+            "emergency_id": "FS-04",
+            "category": "Fire Safety Point",
+            "name": "West Fire Safety Station",
+            "location": {
+                "zone": "West",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "West Concourse",
+                    "West Exit A"
+                ]
+            },
+            "coverage_area": [
+                "West Seating",
+                "West Concourse",
+                "West Food Court"
+            ],
+            "equipment": [
+                "Fire Extinguishers",
+                "Fire Hose Reel",
+                "Fire Alarm Pull Station",
+                "Smoke Detector",
+                "Emergency Communication Panel"
+            ],
+            "response_team": {
+                "fire_marshals": 3,
+                "trained_staff": 8
+            },
+            "linked_exit": "EX-07",
+            "availability": {
+                "operational": true,
+                "monitoring": "24/7 During Events"
+            },
+            "emergency_priority": "HIGH",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Proceed toward the nearest emergency exit if instructed."
+            }
+        },
+        {
+            "emergency_id": "FS-05",
+            "category": "Fire Safety Point",
+            "name": "Upper Tier Fire Safety Station",
+            "location": {
+                "zone": "Upper Tier",
+                "level": "Level 2",
+                "nearby_landmarks": [
+                    "Upper Concourse"
+                ]
+            },
+            "coverage_area": [
+                "Upper Seating"
+            ],
+            "equipment": [
+                "Fire Extinguishers",
+                "Fire Hose Reel",
+                "Smoke Detection Panel"
+            ],
+            "response_team": {
+                "fire_marshals": 2,
+                "trained_staff": 5
+            },
+            "linked_exit": "EX-09",
+            "availability": {
+                "operational": true,
+                "monitoring": "24/7 During Events"
+            },
+            "emergency_priority": "MEDIUM",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Remain calm and follow evacuation instructions."
+            }
+        },
+        {
+            "emergency_id": "FS-06",
+            "category": "Fire Safety Point",
+            "name": "VIP Fire Safety Station",
+            "location": {
+                "zone": "VIP",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "VIP Lounge"
+                ]
+            },
+            "coverage_area": [
+                "VIP Hospitality",
+                "Executive Suites"
+            ],
+            "equipment": [
+                "Fire Extinguishers",
+                "Fire Hose Reel",
+                "Fire Alarm Panel"
+            ],
+            "response_team": {
+                "fire_marshals": 2,
+                "trained_staff": 4
+            },
+            "linked_exit": "EX-15",
+            "availability": {
+                "operational": true,
+                "monitoring": "24/7 During Events"
+            },
+            "emergency_priority": "MEDIUM",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "VIP guests should follow staff guidance during emergencies."
+            }
+        },
+        {
+            "emergency_id": "FS-07",
+            "category": "Fire Safety Point",
+            "name": "Operations Fire Control Station",
+            "location": {
+                "zone": "Operations",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "Security Operations Center"
+                ]
+            },
+            "coverage_area": [
+                "Operations",
+                "Back-of-House",
+                "Broadcast Areas"
+            ],
+            "equipment": [
+                "Fire Control Panel",
+                "Building Alarm System",
+                "Sprinkler Control",
+                "Emergency Communications"
+            ],
+            "response_team": {
+                "fire_marshals": 4,
+                "trained_staff": 10
+            },
+            "linked_exit": "EX-16",
+            "availability": {
+                "operational": true,
+                "monitoring": "24/7"
+            },
+            "emergency_priority": "CRITICAL",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "This station coordinates stadium-wide fire response."
+            }
+        },
+        {
+            "emergency_id": "FS-08",
+            "category": "Fire Safety Point",
+            "name": "Central Fire Command Center",
+            "location": {
+                "zone": "Central Operations",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "Emergency Coordination Center"
+                ]
+            },
+            "coverage_area": [
+                "Entire Stadium"
+            ],
+            "equipment": [
+                "Central Fire Monitoring System",
+                "Building Management System",
+                "Emergency Dispatch Console",
+                "Incident Command Center"
+            ],
+            "response_team": {
+                "fire_officers": 5,
+                "fire_marshals": 8,
+                "trained_staff": 20
+            },
+            "linked_exit": "EX-16",
+            "availability": {
+                "operational": true,
+                "monitoring": "24/7"
+            },
+            "emergency_priority": "CRITICAL",
+            "ai_metadata": {
+                "common_questions": [
+                    "Who manages fire emergencies?"
+                ],
+                "recommended_response": "The Central Fire Command Center coordinates all fire emergency operations throughout the stadium."
+            }
+        }
+    ],
+    "evacuation_routes": [
+        {
+            "emergency_id": "EV-01",
+            "category": "Evacuation Route",
+            "name": "North Evacuation Route",
+            "origin_zone": "North",
+            "serves_sections": [
+                "N101",
+                "N102",
+                "N103",
+                "N104",
+                "N105",
+                "N106",
+                "N107",
+                "N108"
+            ],
+            "primary_exit": "EX-01",
+            "secondary_exit": "EX-02",
+            "assembly_area": "AA-01",
+            "movement_direction": "Northbound",
+            "estimated_evacuation_time_minutes": 4,
+            "maximum_capacity": 6000,
+            "accessible_route": true,
+            "priority_for": [
+                "General Spectators",
+                "Wheelchair Users"
+            ],
+            "status": "Active",
+            "ai_metadata": {
+                "common_questions": [
+                    "How do I evacuate from the north stand?"
+                ],
+                "recommended_response": "Follow stadium signage to EX-01. If unavailable, use EX-02 and proceed to AA-01."
+            }
+        },
+        {
+            "emergency_id": "EV-02",
+            "category": "Evacuation Route",
+            "name": "East Evacuation Route",
+            "origin_zone": "East",
+            "serves_sections": [
+                "E101",
+                "E102",
+                "E103",
+                "E104",
+                "E105",
+                "E106",
+                "E107",
+                "E108"
+            ],
+            "primary_exit": "EX-03",
+            "secondary_exit": "EX-04",
+            "assembly_area": "AA-02",
+            "movement_direction": "Eastbound",
+            "estimated_evacuation_time_minutes": 4,
+            "maximum_capacity": 6000,
+            "accessible_route": true,
+            "priority_for": [
+                "General Spectators",
+                "Wheelchair Users"
+            ],
+            "status": "Active",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Proceed to EX-03 or EX-04 and gather at AA-02."
+            }
+        },
+        {
+            "emergency_id": "EV-03",
+            "category": "Evacuation Route",
+            "name": "South Evacuation Route",
+            "origin_zone": "South",
+            "serves_sections": [
+                "S101",
+                "S102",
+                "S103",
+                "S104",
+                "S105",
+                "S106",
+                "S107",
+                "S108"
+            ],
+            "primary_exit": "EX-05",
+            "secondary_exit": "EX-06",
+            "assembly_area": "AA-03",
+            "movement_direction": "Southbound",
+            "estimated_evacuation_time_minutes": 4,
+            "maximum_capacity": 6000,
+            "accessible_route": true,
+            "priority_for": [
+                "General Spectators",
+                "Wheelchair Users"
+            ],
+            "status": "Active",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Proceed to EX-05 or EX-06 and assemble at AA-03."
+            }
+        },
+        {
+            "emergency_id": "EV-04",
+            "category": "Evacuation Route",
+            "name": "West Evacuation Route",
+            "origin_zone": "West",
+            "serves_sections": [
+                "W101",
+                "W102",
+                "W103",
+                "W104",
+                "W105",
+                "W106",
+                "W107",
+                "W108"
+            ],
+            "primary_exit": "EX-07",
+            "secondary_exit": "EX-08",
+            "assembly_area": "AA-04",
+            "movement_direction": "Westbound",
+            "estimated_evacuation_time_minutes": 4,
+            "maximum_capacity": 6000,
+            "accessible_route": true,
+            "priority_for": [
+                "General Spectators",
+                "Wheelchair Users"
+            ],
+            "status": "Active",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Proceed to EX-07 or EX-08 and gather at AA-04."
+            }
+        },
+        {
+            "emergency_id": "EV-05",
+            "category": "Evacuation Route",
+            "name": "Upper North & Central Route",
+            "origin_zone": "Upper North",
+            "serves_sections": [
+                "UN201",
+                "UN202",
+                "C101",
+                "C102"
+            ],
+            "primary_exit": "EX-09",
+            "secondary_exit": "EX-13",
+            "assembly_area": "AA-01",
+            "movement_direction": "Northbound",
+            "estimated_evacuation_time_minutes": 6,
+            "maximum_capacity": 3000,
+            "accessible_route": true,
+            "priority_for": [
+                "Upper Tier",
+                "Families"
+            ],
+            "status": "Active",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Use elevators only if instructed; otherwise follow evacuation signage to EX-09 or EX-13."
+            }
+        },
+        {
+            "emergency_id": "EV-06",
+            "category": "Evacuation Route",
+            "name": "Upper East & Central Route",
+            "origin_zone": "Upper East",
+            "serves_sections": [
+                "UE201",
+                "UE202",
+                "C103",
+                "C104"
+            ],
+            "primary_exit": "EX-10",
+            "secondary_exit": "EX-14",
+            "assembly_area": "AA-02",
+            "movement_direction": "Eastbound",
+            "estimated_evacuation_time_minutes": 6,
+            "maximum_capacity": 3000,
+            "accessible_route": true,
+            "priority_for": [
+                "Upper Tier",
+                "Families"
+            ],
+            "status": "Active",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Proceed to EX-10 or EX-14 following staff instructions."
+            }
+        },
+        {
+            "emergency_id": "EV-07",
+            "category": "Evacuation Route",
+            "name": "Upper South & VIP Route",
+            "origin_zone": "Upper South",
+            "serves_sections": [
+                "US201",
+                "US202",
+                "VIP"
+            ],
+            "primary_exit": "EX-11",
+            "secondary_exit": "EX-15",
+            "assembly_area": "AA-03",
+            "movement_direction": "Southbound",
+            "estimated_evacuation_time_minutes": 6,
+            "maximum_capacity": 2500,
+            "accessible_route": true,
+            "priority_for": [
+                "VIP",
+                "Upper Tier"
+            ],
+            "status": "Active",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Follow staff guidance toward EX-11 or EX-15."
+            }
+        },
+        {
+            "emergency_id": "EV-08",
+            "category": "Evacuation Route",
+            "name": "Upper West & Operations Route",
+            "origin_zone": "Upper West",
+            "serves_sections": [
+                "UW201",
+                "UW202",
+                "Operations"
+            ],
+            "primary_exit": "EX-12",
+            "secondary_exit": "EX-16",
+            "assembly_area": "AA-04",
+            "movement_direction": "Westbound",
+            "estimated_evacuation_time_minutes": 6,
+            "maximum_capacity": 2500,
+            "accessible_route": true,
+            "priority_for": [
+                "Operations Staff",
+                "Upper Tier"
+            ],
+            "status": "Active",
+            "ai_metadata": {
+                "common_questions": [
+                    "Which route should operations staff use?"
+                ],
+                "recommended_response": "Operations personnel should use EX-12 or EX-16 unless directed otherwise by emergency responders."
+            }
+        }
+    ],
+    "assembly_areas": [
+        {
+            "emergency_id": "AA-01",
+            "category": "Assembly Area",
+            "name": "North Assembly Area",
+            "location": {
+                "zone": "North External Plaza",
+                "outside_stadium": true,
+                "nearby_landmarks": [
+                    "North Parking Zone",
+                    "Shuttle Pickup TS-01"
+                ]
+            },
+            "connected_routes": [
+                "EV-01",
+                "EV-05"
+            ],
+            "capacity": 7000,
+            "facilities": [
+                "Emergency Information Point",
+                "Drinking Water",
+                "Portable Restrooms",
+                "First Aid Station",
+                "Public Address System"
+            ],
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "step_free_access": true,
+                "accessible_restrooms": true
+            },
+            "status": "Available",
+            "ai_metadata": {
+                "common_questions": [
+                    "Where do I go after evacuating from the north side?"
+                ],
+                "recommended_response": "Proceed to the North Assembly Area and remain there until emergency personnel provide further instructions."
+            }
+        },
+        {
+            "emergency_id": "AA-02",
+            "category": "Assembly Area",
+            "name": "East Assembly Area",
+            "location": {
+                "zone": "East External Plaza",
+                "outside_stadium": true,
+                "nearby_landmarks": [
+                    "Bus Terminal BT-01",
+                    "Taxi Zone TZ-01"
+                ]
+            },
+            "connected_routes": [
+                "EV-02",
+                "EV-06"
+            ],
+            "capacity": 7000,
+            "facilities": [
+                "Emergency Information Point",
+                "Drinking Water",
+                "Portable Restrooms",
+                "First Aid Station",
+                "Public Address System"
+            ],
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "step_free_access": true,
+                "accessible_restrooms": true
+            },
+            "status": "Available",
+            "ai_metadata": {
+                "common_questions": [
+                    "Where should east stand spectators gather?"
+                ],
+                "recommended_response": "Proceed to the East Assembly Area and await further instructions."
+            }
+        },
+        {
+            "emergency_id": "AA-03",
+            "category": "Assembly Area",
+            "name": "South Assembly Area",
+            "location": {
+                "zone": "South External Plaza",
+                "outside_stadium": true,
+                "nearby_landmarks": [
+                    "South Parking Zone",
+                    "Metro Connection MT-01"
+                ]
+            },
+            "connected_routes": [
+                "EV-03",
+                "EV-07"
+            ],
+            "capacity": 7000,
+            "facilities": [
+                "Emergency Information Point",
+                "Drinking Water",
+                "Portable Restrooms",
+                "First Aid Station",
+                "Public Address System"
+            ],
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "step_free_access": true,
+                "accessible_restrooms": true
+            },
+            "status": "Available",
+            "ai_metadata": {
+                "common_questions": [
+                    "Where do I gather after leaving the south exit?"
+                ],
+                "recommended_response": "Proceed directly to the South Assembly Area and remain there until the all-clear is given."
+            }
+        },
+        {
+            "emergency_id": "AA-04",
+            "category": "Assembly Area",
+            "name": "West Assembly Area",
+            "location": {
+                "zone": "West External Plaza",
+                "outside_stadium": true,
+                "nearby_landmarks": [
+                    "West Parking Zone",
+                    "Shuttle Pickup TS-04"
+                ]
+            },
+            "connected_routes": [
+                "EV-04",
+                "EV-08"
+            ],
+            "capacity": 7000,
+            "facilities": [
+                "Emergency Information Point",
+                "Drinking Water",
+                "Portable Restrooms",
+                "First Aid Station",
+                "Public Address System"
+            ],
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "step_free_access": true,
+                "accessible_restrooms": true
+            },
+            "status": "Available",
+            "ai_metadata": {
+                "common_questions": [
+                    "Where is the west assembly area?"
+                ],
+                "recommended_response": "Follow emergency signage to the West Assembly Area and stay with your group if possible."
+            }
+        }
+    ],
+    "security_response_points": [
+        {
+            "emergency_id": "SR-01",
+            "category": "Security Response Point",
+            "name": "North Security Response Station",
+            "location": {
+                "zone": "North",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "North Entrance",
+                    "EX-01",
+                    "INFO-01"
+                ]
+            },
+            "coverage_area": [
+                "North Seating",
+                "North Concourse",
+                "North Plaza"
+            ],
+            "staffing": {
+                "security_officers": 8,
+                "supervisors": 1,
+                "police_liaison": true
+            },
+            "responsibilities": [
+                "Crowd Management",
+                "Incident Response",
+                "Access Control",
+                "Emergency Coordination"
+            ],
+            "linked_resources": {
+                "medical_point": "EMP-01",
+                "fire_safety_point": "FS-01",
+                "evacuation_route": "EV-01"
+            },
+            "availability": {
+                "operational_hours": "24/7 During Events",
+                "status": "Operational"
+            },
+            "emergency_priority": "HIGH",
+            "ai_metadata": {
+                "common_questions": [
+                    "Where can I report a security issue?"
+                ],
+                "recommended_response": "Report the incident to the North Security Response Station or notify the nearest stadium staff member immediately."
+            }
+        },
+        {
+            "emergency_id": "SR-02",
+            "category": "Security Response Point",
+            "name": "East Security Response Station",
+            "location": {
+                "zone": "East",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "East Entrance",
+                    "EX-03",
+                    "INFO-02"
+                ]
+            },
+            "coverage_area": [
+                "East Seating",
+                "East Concourse",
+                "East Plaza"
+            ],
+            "staffing": {
+                "security_officers": 8,
+                "supervisors": 1,
+                "police_liaison": true
+            },
+            "responsibilities": [
+                "Crowd Management",
+                "Incident Response",
+                "Access Control",
+                "Emergency Coordination"
+            ],
+            "linked_resources": {
+                "medical_point": "EMP-02",
+                "fire_safety_point": "FS-02",
+                "evacuation_route": "EV-02"
+            },
+            "availability": {
+                "operational_hours": "24/7 During Events",
+                "status": "Operational"
+            },
+            "emergency_priority": "HIGH",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Security personnel are available throughout the East Zone for immediate assistance."
+            }
+        },
+        {
+            "emergency_id": "SR-03",
+            "category": "Security Response Point",
+            "name": "South Security Response Station",
+            "location": {
+                "zone": "South",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "South Entrance",
+                    "EX-05"
+                ]
+            },
+            "coverage_area": [
+                "South Seating",
+                "South Concourse",
+                "South Plaza"
+            ],
+            "staffing": {
+                "security_officers": 8,
+                "supervisors": 1,
+                "police_liaison": true
+            },
+            "responsibilities": [
+                "Crowd Management",
+                "Incident Response",
+                "Access Control",
+                "Emergency Coordination"
+            ],
+            "linked_resources": {
+                "medical_point": "EMP-03",
+                "fire_safety_point": "FS-03",
+                "evacuation_route": "EV-03"
+            },
+            "availability": {
+                "operational_hours": "24/7 During Events",
+                "status": "Operational"
+            },
+            "emergency_priority": "HIGH",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "South Zone security staff are available for emergency assistance."
+            }
+        },
+        {
+            "emergency_id": "SR-04",
+            "category": "Security Response Point",
+            "name": "West Security Response Station",
+            "location": {
+                "zone": "West",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "West Entrance",
+                    "EX-07"
+                ]
+            },
+            "coverage_area": [
+                "West Seating",
+                "West Concourse",
+                "West Plaza"
+            ],
+            "staffing": {
+                "security_officers": 8,
+                "supervisors": 1,
+                "police_liaison": true
+            },
+            "responsibilities": [
+                "Crowd Management",
+                "Incident Response",
+                "Access Control",
+                "Emergency Coordination"
+            ],
+            "linked_resources": {
+                "medical_point": "EMP-04",
+                "fire_safety_point": "FS-04",
+                "evacuation_route": "EV-04"
+            },
+            "availability": {
+                "operational_hours": "24/7 During Events",
+                "status": "Operational"
+            },
+            "emergency_priority": "HIGH",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "The West Security Response Station provides immediate security assistance."
+            }
+        },
+        {
+            "emergency_id": "SR-05",
+            "category": "Security Response Point",
+            "name": "Upper Tier Security Station",
+            "location": {
+                "zone": "Upper Tier",
+                "level": "Level 2",
+                "nearby_landmarks": [
+                    "Upper Concourse"
+                ]
+            },
+            "coverage_area": [
+                "Upper Seating Areas"
+            ],
+            "staffing": {
+                "security_officers": 6,
+                "supervisors": 1,
+                "police_liaison": false
+            },
+            "responsibilities": [
+                "Crowd Monitoring",
+                "Emergency Assistance",
+                "Access Control"
+            ],
+            "linked_resources": {
+                "medical_point": "EMP-05",
+                "fire_safety_point": "FS-05",
+                "evacuation_route": "EV-05"
+            },
+            "availability": {
+                "operational_hours": "Match Days",
+                "status": "Operational"
+            },
+            "emergency_priority": "MEDIUM",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "Upper Tier security personnel can assist with incidents and evacuations."
+            }
+        },
+        {
+            "emergency_id": "SR-06",
+            "category": "Security Response Point",
+            "name": "VIP Security Command Post",
+            "location": {
+                "zone": "VIP",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "VIP Lounge",
+                    "EX-15"
+                ]
+            },
+            "coverage_area": [
+                "VIP Hospitality",
+                "Executive Suites"
+            ],
+            "staffing": {
+                "security_officers": 10,
+                "supervisors": 2,
+                "police_liaison": true
+            },
+            "responsibilities": [
+                "VIP Protection",
+                "Access Verification",
+                "Emergency Response"
+            ],
+            "linked_resources": {
+                "medical_point": "EMP-06",
+                "fire_safety_point": "FS-06",
+                "evacuation_route": "EV-07"
+            },
+            "availability": {
+                "operational_hours": "Match Days",
+                "status": "Restricted Access"
+            },
+            "emergency_priority": "HIGH",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "The VIP Security Command Post serves VIP guests and authorized personnel."
+            }
+        },
+        {
+            "emergency_id": "SR-07",
+            "category": "Security Response Point",
+            "name": "Operations Security Control Room",
+            "location": {
+                "zone": "Operations",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "Security Operations Center",
+                    "EX-16"
+                ]
+            },
+            "coverage_area": [
+                "Back-of-House",
+                "Broadcast Areas",
+                "Operations"
+            ],
+            "staffing": {
+                "security_officers": 12,
+                "supervisors": 3,
+                "police_liaison": true
+            },
+            "responsibilities": [
+                "CCTV Monitoring",
+                "Access Management",
+                "Incident Dispatch",
+                "Security Coordination"
+            ],
+            "linked_resources": {
+                "medical_point": "EMP-07",
+                "fire_safety_point": "FS-07",
+                "evacuation_route": "EV-08"
+            },
+            "availability": {
+                "operational_hours": "24/7",
+                "status": "Restricted Access"
+            },
+            "emergency_priority": "CRITICAL",
+            "ai_metadata": {
+                "common_questions": [],
+                "recommended_response": "The Operations Security Control Room coordinates security across the stadium."
+            }
+        },
+        {
+            "emergency_id": "SR-08",
+            "category": "Security Response Point",
+            "name": "Central Security Command Center",
+            "location": {
+                "zone": "Central Operations",
+                "level": "Ground Floor",
+                "nearby_landmarks": [
+                    "Emergency Coordination Center",
+                    "Central Control Room"
+                ]
+            },
+            "coverage_area": [
+                "Entire Stadium"
+            ],
+            "staffing": {
+                "security_officers": 20,
+                "supervisors": 5,
+                "police_liaison": true
+            },
+            "responsibilities": [
+                "Stadium-Wide Security Command",
+                "Emergency Coordination",
+                "Law Enforcement Liaison",
+                "Major Incident Management"
+            ],
+            "linked_resources": {
+                "medical_point": "EMP-08",
+                "fire_safety_point": "FS-08"
+            },
+            "availability": {
+                "operational_hours": "24/7",
+                "status": "Operational"
+            },
+            "emergency_priority": "CRITICAL",
+            "ai_metadata": {
+                "common_questions": [
+                    "Who manages stadium security during an emergency?"
+                ],
+                "recommended_response": "The Central Security Command Center coordinates all security operations and emergency responses across the stadium."
+            }
+        }
+    ],
+    "emergency_contacts": [
+        {
+            "emergency_id": "EC-01",
+            "category": "Emergency Contact",
+            "name": "Stadium Emergency Hotline",
+            "purpose": "Primary emergency contact for all incidents occurring inside the stadium.",
+            "contact": {
+                "phone": "<STADIUM_EMERGENCY_NUMBER>",
+                "radio_channel": "Emergency Operations",
+                "availability": "24/7 During Events"
+            },
+            "handles": [
+                "Medical Emergencies",
+                "Fire Emergencies",
+                "Security Incidents",
+                "Evacuations"
+            ],
+            "priority": "CRITICAL",
+            "ai_metadata": {
+                "common_questions": [
+                    "Who do I call in an emergency?",
+                    "How do I report an emergency?"
+                ],
+                "recommended_response": "Immediately contact the Stadium Emergency Hotline or notify the nearest stadium staff member."
+            }
+        },
+        {
+            "emergency_id": "EC-02",
+            "category": "Emergency Contact",
+            "name": "Medical Assistance Hotline",
+            "purpose": "Coordinates medical response teams, ambulances, and first aid services.",
+            "contact": {
+                "phone": "<MEDICAL_ASSISTANCE_NUMBER>",
+                "availability": "24/7 During Events"
+            },
+            "linked_resources": {
+                "medical_points": [
+                    "EMP-01",
+                    "EMP-02",
+                    "EMP-03",
+                    "EMP-04",
+                    "EMP-05",
+                    "EMP-06",
+                    "EMP-07",
+                    "EMP-08"
+                ]
+            },
+            "handles": [
+                "First Aid",
+                "Medical Assistance",
+                "Ambulance Requests"
+            ],
+            "priority": "HIGH",
+            "ai_metadata": {
+                "common_questions": [
+                    "I need medical help.",
+                    "Can someone send an ambulance?"
+                ],
+                "recommended_response": "Contact the Medical Assistance Hotline or inform the nearest staff member immediately."
+            }
+        },
+        {
+            "emergency_id": "EC-03",
+            "category": "Emergency Contact",
+            "name": "Security Operations Hotline",
+            "purpose": "Reports security concerns, suspicious activity, lost persons, and crowd-related incidents.",
+            "contact": {
+                "phone": "<SECURITY_OPERATIONS_NUMBER>",
+                "availability": "24/7 During Events"
+            },
+            "linked_resources": {
+                "security_points": [
+                    "SR-01",
+                    "SR-02",
+                    "SR-03",
+                    "SR-04",
+                    "SR-05",
+                    "SR-06",
+                    "SR-07",
+                    "SR-08"
+                ]
+            },
+            "handles": [
+                "Security Incidents",
+                "Suspicious Activity",
+                "Lost Child Reports",
+                "Crowd Management"
+            ],
+            "priority": "HIGH",
+            "ai_metadata": {
+                "common_questions": [
+                    "How do I report suspicious activity?",
+                    "Where do I report a security issue?"
+                ],
+                "recommended_response": "Contact Security Operations immediately or notify the nearest security officer."
+            }
+        },
+        {
+            "emergency_id": "EC-04",
+            "category": "Emergency Contact",
+            "name": "Fire Response Coordination",
+            "purpose": "Coordinates fire response, evacuation support, and fire safety operations.",
+            "contact": {
+                "phone": "<FIRE_RESPONSE_NUMBER>",
+                "availability": "24/7 During Events"
+            },
+            "linked_resources": {
+                "fire_safety_points": [
+                    "FS-01",
+                    "FS-02",
+                    "FS-03",
+                    "FS-04",
+                    "FS-05",
+                    "FS-06",
+                    "FS-07",
+                    "FS-08"
+                ]
+            },
+            "handles": [
+                "Fire Emergencies",
+                "Smoke Reports",
+                "Evacuation Support"
+            ],
+            "priority": "CRITICAL",
+            "ai_metadata": {
+                "common_questions": [
+                    "There's a fire.",
+                    "I smell smoke."
+                ],
+                "recommended_response": "Move to the nearest emergency exit, notify staff immediately, and contact Fire Response Coordination if instructed."
+            }
+        },
+        {
+            "emergency_id": "EC-05",
+            "category": "Emergency Contact",
+            "name": "Visitor Assistance Hotline",
+            "purpose": "Provides assistance for lost property, lost persons, accessibility support, and general emergency guidance.",
+            "contact": {
+                "phone": "<VISITOR_ASSISTANCE_NUMBER>",
+                "availability": "During Stadium Operating Hours"
+            },
+            "linked_resources": {
+                "information_desks": [
+                    "INFO-01",
+                    "INFO-02",
+                    "INFO-03",
+                    "INFO-04"
+                ],
+                "accessibility_desks": [
+                    "AD-01",
+                    "AD-02",
+                    "AD-03",
+                    "AD-04"
+                ]
+            },
+            "handles": [
+                "Lost & Found",
+                "Lost Children",
+                "Accessibility Assistance",
+                "General Visitor Support"
+            ],
+            "priority": "MEDIUM",
+            "ai_metadata": {
+                "common_questions": [
+                    "I lost my phone.",
+                    "My child is missing.",
+                    "I need accessibility assistance."
+                ],
+                "recommended_response": "Contact the Visitor Assistance Hotline or visit the nearest Information Desk or Accessibility Desk."
+            }
+        }
+    ]
+}

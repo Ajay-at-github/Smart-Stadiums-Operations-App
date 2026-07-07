@@ -1,0 +1,2971 @@
+{
+    "metadata": {
+        "version": "1.0.0",
+        "stadium_id": "WCA-001",
+        "total_sections": 26
+    },
+    "sections": [
+        {
+            "id": "SEC-A",
+            "name": "Section A",
+            "section_code": "A",
+            "zone": "North",
+            "floor": "F2",
+            "category": "Lower Bowl",
+            "coordinates": {
+                "x": 12,
+                "y": 38
+            },
+            "seating": {
+                "capacity": 2800,
+                "rows": 40,
+                "seats_per_row": 70,
+                "accessible_seats": 36,
+                "companion_seats": 36,
+                "vip_seats": 0
+            },
+            "entry": {
+                "primary_gate": "GATE-A",
+                "secondary_gate": "GATE-B",
+                "estimated_walk_time_minutes": 4
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-01",
+                    "FC-02"
+                ],
+                "medical_centers": [
+                    "MC-01"
+                ],
+                "information_desks": [
+                    "INFO-01",
+                    "INFO-02"
+                ],
+                "restrooms": [
+                    "RR-01",
+                    "RR-02",
+                    "RR-03"
+                ],
+                "charging_stations": [
+                    "CS-01",
+                    "CS-02"
+                ],
+                "water_stations": [
+                    "WS-01",
+                    "WS-02"
+                ],
+                "atms": [
+                    "ATM-01"
+                ],
+                "elevators": [
+                    "EL-01"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.7,
+                "visibility_score": 96,
+                "distance_from_pitch": "Near",
+                "covered": true,
+                "sun_exposure": "Low"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-N1",
+                "nearest_emergency_exit": "E-EXIT-01",
+                "nearest_staircase": "ST-01",
+                "nearest_elevator": "EL-01"
+            },
+            "landmarks": [
+                "North Scoreboard",
+                "Main Fan Shop"
+            ],
+            "recommendation_tags": [
+                "Family Friendly",
+                "Fast Exit",
+                "Near Food Court",
+                "Near Restrooms",
+                "Wheelchair Friendly",
+                "Excellent Match View"
+            ],
+            "live_status": {
+                "occupancy_percentage": 81,
+                "crowd_level": "MEDIUM",
+                "cleanliness": "EXCELLENT",
+                "noise_level": "HIGH",
+                "temperature_celsius": 24,
+                "last_cleaned": "2026-07-11T16:45:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-A",
+                "noise_sensor": "SEN-NOI-A",
+                "temperature_sensor": "SEN-TEMP-A",
+                "camera": "CAM-A01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-10",
+                "next_inspection": "2026-07-20"
+            },
+            "ai_metadata": {
+                "priority": "NORMAL",
+                "recommended_entry_gate": "GATE-A",
+                "recommended_exit_gate": "GATE-B",
+                "average_visit_duration_minutes": 185
+            }
+        },
+        {
+            "id": "SEC-B",
+            "name": "Section B",
+            "section_code": "B",
+            "zone": "North",
+            "floor": "F2",
+            "category": "Lower Bowl",
+            "coordinates": {
+                "x": 22,
+                "y": 38
+            },
+            "seating": {
+                "capacity": 2950,
+                "rows": 41,
+                "seats_per_row": 72,
+                "accessible_seats": 38,
+                "companion_seats": 38,
+                "vip_seats": 0
+            },
+            "entry": {
+                "primary_gate": "GATE-A",
+                "secondary_gate": "GATE-B",
+                "estimated_walk_time_minutes": 5
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-01",
+                    "FC-02"
+                ],
+                "medical_centers": [
+                    "MC-01"
+                ],
+                "information_desks": [
+                    "INFO-02"
+                ],
+                "restrooms": [
+                    "RR-03",
+                    "RR-04",
+                    "RR-05"
+                ],
+                "charging_stations": [
+                    "CS-02",
+                    "CS-03"
+                ],
+                "water_stations": [
+                    "WS-02",
+                    "WS-03"
+                ],
+                "atms": [
+                    "ATM-01",
+                    "ATM-02"
+                ],
+                "elevators": [
+                    "EL-01"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.8,
+                "visibility_score": 97,
+                "distance_from_pitch": "Near",
+                "covered": true,
+                "sun_exposure": "Low"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-N2",
+                "nearest_emergency_exit": "E-EXIT-02",
+                "nearest_staircase": "ST-02",
+                "nearest_elevator": "EL-01"
+            },
+            "landmarks": [
+                "North Fan Plaza",
+                "Official Merchandise Store"
+            ],
+            "recommendation_tags": [
+                "Best Atmosphere",
+                "Near Merchandise",
+                "Near Food Court",
+                "Fast Exit",
+                "Wheelchair Friendly",
+                "Popular Seating"
+            ],
+            "live_status": {
+                "occupancy_percentage": 86,
+                "crowd_level": "HIGH",
+                "cleanliness": "GOOD",
+                "noise_level": "VERY_HIGH",
+                "temperature_celsius": 24,
+                "last_cleaned": "2026-07-11T16:30:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-B",
+                "noise_sensor": "SEN-NOI-B",
+                "temperature_sensor": "SEN-TEMP-B",
+                "camera": "CAM-B01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-09",
+                "next_inspection": "2026-07-19"
+            },
+            "ai_metadata": {
+                "priority": "HIGH",
+                "recommended_entry_gate": "GATE-A",
+                "recommended_exit_gate": "GATE-B",
+                "average_visit_duration_minutes": 190
+            }
+        },
+        {
+            "id": "SEC-C",
+            "name": "Section C",
+            "section_code": "C",
+            "zone": "North",
+            "floor": "F2",
+            "category": "Lower Bowl",
+            "coordinates": {
+                "x": 32,
+                "y": 38
+            },
+            "seating": {
+                "capacity": 3050,
+                "rows": 42,
+                "seats_per_row": 73,
+                "accessible_seats": 40,
+                "companion_seats": 40,
+                "vip_seats": 0
+            },
+            "entry": {
+                "primary_gate": "GATE-A",
+                "secondary_gate": "GATE-B",
+                "estimated_walk_time_minutes": 5
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-02",
+                    "FC-03"
+                ],
+                "medical_centers": [
+                    "MC-01"
+                ],
+                "information_desks": [
+                    "INFO-02",
+                    "INFO-03"
+                ],
+                "restrooms": [
+                    "RR-05",
+                    "RR-06",
+                    "RR-07"
+                ],
+                "charging_stations": [
+                    "CS-03",
+                    "CS-04"
+                ],
+                "water_stations": [
+                    "WS-03",
+                    "WS-04"
+                ],
+                "atms": [
+                    "ATM-02"
+                ],
+                "elevators": [
+                    "EL-02"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.9,
+                "visibility_score": 98,
+                "distance_from_pitch": "Near",
+                "covered": true,
+                "sun_exposure": "Low"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-N3",
+                "nearest_emergency_exit": "E-EXIT-03",
+                "nearest_staircase": "ST-03",
+                "nearest_elevator": "EL-02"
+            },
+            "landmarks": [
+                "North LED Screen",
+                "Fan Experience Zone"
+            ],
+            "recommendation_tags": [
+                "Excellent Match View",
+                "Near Food Court",
+                "Near Fan Zone",
+                "Fast Exit",
+                "Popular Seating",
+                "Wheelchair Friendly"
+            ],
+            "live_status": {
+                "occupancy_percentage": 89,
+                "crowd_level": "HIGH",
+                "cleanliness": "GOOD",
+                "noise_level": "VERY_HIGH",
+                "temperature_celsius": 25,
+                "last_cleaned": "2026-07-11T16:20:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-C",
+                "noise_sensor": "SEN-NOI-C",
+                "temperature_sensor": "SEN-TEMP-C",
+                "camera": "CAM-C01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-08",
+                "next_inspection": "2026-07-18"
+            },
+            "ai_metadata": {
+                "priority": "HIGH",
+                "recommended_entry_gate": "GATE-A",
+                "recommended_exit_gate": "GATE-B",
+                "average_visit_duration_minutes": 195
+            }
+        },
+        {
+            "id": "SEC-D",
+            "name": "Section D",
+            "section_code": "D",
+            "zone": "North",
+            "floor": "F2",
+            "category": "Lower Bowl",
+            "coordinates": {
+                "x": 42,
+                "y": 38
+            },
+            "seating": {
+                "capacity": 3150,
+                "rows": 43,
+                "seats_per_row": 73,
+                "accessible_seats": 42,
+                "companion_seats": 42,
+                "vip_seats": 0
+            },
+            "entry": {
+                "primary_gate": "GATE-B",
+                "secondary_gate": "GATE-C",
+                "estimated_walk_time_minutes": 4
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-03",
+                    "FC-04"
+                ],
+                "medical_centers": [
+                    "MC-02"
+                ],
+                "information_desks": [
+                    "INFO-03",
+                    "INFO-04"
+                ],
+                "restrooms": [
+                    "RR-08",
+                    "RR-09",
+                    "RR-10"
+                ],
+                "charging_stations": [
+                    "CS-04",
+                    "CS-05"
+                ],
+                "water_stations": [
+                    "WS-05",
+                    "WS-06"
+                ],
+                "atms": [
+                    "ATM-03"
+                ],
+                "elevators": [
+                    "EL-03"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.8,
+                "visibility_score": 97,
+                "distance_from_pitch": "Near",
+                "covered": true,
+                "sun_exposure": "Medium"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-NE1",
+                "nearest_emergency_exit": "E-EXIT-04",
+                "nearest_staircase": "ST-04",
+                "nearest_elevator": "EL-03"
+            },
+            "landmarks": [
+                "East Fan Plaza",
+                "Interactive FIFA Experience"
+            ],
+            "recommendation_tags": [
+                "Fast Entry",
+                "Near Medical Center",
+                "Near Food Court",
+                "Best Atmosphere",
+                "Family Friendly",
+                "Excellent Visibility"
+            ],
+            "live_status": {
+                "occupancy_percentage": 84,
+                "crowd_level": "MEDIUM",
+                "cleanliness": "EXCELLENT",
+                "noise_level": "HIGH",
+                "temperature_celsius": 24,
+                "last_cleaned": "2026-07-11T16:50:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-D",
+                "noise_sensor": "SEN-NOI-D",
+                "temperature_sensor": "SEN-TEMP-D",
+                "camera": "CAM-D01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-10",
+                "next_inspection": "2026-07-20"
+            },
+            "ai_metadata": {
+                "priority": "NORMAL",
+                "recommended_entry_gate": "GATE-B",
+                "recommended_exit_gate": "GATE-C",
+                "average_visit_duration_minutes": 188
+            }
+        },
+        {
+            "id": "SEC-E",
+            "name": "Section E",
+            "section_code": "E",
+            "zone": "North",
+            "floor": "F2",
+            "category": "Lower Bowl",
+            "coordinates": {
+                "x": 52,
+                "y": 38
+            },
+            "seating": {
+                "capacity": 3200,
+                "rows": 44,
+                "seats_per_row": 73,
+                "accessible_seats": 44,
+                "companion_seats": 44,
+                "vip_seats": 0
+            },
+            "entry": {
+                "primary_gate": "GATE-B",
+                "secondary_gate": "GATE-C",
+                "estimated_walk_time_minutes": 5
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-03",
+                    "FC-04"
+                ],
+                "medical_centers": [
+                    "MC-02"
+                ],
+                "information_desks": [
+                    "INFO-04",
+                    "INFO-05"
+                ],
+                "restrooms": [
+                    "RR-11",
+                    "RR-12",
+                    "RR-13"
+                ],
+                "charging_stations": [
+                    "CS-05",
+                    "CS-06"
+                ],
+                "water_stations": [
+                    "WS-06",
+                    "WS-07"
+                ],
+                "atms": [
+                    "ATM-03",
+                    "ATM-04"
+                ],
+                "elevators": [
+                    "EL-03"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.8,
+                "visibility_score": 97,
+                "distance_from_pitch": "Near",
+                "covered": true,
+                "sun_exposure": "Medium"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-NE2",
+                "nearest_emergency_exit": "E-EXIT-05",
+                "nearest_staircase": "ST-05",
+                "nearest_elevator": "EL-03"
+            },
+            "landmarks": [
+                "North-East Fan Zone",
+                "Official FIFA Store"
+            ],
+            "recommendation_tags": [
+                "Near Shopping",
+                "Near Food Court",
+                "Fast Entry",
+                "Family Friendly",
+                "Wheelchair Friendly",
+                "Excellent Visibility"
+            ],
+            "live_status": {
+                "occupancy_percentage": 79,
+                "crowd_level": "MEDIUM",
+                "cleanliness": "EXCELLENT",
+                "noise_level": "HIGH",
+                "temperature_celsius": 24,
+                "last_cleaned": "2026-07-11T16:55:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-E",
+                "noise_sensor": "SEN-NOI-E",
+                "temperature_sensor": "SEN-TEMP-E",
+                "camera": "CAM-E01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-09",
+                "next_inspection": "2026-07-19"
+            },
+            "ai_metadata": {
+                "priority": "NORMAL",
+                "recommended_entry_gate": "GATE-B",
+                "recommended_exit_gate": "GATE-C",
+                "average_visit_duration_minutes": 186
+            }
+        },
+        {
+            "id": "SEC-F",
+            "name": "Section F",
+            "section_code": "F",
+            "zone": "North",
+            "floor": "F2",
+            "category": "Lower Bowl",
+            "coordinates": {
+                "x": 62,
+                "y": 38
+            },
+            "seating": {
+                "capacity": 3300,
+                "rows": 45,
+                "seats_per_row": 74,
+                "accessible_seats": 46,
+                "companion_seats": 46,
+                "vip_seats": 0
+            },
+            "entry": {
+                "primary_gate": "GATE-B",
+                "secondary_gate": "GATE-C",
+                "estimated_walk_time_minutes": 6
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-04",
+                    "FC-05"
+                ],
+                "medical_centers": [
+                    "MC-02"
+                ],
+                "information_desks": [
+                    "INFO-05",
+                    "INFO-06"
+                ],
+                "restrooms": [
+                    "RR-14",
+                    "RR-15",
+                    "RR-16"
+                ],
+                "charging_stations": [
+                    "CS-06",
+                    "CS-07"
+                ],
+                "water_stations": [
+                    "WS-07",
+                    "WS-08"
+                ],
+                "atms": [
+                    "ATM-04"
+                ],
+                "elevators": [
+                    "EL-03"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.7,
+                "visibility_score": 96,
+                "distance_from_pitch": "Near",
+                "covered": true,
+                "sun_exposure": "Medium"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-NE3",
+                "nearest_emergency_exit": "E-EXIT-06",
+                "nearest_staircase": "ST-06",
+                "nearest_elevator": "EL-03"
+            },
+            "landmarks": [
+                "North-East Concourse",
+                "Supporters' Gathering Point"
+            ],
+            "recommendation_tags": [
+                "Energetic Crowd",
+                "Near Food Court",
+                "Near Restrooms",
+                "Great Atmosphere",
+                "Fast Exit",
+                "Wheelchair Friendly"
+            ],
+            "live_status": {
+                "occupancy_percentage": 91,
+                "crowd_level": "HIGH",
+                "cleanliness": "GOOD",
+                "noise_level": "VERY_HIGH",
+                "temperature_celsius": 25,
+                "last_cleaned": "2026-07-11T16:35:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-F",
+                "noise_sensor": "SEN-NOI-F",
+                "temperature_sensor": "SEN-TEMP-F",
+                "camera": "CAM-F01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-08",
+                "next_inspection": "2026-07-18"
+            },
+            "ai_metadata": {
+                "priority": "HIGH",
+                "recommended_entry_gate": "GATE-B",
+                "recommended_exit_gate": "GATE-C",
+                "average_visit_duration_minutes": 192
+            }
+        },
+        {
+            "id": "SEC-G",
+            "name": "Section G",
+            "section_code": "G",
+            "zone": "North",
+            "floor": "F2",
+            "category": "Lower Bowl",
+            "coordinates": {
+                "x": 72,
+                "y": 38
+            },
+            "seating": {
+                "capacity": 3400,
+                "rows": 46,
+                "seats_per_row": 74,
+                "accessible_seats": 48,
+                "companion_seats": 48,
+                "vip_seats": 0
+            },
+            "entry": {
+                "primary_gate": "GATE-C",
+                "secondary_gate": "GATE-D",
+                "estimated_walk_time_minutes": 5
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-05",
+                    "FC-06"
+                ],
+                "medical_centers": [
+                    "MC-03"
+                ],
+                "information_desks": [
+                    "INFO-06",
+                    "INFO-07"
+                ],
+                "restrooms": [
+                    "RR-17",
+                    "RR-18",
+                    "RR-19"
+                ],
+                "charging_stations": [
+                    "CS-07",
+                    "CS-08"
+                ],
+                "water_stations": [
+                    "WS-09",
+                    "WS-10"
+                ],
+                "atms": [
+                    "ATM-05"
+                ],
+                "elevators": [
+                    "EL-04"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.8,
+                "visibility_score": 97,
+                "distance_from_pitch": "Near",
+                "covered": true,
+                "sun_exposure": "Medium"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-E1",
+                "nearest_emergency_exit": "E-EXIT-07",
+                "nearest_staircase": "ST-07",
+                "nearest_elevator": "EL-04"
+            },
+            "landmarks": [
+                "North-East Video Wall",
+                "Supporters Plaza"
+            ],
+            "recommendation_tags": [
+                "Best Atmosphere",
+                "Near Food Court",
+                "Fast Entry",
+                "Near Restrooms",
+                "Excellent Visibility",
+                "Wheelchair Friendly"
+            ],
+            "live_status": {
+                "occupancy_percentage": 88,
+                "crowd_level": "HIGH",
+                "cleanliness": "GOOD",
+                "noise_level": "VERY_HIGH",
+                "temperature_celsius": 24,
+                "last_cleaned": "2026-07-11T16:40:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-G",
+                "noise_sensor": "SEN-NOI-G",
+                "temperature_sensor": "SEN-TEMP-G",
+                "camera": "CAM-G01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-09",
+                "next_inspection": "2026-07-19"
+            },
+            "ai_metadata": {
+                "priority": "HIGH",
+                "recommended_entry_gate": "GATE-C",
+                "recommended_exit_gate": "GATE-D",
+                "average_visit_duration_minutes": 193
+            }
+        },
+        {
+            "id": "SEC-H",
+            "name": "Section H",
+            "section_code": "H",
+            "zone": "East",
+            "floor": "F2",
+            "category": "Lower Bowl Premium",
+            "coordinates": {
+                "x": 82,
+                "y": 50
+            },
+            "seating": {
+                "capacity": 3600,
+                "rows": 45,
+                "seats_per_row": 80,
+                "accessible_seats": 52,
+                "companion_seats": 52,
+                "vip_seats": 40
+            },
+            "entry": {
+                "primary_gate": "GATE-C",
+                "secondary_gate": "GATE-D",
+                "estimated_walk_time_minutes": 4
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-06",
+                    "FC-07"
+                ],
+                "medical_centers": [
+                    "MC-03"
+                ],
+                "information_desks": [
+                    "INFO-07",
+                    "INFO-08"
+                ],
+                "restrooms": [
+                    "RR-20",
+                    "RR-21",
+                    "RR-22"
+                ],
+                "charging_stations": [
+                    "CS-08",
+                    "CS-09"
+                ],
+                "water_stations": [
+                    "WS-10",
+                    "WS-11"
+                ],
+                "atms": [
+                    "ATM-05",
+                    "ATM-06"
+                ],
+                "elevators": [
+                    "EL-04"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 5.0,
+                "visibility_score": 99,
+                "distance_from_pitch": "Very Near",
+                "covered": true,
+                "sun_exposure": "Low"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-E2",
+                "nearest_emergency_exit": "E-EXIT-08",
+                "nearest_staircase": "ST-08",
+                "nearest_elevator": "EL-04"
+            },
+            "landmarks": [
+                "East Premium Lounge",
+                "Interactive Fan Experience"
+            ],
+            "recommendation_tags": [
+                "Premium Seating",
+                "Excellent Visibility",
+                "Near Premium Lounge",
+                "Business Guests",
+                "VIP Experience",
+                "Wheelchair Friendly"
+            ],
+            "live_status": {
+                "occupancy_percentage": 76,
+                "crowd_level": "MEDIUM",
+                "cleanliness": "EXCELLENT",
+                "noise_level": "HIGH",
+                "temperature_celsius": 23,
+                "last_cleaned": "2026-07-11T17:00:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-H",
+                "noise_sensor": "SEN-NOI-H",
+                "temperature_sensor": "SEN-TEMP-H",
+                "camera": "CAM-H01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-10",
+                "next_inspection": "2026-07-20"
+            },
+            "ai_metadata": {
+                "priority": "HIGH",
+                "recommended_entry_gate": "GATE-C",
+                "recommended_exit_gate": "GATE-D",
+                "average_visit_duration_minutes": 205
+            }
+        },
+        {
+            "id": "SEC-I",
+            "name": "Section I",
+            "section_code": "I",
+            "zone": "East",
+            "floor": "F2",
+            "category": "Lower Bowl Premium",
+            "coordinates": {
+                "x": 88,
+                "y": 60
+            },
+            "seating": {
+                "capacity": 3550,
+                "rows": 45,
+                "seats_per_row": 79,
+                "accessible_seats": 50,
+                "companion_seats": 50,
+                "vip_seats": 32
+            },
+            "entry": {
+                "primary_gate": "GATE-C",
+                "secondary_gate": "GATE-D",
+                "estimated_walk_time_minutes": 5
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-06",
+                    "FC-07"
+                ],
+                "medical_centers": [
+                    "MC-03"
+                ],
+                "information_desks": [
+                    "INFO-08"
+                ],
+                "restrooms": [
+                    "RR-23",
+                    "RR-24",
+                    "RR-25"
+                ],
+                "charging_stations": [
+                    "CS-09",
+                    "CS-10"
+                ],
+                "water_stations": [
+                    "WS-11",
+                    "WS-12"
+                ],
+                "atms": [
+                    "ATM-06"
+                ],
+                "elevators": [
+                    "EL-04"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.9,
+                "visibility_score": 98,
+                "distance_from_pitch": "Very Near",
+                "covered": true,
+                "sun_exposure": "Low"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-E3",
+                "nearest_emergency_exit": "E-EXIT-09",
+                "nearest_staircase": "ST-09",
+                "nearest_elevator": "EL-04"
+            },
+            "landmarks": [
+                "East Fan Plaza",
+                "Premium Hospitality Lounge"
+            ],
+            "recommendation_tags": [
+                "Premium Seating",
+                "Excellent Visibility",
+                "Near Hospitality Lounge",
+                "Business Guests",
+                "Near Food Court",
+                "Wheelchair Friendly"
+            ],
+            "live_status": {
+                "occupancy_percentage": 83,
+                "crowd_level": "MEDIUM",
+                "cleanliness": "EXCELLENT",
+                "noise_level": "HIGH",
+                "temperature_celsius": 23,
+                "last_cleaned": "2026-07-11T16:55:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-I",
+                "noise_sensor": "SEN-NOI-I",
+                "temperature_sensor": "SEN-TEMP-I",
+                "camera": "CAM-I01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-09",
+                "next_inspection": "2026-07-19"
+            },
+            "ai_metadata": {
+                "priority": "HIGH",
+                "recommended_entry_gate": "GATE-C",
+                "recommended_exit_gate": "GATE-D",
+                "average_visit_duration_minutes": 202
+            }
+        },
+        {
+            "id": "SEC-J",
+            "name": "Section J",
+            "section_code": "J",
+            "zone": "East",
+            "floor": "F2",
+            "category": "Lower Bowl Premium",
+            "coordinates": {
+                "x": 94,
+                "y": 70
+            },
+            "seating": {
+                "capacity": 3700,
+                "rows": 46,
+                "seats_per_row": 80,
+                "accessible_seats": 54,
+                "companion_seats": 54,
+                "vip_seats": 48
+            },
+            "entry": {
+                "primary_gate": "GATE-D",
+                "secondary_gate": "GATE-E",
+                "estimated_walk_time_minutes": 4
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-07",
+                    "FC-08"
+                ],
+                "medical_centers": [
+                    "MC-04"
+                ],
+                "information_desks": [
+                    "INFO-08",
+                    "INFO-09"
+                ],
+                "restrooms": [
+                    "RR-26",
+                    "RR-27",
+                    "RR-28"
+                ],
+                "charging_stations": [
+                    "CS-10",
+                    "CS-11"
+                ],
+                "water_stations": [
+                    "WS-13",
+                    "WS-14"
+                ],
+                "atms": [
+                    "ATM-07"
+                ],
+                "elevators": [
+                    "EL-05"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 5.0,
+                "visibility_score": 99,
+                "distance_from_pitch": "Very Near",
+                "covered": true,
+                "sun_exposure": "Low"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-E4",
+                "nearest_emergency_exit": "E-EXIT-10",
+                "nearest_staircase": "ST-10",
+                "nearest_elevator": "EL-05"
+            },
+            "landmarks": [
+                "East Premium Concourse",
+                "Official FIFA Museum Experience"
+            ],
+            "recommendation_tags": [
+                "Premium Seating",
+                "Best Visibility",
+                "Near Premium Dining",
+                "Business Guests",
+                "VIP Experience",
+                "Fast Entry"
+            ],
+            "live_status": {
+                "occupancy_percentage": 92,
+                "crowd_level": "HIGH",
+                "cleanliness": "EXCELLENT",
+                "noise_level": "VERY_HIGH",
+                "temperature_celsius": 24,
+                "last_cleaned": "2026-07-11T16:40:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-J",
+                "noise_sensor": "SEN-NOI-J",
+                "temperature_sensor": "SEN-TEMP-J",
+                "camera": "CAM-J01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-10",
+                "next_inspection": "2026-07-20"
+            },
+            "ai_metadata": {
+                "priority": "HIGH",
+                "recommended_entry_gate": "GATE-D",
+                "recommended_exit_gate": "GATE-E",
+                "average_visit_duration_minutes": 210
+            }
+        },
+        {
+            "id": "SEC-K",
+            "name": "Section K",
+            "section_code": "K",
+            "zone": "East",
+            "floor": "F2",
+            "category": "Lower Bowl Premium",
+            "coordinates": {
+                "x": 94,
+                "y": 80
+            },
+            "seating": {
+                "capacity": 3650,
+                "rows": 46,
+                "seats_per_row": 79,
+                "accessible_seats": 54,
+                "companion_seats": 54,
+                "vip_seats": 36
+            },
+            "entry": {
+                "primary_gate": "GATE-D",
+                "secondary_gate": "GATE-E",
+                "estimated_walk_time_minutes": 4
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-07",
+                    "FC-08"
+                ],
+                "medical_centers": [
+                    "MC-04"
+                ],
+                "information_desks": [
+                    "INFO-09",
+                    "INFO-10"
+                ],
+                "restrooms": [
+                    "RR-29",
+                    "RR-30",
+                    "RR-31"
+                ],
+                "charging_stations": [
+                    "CS-11",
+                    "CS-12"
+                ],
+                "water_stations": [
+                    "WS-14",
+                    "WS-15"
+                ],
+                "atms": [
+                    "ATM-07",
+                    "ATM-08"
+                ],
+                "elevators": [
+                    "EL-05"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.9,
+                "visibility_score": 98,
+                "distance_from_pitch": "Very Near",
+                "covered": true,
+                "sun_exposure": "Low"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-E5",
+                "nearest_emergency_exit": "E-EXIT-11",
+                "nearest_staircase": "ST-11",
+                "nearest_elevator": "EL-05"
+            },
+            "landmarks": [
+                "East Hospitality Lounge",
+                "Premium Retail Plaza"
+            ],
+            "recommendation_tags": [
+                "Premium Seating",
+                "Near Hospitality",
+                "Excellent Visibility",
+                "Near Shopping",
+                "Business Friendly",
+                "Wheelchair Friendly"
+            ],
+            "live_status": {
+                "occupancy_percentage": 87,
+                "crowd_level": "HIGH",
+                "cleanliness": "EXCELLENT",
+                "noise_level": "HIGH",
+                "temperature_celsius": 23,
+                "last_cleaned": "2026-07-11T16:50:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-K",
+                "noise_sensor": "SEN-NOI-K",
+                "temperature_sensor": "SEN-TEMP-K",
+                "camera": "CAM-K01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-09",
+                "next_inspection": "2026-07-19"
+            },
+            "ai_metadata": {
+                "priority": "HIGH",
+                "recommended_entry_gate": "GATE-D",
+                "recommended_exit_gate": "GATE-E",
+                "average_visit_duration_minutes": 206
+            }
+        },
+        {
+            "id": "SEC-L",
+            "name": "Section L",
+            "section_code": "L",
+            "zone": "East",
+            "floor": "F2",
+            "category": "Lower Bowl Premium",
+            "coordinates": {
+                "x": 90,
+                "y": 90
+            },
+            "seating": {
+                "capacity": 3500,
+                "rows": 45,
+                "seats_per_row": 78,
+                "accessible_seats": 50,
+                "companion_seats": 50,
+                "vip_seats": 28
+            },
+            "entry": {
+                "primary_gate": "GATE-D",
+                "secondary_gate": "GATE-E",
+                "estimated_walk_time_minutes": 5
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-08"
+                ],
+                "medical_centers": [
+                    "MC-04"
+                ],
+                "information_desks": [
+                    "INFO-10"
+                ],
+                "restrooms": [
+                    "RR-32",
+                    "RR-33",
+                    "RR-34"
+                ],
+                "charging_stations": [
+                    "CS-12",
+                    "CS-13"
+                ],
+                "water_stations": [
+                    "WS-15",
+                    "WS-16"
+                ],
+                "atms": [
+                    "ATM-08"
+                ],
+                "elevators": [
+                    "EL-05"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.8,
+                "visibility_score": 97,
+                "distance_from_pitch": "Near",
+                "covered": true,
+                "sun_exposure": "Medium"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-E6",
+                "nearest_emergency_exit": "E-EXIT-12",
+                "nearest_staircase": "ST-12",
+                "nearest_elevator": "EL-05"
+            },
+            "landmarks": [
+                "East Observation Deck",
+                "Fan Merchandise Hub"
+            ],
+            "recommendation_tags": [
+                "Family Friendly",
+                "Premium Seating",
+                "Near Merchandise",
+                "Fast Exit",
+                "Excellent Visibility",
+                "Accessible Route"
+            ],
+            "live_status": {
+                "occupancy_percentage": 78,
+                "crowd_level": "MEDIUM",
+                "cleanliness": "GOOD",
+                "noise_level": "HIGH",
+                "temperature_celsius": 24,
+                "last_cleaned": "2026-07-11T17:05:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-L",
+                "noise_sensor": "SEN-NOI-L",
+                "temperature_sensor": "SEN-TEMP-L",
+                "camera": "CAM-L01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-10",
+                "next_inspection": "2026-07-20"
+            },
+            "ai_metadata": {
+                "priority": "NORMAL",
+                "recommended_entry_gate": "GATE-D",
+                "recommended_exit_gate": "GATE-E",
+                "average_visit_duration_minutes": 198
+            }
+        },
+        {
+            "id": "SEC-M",
+            "name": "Section M",
+            "section_code": "M",
+            "zone": "East",
+            "floor": "F2",
+            "category": "Lower Bowl Premium",
+            "coordinates": {
+                "x": 84,
+                "y": 98
+            },
+            "seating": {
+                "capacity": 3450,
+                "rows": 44,
+                "seats_per_row": 78,
+                "accessible_seats": 48,
+                "companion_seats": 48,
+                "vip_seats": 24
+            },
+            "entry": {
+                "primary_gate": "GATE-D",
+                "secondary_gate": "GATE-E",
+                "estimated_walk_time_minutes": 6
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-08"
+                ],
+                "medical_centers": [
+                    "MC-04"
+                ],
+                "information_desks": [
+                    "INFO-10"
+                ],
+                "restrooms": [
+                    "RR-35",
+                    "RR-36",
+                    "RR-37"
+                ],
+                "charging_stations": [
+                    "CS-13",
+                    "CS-14"
+                ],
+                "water_stations": [
+                    "WS-16",
+                    "WS-17"
+                ],
+                "atms": [
+                    "ATM-09"
+                ],
+                "elevators": [
+                    "EL-05"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.8,
+                "visibility_score": 97,
+                "distance_from_pitch": "Near",
+                "covered": true,
+                "sun_exposure": "Medium"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-E7",
+                "nearest_emergency_exit": "E-EXIT-13",
+                "nearest_staircase": "ST-13",
+                "nearest_elevator": "EL-05"
+            },
+            "landmarks": [
+                "East Panorama Deck",
+                "Premium Guest Services"
+            ],
+            "recommendation_tags": [
+                "Premium Seating",
+                "Near Guest Services",
+                "Accessible Route",
+                "Excellent Visibility",
+                "Near Restrooms",
+                "Comfortable Seating"
+            ],
+            "live_status": {
+                "occupancy_percentage": 74,
+                "crowd_level": "MEDIUM",
+                "cleanliness": "EXCELLENT",
+                "noise_level": "MEDIUM",
+                "temperature_celsius": 23,
+                "last_cleaned": "2026-07-11T17:10:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-M",
+                "noise_sensor": "SEN-NOI-M",
+                "temperature_sensor": "SEN-TEMP-M",
+                "camera": "CAM-M01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-09",
+                "next_inspection": "2026-07-19"
+            },
+            "ai_metadata": {
+                "priority": "NORMAL",
+                "recommended_entry_gate": "GATE-D",
+                "recommended_exit_gate": "GATE-E",
+                "average_visit_duration_minutes": 196
+            }
+        },
+        {
+            "id": "SEC-N",
+            "name": "Section N",
+            "section_code": "N",
+            "zone": "South",
+            "floor": "F3",
+            "category": "Upper Bowl",
+            "coordinates": {
+                "x": 74,
+                "y": 100
+            },
+            "seating": {
+                "capacity": 3000,
+                "rows": 40,
+                "seats_per_row": 75,
+                "accessible_seats": 42,
+                "companion_seats": 42,
+                "vip_seats": 0
+            },
+            "entry": {
+                "primary_gate": "GATE-E",
+                "secondary_gate": "GATE-F",
+                "estimated_walk_time_minutes": 7
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-09",
+                    "FC-10"
+                ],
+                "medical_centers": [
+                    "MC-05"
+                ],
+                "information_desks": [
+                    "INFO-11",
+                    "INFO-12"
+                ],
+                "restrooms": [
+                    "RR-38",
+                    "RR-39",
+                    "RR-40"
+                ],
+                "charging_stations": [
+                    "CS-14",
+                    "CS-15"
+                ],
+                "water_stations": [
+                    "WS-18",
+                    "WS-19"
+                ],
+                "atms": [
+                    "ATM-10"
+                ],
+                "elevators": [
+                    "EL-06"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.5,
+                "visibility_score": 92,
+                "distance_from_pitch": "Moderate",
+                "covered": true,
+                "sun_exposure": "Medium"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-S1",
+                "nearest_emergency_exit": "E-EXIT-14",
+                "nearest_staircase": "ST-14",
+                "nearest_elevator": "EL-06"
+            },
+            "landmarks": [
+                "South Concourse",
+                "Family Recreation Area"
+            ],
+            "recommendation_tags": [
+                "Family Friendly",
+                "Budget Seating",
+                "Wide Stadium View",
+                "Near Food Court",
+                "Fast Exit",
+                "Accessible Route"
+            ],
+            "live_status": {
+                "occupancy_percentage": 69,
+                "crowd_level": "MEDIUM",
+                "cleanliness": "GOOD",
+                "noise_level": "MEDIUM",
+                "temperature_celsius": 24,
+                "last_cleaned": "2026-07-11T16:55:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-N",
+                "noise_sensor": "SEN-NOI-N",
+                "temperature_sensor": "SEN-TEMP-N",
+                "camera": "CAM-N01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-10",
+                "next_inspection": "2026-07-20"
+            },
+            "ai_metadata": {
+                "priority": "NORMAL",
+                "recommended_entry_gate": "GATE-E",
+                "recommended_exit_gate": "GATE-F",
+                "average_visit_duration_minutes": 185
+            }
+        },
+        {
+            "id": "SEC-O",
+            "name": "Section O",
+            "section_code": "O",
+            "zone": "South",
+            "floor": "F3",
+            "category": "Upper Bowl",
+            "coordinates": {
+                "x": 64,
+                "y": 100
+            },
+            "seating": {
+                "capacity": 2950,
+                "rows": 40,
+                "seats_per_row": 74,
+                "accessible_seats": 40,
+                "companion_seats": 40,
+                "vip_seats": 0
+            },
+            "entry": {
+                "primary_gate": "GATE-E",
+                "secondary_gate": "GATE-F",
+                "estimated_walk_time_minutes": 6
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-07",
+                    "FC-08"
+                ],
+                "medical_centers": [
+                    "MC-04"
+                ],
+                "information_desks": [
+                    "INFO-07",
+                    "INFO-08"
+                ],
+                "restrooms": [
+                    "RR-41",
+                    "RR-42",
+                    "RR-43"
+                ],
+                "charging_stations": [
+                    "CS-14",
+                    "CS-15"
+                ],
+                "water_stations": [
+                    "WS-17",
+                    "WS-18"
+                ],
+                "atms": [
+                    "ATM-07"
+                ],
+                "elevators": [
+                    "EL-06"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.4,
+                "visibility_score": 91,
+                "distance_from_pitch": "Moderate",
+                "covered": true,
+                "sun_exposure": "Medium"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-S2",
+                "nearest_emergency_exit": "E-EXIT-15",
+                "nearest_staircase": "ST-15",
+                "nearest_elevator": "EL-06"
+            },
+            "landmarks": [
+                "South Family Zone",
+                "Kids Activity Corner"
+            ],
+            "recommendation_tags": [
+                "Budget Friendly",
+                "Family Friendly",
+                "Near Food Court",
+                "Wide Stadium View",
+                "Accessible Route",
+                "Fast Exit"
+            ],
+            "live_status": {
+                "occupancy_percentage": 67,
+                "crowd_level": "MEDIUM",
+                "cleanliness": "GOOD",
+                "noise_level": "MEDIUM",
+                "temperature_celsius": 24,
+                "last_cleaned": "2026-07-11T17:05:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-O",
+                "noise_sensor": "SEN-NOI-O",
+                "temperature_sensor": "SEN-TEMP-O",
+                "camera": "CAM-O01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-09",
+                "next_inspection": "2026-07-19"
+            },
+            "ai_metadata": {
+                "priority": "NORMAL",
+                "recommended_entry_gate": "GATE-E",
+                "recommended_exit_gate": "GATE-F",
+                "average_visit_duration_minutes": 182
+            }
+        },
+        {
+            "id": "SEC-P",
+            "name": "Section P",
+            "section_code": "P",
+            "zone": "South",
+            "floor": "F3",
+            "category": "Upper Bowl",
+            "coordinates": {
+                "x": 54,
+                "y": 100
+            },
+            "seating": {
+                "capacity": 2900,
+                "rows": 39,
+                "seats_per_row": 74,
+                "accessible_seats": 38,
+                "companion_seats": 38,
+                "vip_seats": 0
+            },
+            "entry": {
+                "primary_gate": "GATE-E",
+                "secondary_gate": "GATE-F",
+                "estimated_walk_time_minutes": 7
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-07",
+                    "FC-08"
+                ],
+                "medical_centers": [
+                    "MC-04"
+                ],
+                "information_desks": [
+                    "INFO-08"
+                ],
+                "restrooms": [
+                    "RR-44",
+                    "RR-45",
+                    "RR-46"
+                ],
+                "charging_stations": [
+                    "CS-15",
+                    "CS-16"
+                ],
+                "water_stations": [
+                    "WS-18",
+                    "WS-19"
+                ],
+                "atms": [
+                    "ATM-08"
+                ],
+                "elevators": [
+                    "EL-06"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.3,
+                "visibility_score": 90,
+                "distance_from_pitch": "Far",
+                "covered": true,
+                "sun_exposure": "Medium"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-S3",
+                "nearest_emergency_exit": "E-EXIT-16",
+                "nearest_staircase": "ST-16",
+                "nearest_elevator": "EL-06"
+            },
+            "landmarks": [
+                "South Viewing Deck",
+                "Supporters' Corner"
+            ],
+            "recommendation_tags": [
+                "Budget Seating",
+                "Great Atmosphere",
+                "Near Restrooms",
+                "Fast Exit",
+                "Family Friendly",
+                "Accessible Route"
+            ],
+            "live_status": {
+                "occupancy_percentage": 61,
+                "crowd_level": "LOW",
+                "cleanliness": "EXCELLENT",
+                "noise_level": "MEDIUM",
+                "temperature_celsius": 25,
+                "last_cleaned": "2026-07-11T17:15:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-P",
+                "noise_sensor": "SEN-NOI-P",
+                "temperature_sensor": "SEN-TEMP-P",
+                "camera": "CAM-P01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-10",
+                "next_inspection": "2026-07-20"
+            },
+            "ai_metadata": {
+                "priority": "LOW",
+                "recommended_entry_gate": "GATE-E",
+                "recommended_exit_gate": "GATE-F",
+                "average_visit_duration_minutes": 178
+            }
+        },
+        {
+            "id": "SEC-Q",
+            "name": "Section Q",
+            "section_code": "Q",
+            "zone": "South",
+            "floor": "F3",
+            "category": "Upper Bowl",
+            "coordinates": {
+                "x": 44,
+                "y": 98
+            },
+            "seating": {
+                "capacity": 2850,
+                "rows": 39,
+                "seats_per_row": 73,
+                "accessible_seats": 38,
+                "companion_seats": 38,
+                "vip_seats": 0
+            },
+            "entry": {
+                "primary_gate": "GATE-E",
+                "secondary_gate": "GATE-F",
+                "estimated_walk_time_minutes": 7
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-06",
+                    "FC-07"
+                ],
+                "medical_centers": [
+                    "MC-04"
+                ],
+                "information_desks": [
+                    "INFO-07"
+                ],
+                "restrooms": [
+                    "RR-47",
+                    "RR-48",
+                    "RR-49"
+                ],
+                "charging_stations": [
+                    "CS-15",
+                    "CS-16"
+                ],
+                "water_stations": [
+                    "WS-19",
+                    "WS-20"
+                ],
+                "atms": [
+                    "ATM-08"
+                ],
+                "elevators": [
+                    "EL-06"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.3,
+                "visibility_score": 90,
+                "distance_from_pitch": "Far",
+                "covered": true,
+                "sun_exposure": "Medium"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-S4",
+                "nearest_emergency_exit": "E-EXIT-17",
+                "nearest_staircase": "ST-17",
+                "nearest_elevator": "EL-06"
+            },
+            "landmarks": [
+                "South Panorama Deck",
+                "Supporters Gallery"
+            ],
+            "recommendation_tags": [
+                "Budget Friendly",
+                "Great Atmosphere",
+                "Near Food Court",
+                "Fast Exit",
+                "Panoramic View",
+                "Accessible Route"
+            ],
+            "live_status": {
+                "occupancy_percentage": 58,
+                "crowd_level": "LOW",
+                "cleanliness": "EXCELLENT",
+                "noise_level": "MEDIUM",
+                "temperature_celsius": 24,
+                "last_cleaned": "2026-07-11T17:20:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-Q",
+                "noise_sensor": "SEN-NOI-Q",
+                "temperature_sensor": "SEN-TEMP-Q",
+                "camera": "CAM-Q01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-10",
+                "next_inspection": "2026-07-20"
+            },
+            "ai_metadata": {
+                "priority": "LOW",
+                "recommended_entry_gate": "GATE-E",
+                "recommended_exit_gate": "GATE-F",
+                "average_visit_duration_minutes": 176
+            }
+        },
+        {
+            "id": "SEC-R",
+            "name": "Section R",
+            "section_code": "R",
+            "zone": "South",
+            "floor": "F3",
+            "category": "Upper Bowl",
+            "coordinates": {
+                "x": 34,
+                "y": 96
+            },
+            "seating": {
+                "capacity": 2800,
+                "rows": 38,
+                "seats_per_row": 74,
+                "accessible_seats": 36,
+                "companion_seats": 36,
+                "vip_seats": 0
+            },
+            "entry": {
+                "primary_gate": "GATE-E",
+                "secondary_gate": "GATE-F",
+                "estimated_walk_time_minutes": 8
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-06"
+                ],
+                "medical_centers": [
+                    "MC-03"
+                ],
+                "information_desks": [
+                    "INFO-07",
+                    "INFO-08"
+                ],
+                "restrooms": [
+                    "RR-50",
+                    "RR-51",
+                    "RR-52"
+                ],
+                "charging_stations": [
+                    "CS-15"
+                ],
+                "water_stations": [
+                    "WS-19",
+                    "WS-20"
+                ],
+                "atms": [
+                    "ATM-08"
+                ],
+                "elevators": [
+                    "EL-06"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.2,
+                "visibility_score": 89,
+                "distance_from_pitch": "Far",
+                "covered": true,
+                "sun_exposure": "High"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-S5",
+                "nearest_emergency_exit": "E-EXIT-18",
+                "nearest_staircase": "ST-18",
+                "nearest_elevator": "EL-06"
+            },
+            "landmarks": [
+                "South Terrace",
+                "Stadium Photo Point"
+            ],
+            "recommendation_tags": [
+                "Budget Seating",
+                "Photo Spot",
+                "Family Friendly",
+                "Easy Exit",
+                "Panoramic View",
+                "Accessible Route"
+            ],
+            "live_status": {
+                "occupancy_percentage": 52,
+                "crowd_level": "LOW",
+                "cleanliness": "GOOD",
+                "noise_level": "MEDIUM",
+                "temperature_celsius": 25,
+                "last_cleaned": "2026-07-11T17:30:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-R",
+                "noise_sensor": "SEN-NOI-R",
+                "temperature_sensor": "SEN-TEMP-R",
+                "camera": "CAM-R01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-09",
+                "next_inspection": "2026-07-19"
+            },
+            "ai_metadata": {
+                "priority": "LOW",
+                "recommended_entry_gate": "GATE-E",
+                "recommended_exit_gate": "GATE-F",
+                "average_visit_duration_minutes": 174
+            }
+        },
+        {
+            "id": "SEC-S",
+            "name": "Section S",
+            "section_code": "S",
+            "zone": "South",
+            "floor": "F3",
+            "category": "Upper Bowl",
+            "coordinates": {
+                "x": 24,
+                "y": 92
+            },
+            "seating": {
+                "capacity": 2750,
+                "rows": 38,
+                "seats_per_row": 72,
+                "accessible_seats": 36,
+                "companion_seats": 36,
+                "vip_seats": 0
+            },
+            "entry": {
+                "primary_gate": "GATE-E",
+                "secondary_gate": "GATE-F",
+                "estimated_walk_time_minutes": 8
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-05",
+                    "FC-06"
+                ],
+                "medical_centers": [
+                    "MC-03"
+                ],
+                "information_desks": [
+                    "INFO-06",
+                    "INFO-07"
+                ],
+                "restrooms": [
+                    "RR-50",
+                    "RR-51",
+                    "RR-52"
+                ],
+                "charging_stations": [
+                    "CS-14",
+                    "CS-15"
+                ],
+                "water_stations": [
+                    "WS-18",
+                    "WS-19"
+                ],
+                "atms": [
+                    "ATM-07"
+                ],
+                "elevators": [
+                    "EL-06"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.2,
+                "visibility_score": 89,
+                "distance_from_pitch": "Far",
+                "covered": true,
+                "sun_exposure": "High"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-S6",
+                "nearest_emergency_exit": "E-EXIT-19",
+                "nearest_staircase": "ST-19",
+                "nearest_elevator": "EL-06"
+            },
+            "landmarks": [
+                "South-West Viewing Terrace",
+                "Supporters Meeting Point"
+            ],
+            "recommendation_tags": [
+                "Budget Friendly",
+                "Easy Exit",
+                "Panoramic View",
+                "Family Friendly",
+                "Near Food Court",
+                "Accessible Route"
+            ],
+            "live_status": {
+                "occupancy_percentage": 49,
+                "crowd_level": "LOW",
+                "cleanliness": "GOOD",
+                "noise_level": "MEDIUM",
+                "temperature_celsius": 25,
+                "last_cleaned": "2026-07-11T17:35:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-S",
+                "noise_sensor": "SEN-NOI-S",
+                "temperature_sensor": "SEN-TEMP-S",
+                "camera": "CAM-S01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-10",
+                "next_inspection": "2026-07-20"
+            },
+            "ai_metadata": {
+                "priority": "LOW",
+                "recommended_entry_gate": "GATE-E",
+                "recommended_exit_gate": "GATE-F",
+                "average_visit_duration_minutes": 172
+            }
+        },
+        {
+            "id": "SEC-T",
+            "name": "Section T",
+            "section_code": "T",
+            "zone": "West",
+            "floor": "F2",
+            "category": "Upper Bowl Premium",
+            "coordinates": {
+                "x": 16,
+                "y": 82
+            },
+            "seating": {
+                "capacity": 3350,
+                "rows": 44,
+                "seats_per_row": 76,
+                "accessible_seats": 46,
+                "companion_seats": 46,
+                "vip_seats": 16
+            },
+            "entry": {
+                "primary_gate": "GATE-F",
+                "secondary_gate": "GATE-G",
+                "estimated_walk_time_minutes": 5
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-04",
+                    "FC-05"
+                ],
+                "medical_centers": [
+                    "MC-03"
+                ],
+                "information_desks": [
+                    "INFO-05",
+                    "INFO-06"
+                ],
+                "restrooms": [
+                    "RR-47",
+                    "RR-48",
+                    "RR-49"
+                ],
+                "charging_stations": [
+                    "CS-13",
+                    "CS-14"
+                ],
+                "water_stations": [
+                    "WS-17",
+                    "WS-18"
+                ],
+                "atms": [
+                    "ATM-06",
+                    "ATM-07"
+                ],
+                "elevators": [
+                    "EL-07"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.8,
+                "visibility_score": 97,
+                "distance_from_pitch": "Near",
+                "covered": true,
+                "sun_exposure": "Low"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-W1",
+                "nearest_emergency_exit": "E-EXIT-20",
+                "nearest_staircase": "ST-20",
+                "nearest_elevator": "EL-07"
+            },
+            "landmarks": [
+                "West Fan Plaza",
+                "Legends Walk"
+            ],
+            "recommendation_tags": [
+                "Premium Seating",
+                "Excellent Visibility",
+                "Near Fan Plaza",
+                "Fast Entry",
+                "Near Dining",
+                "Wheelchair Friendly"
+            ],
+            "live_status": {
+                "occupancy_percentage": 81,
+                "crowd_level": "MEDIUM",
+                "cleanliness": "EXCELLENT",
+                "noise_level": "HIGH",
+                "temperature_celsius": 23,
+                "last_cleaned": "2026-07-11T17:10:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-T",
+                "noise_sensor": "SEN-NOI-T",
+                "temperature_sensor": "SEN-TEMP-T",
+                "camera": "CAM-T01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-09",
+                "next_inspection": "2026-07-19"
+            },
+            "ai_metadata": {
+                "priority": "HIGH",
+                "recommended_entry_gate": "GATE-F",
+                "recommended_exit_gate": "GATE-G",
+                "average_visit_duration_minutes": 200
+            }
+        },
+        {
+            "id": "SEC-U",
+            "name": "Section U",
+            "section_code": "U",
+            "zone": "West",
+            "floor": "F2",
+            "category": "Upper Bowl Premium",
+            "coordinates": {
+                "x": 10,
+                "y": 72
+            },
+            "seating": {
+                "capacity": 3300,
+                "rows": 44,
+                "seats_per_row": 75,
+                "accessible_seats": 46,
+                "companion_seats": 46,
+                "vip_seats": 12
+            },
+            "entry": {
+                "primary_gate": "GATE-F",
+                "secondary_gate": "GATE-G",
+                "estimated_walk_time_minutes": 5
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-04",
+                    "FC-05"
+                ],
+                "medical_centers": [
+                    "MC-03"
+                ],
+                "information_desks": [
+                    "INFO-05",
+                    "INFO-06"
+                ],
+                "restrooms": [
+                    "RR-44",
+                    "RR-45",
+                    "RR-46"
+                ],
+                "charging_stations": [
+                    "CS-12",
+                    "CS-13"
+                ],
+                "water_stations": [
+                    "WS-16",
+                    "WS-17"
+                ],
+                "atms": [
+                    "ATM-06"
+                ],
+                "elevators": [
+                    "EL-07"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.8,
+                "visibility_score": 97,
+                "distance_from_pitch": "Near",
+                "covered": true,
+                "sun_exposure": "Low"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-W2",
+                "nearest_emergency_exit": "E-EXIT-21",
+                "nearest_staircase": "ST-21",
+                "nearest_elevator": "EL-07"
+            },
+            "landmarks": [
+                "West Heritage Gallery",
+                "Champions Wall"
+            ],
+            "recommendation_tags": [
+                "Premium Seating",
+                "Near Heritage Gallery",
+                "Excellent Visibility",
+                "Fast Entry",
+                "Near Dining",
+                "Accessible Route"
+            ],
+            "live_status": {
+                "occupancy_percentage": 77,
+                "crowd_level": "MEDIUM",
+                "cleanliness": "EXCELLENT",
+                "noise_level": "HIGH",
+                "temperature_celsius": 23,
+                "last_cleaned": "2026-07-11T17:15:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-U",
+                "noise_sensor": "SEN-NOI-U",
+                "temperature_sensor": "SEN-TEMP-U",
+                "camera": "CAM-U01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-10",
+                "next_inspection": "2026-07-20"
+            },
+            "ai_metadata": {
+                "priority": "HIGH",
+                "recommended_entry_gate": "GATE-F",
+                "recommended_exit_gate": "GATE-G",
+                "average_visit_duration_minutes": 198
+            }
+        },
+        {
+            "id": "SEC-V",
+            "name": "Section V",
+            "section_code": "V",
+            "zone": "West",
+            "floor": "F2",
+            "category": "Upper Bowl Premium",
+            "coordinates": {
+                "x": 8,
+                "y": 60
+            },
+            "seating": {
+                "capacity": 3250,
+                "rows": 43,
+                "seats_per_row": 75,
+                "accessible_seats": 44,
+                "companion_seats": 44,
+                "vip_seats": 10
+            },
+            "entry": {
+                "primary_gate": "GATE-F",
+                "secondary_gate": "GATE-G",
+                "estimated_walk_time_minutes": 6
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-03",
+                    "FC-04"
+                ],
+                "medical_centers": [
+                    "MC-02",
+                    "MC-03"
+                ],
+                "information_desks": [
+                    "INFO-05"
+                ],
+                "restrooms": [
+                    "RR-41",
+                    "RR-42",
+                    "RR-43"
+                ],
+                "charging_stations": [
+                    "CS-11",
+                    "CS-12"
+                ],
+                "water_stations": [
+                    "WS-15",
+                    "WS-16"
+                ],
+                "atms": [
+                    "ATM-05",
+                    "ATM-06"
+                ],
+                "elevators": [
+                    "EL-07"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.7,
+                "visibility_score": 96,
+                "distance_from_pitch": "Near",
+                "covered": true,
+                "sun_exposure": "Low"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-W3",
+                "nearest_emergency_exit": "E-EXIT-22",
+                "nearest_staircase": "ST-22",
+                "nearest_elevator": "EL-07"
+            },
+            "landmarks": [
+                "West Viewing Deck",
+                "Club Supporters Zone"
+            ],
+            "recommendation_tags": [
+                "Premium Seating",
+                "Club Supporters",
+                "Great Atmosphere",
+                "Near Food Court",
+                "Fast Exit",
+                "Accessible Route"
+            ],
+            "live_status": {
+                "occupancy_percentage": 73,
+                "crowd_level": "MEDIUM",
+                "cleanliness": "GOOD",
+                "noise_level": "HIGH",
+                "temperature_celsius": 24,
+                "last_cleaned": "2026-07-11T17:25:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-V",
+                "noise_sensor": "SEN-NOI-V",
+                "temperature_sensor": "SEN-TEMP-V",
+                "camera": "CAM-V01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-09",
+                "next_inspection": "2026-07-19"
+            },
+            "ai_metadata": {
+                "priority": "NORMAL",
+                "recommended_entry_gate": "GATE-F",
+                "recommended_exit_gate": "GATE-G",
+                "average_visit_duration_minutes": 194
+            }
+        },
+        {
+            "id": "SEC-W",
+            "name": "Section W",
+            "section_code": "W",
+            "zone": "West",
+            "floor": "F2",
+            "category": "Upper Bowl Premium",
+            "coordinates": {
+                "x": 12,
+                "y": 48
+            },
+            "seating": {
+                "capacity": 3200,
+                "rows": 43,
+                "seats_per_row": 74,
+                "accessible_seats": 44,
+                "companion_seats": 44,
+                "vip_seats": 12
+            },
+            "entry": {
+                "primary_gate": "GATE-G",
+                "secondary_gate": "GATE-H",
+                "estimated_walk_time_minutes": 5
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-03",
+                    "FC-04"
+                ],
+                "medical_centers": [
+                    "MC-02"
+                ],
+                "information_desks": [
+                    "INFO-04",
+                    "INFO-05"
+                ],
+                "restrooms": [
+                    "RR-38",
+                    "RR-39",
+                    "RR-40"
+                ],
+                "charging_stations": [
+                    "CS-10",
+                    "CS-11"
+                ],
+                "water_stations": [
+                    "WS-14",
+                    "WS-15"
+                ],
+                "atms": [
+                    "ATM-05"
+                ],
+                "elevators": [
+                    "EL-08"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.8,
+                "visibility_score": 97,
+                "distance_from_pitch": "Near",
+                "covered": true,
+                "sun_exposure": "Low"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-W4",
+                "nearest_emergency_exit": "E-EXIT-23",
+                "nearest_staircase": "ST-23",
+                "nearest_elevator": "EL-08"
+            },
+            "landmarks": [
+                "West Sky Lounge",
+                "Champions Walk"
+            ],
+            "recommendation_tags": [
+                "Premium Seating",
+                "Sky Lounge",
+                "Excellent Visibility",
+                "Fast Entry",
+                "Near Dining",
+                "Wheelchair Friendly"
+            ],
+            "live_status": {
+                "occupancy_percentage": 74,
+                "crowd_level": "MEDIUM",
+                "cleanliness": "EXCELLENT",
+                "noise_level": "HIGH",
+                "temperature_celsius": 23,
+                "last_cleaned": "2026-07-11T17:20:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-W",
+                "noise_sensor": "SEN-NOI-W",
+                "temperature_sensor": "SEN-TEMP-W",
+                "camera": "CAM-W01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-10",
+                "next_inspection": "2026-07-20"
+            },
+            "ai_metadata": {
+                "priority": "HIGH",
+                "recommended_entry_gate": "GATE-G",
+                "recommended_exit_gate": "GATE-H",
+                "average_visit_duration_minutes": 196
+            }
+        },
+        {
+            "id": "SEC-X",
+            "name": "Section X",
+            "section_code": "X",
+            "zone": "West",
+            "floor": "F2",
+            "category": "Upper Bowl Premium",
+            "coordinates": {
+                "x": 18,
+                "y": 36
+            },
+            "seating": {
+                "capacity": 3150,
+                "rows": 42,
+                "seats_per_row": 75,
+                "accessible_seats": 42,
+                "companion_seats": 42,
+                "vip_seats": 10
+            },
+            "entry": {
+                "primary_gate": "GATE-G",
+                "secondary_gate": "GATE-H",
+                "estimated_walk_time_minutes": 5
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-02",
+                    "FC-03"
+                ],
+                "medical_centers": [
+                    "MC-02"
+                ],
+                "information_desks": [
+                    "INFO-03",
+                    "INFO-04"
+                ],
+                "restrooms": [
+                    "RR-35",
+                    "RR-36",
+                    "RR-37"
+                ],
+                "charging_stations": [
+                    "CS-09",
+                    "CS-10"
+                ],
+                "water_stations": [
+                    "WS-13",
+                    "WS-14"
+                ],
+                "atms": [
+                    "ATM-04",
+                    "ATM-05"
+                ],
+                "elevators": [
+                    "EL-08"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.7,
+                "visibility_score": 96,
+                "distance_from_pitch": "Near",
+                "covered": true,
+                "sun_exposure": "Low"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-W5",
+                "nearest_emergency_exit": "E-EXIT-24",
+                "nearest_staircase": "ST-24",
+                "nearest_elevator": "EL-08"
+            },
+            "landmarks": [
+                "Hall of Fame",
+                "Interactive Fan Zone"
+            ],
+            "recommendation_tags": [
+                "Premium Seating",
+                "Hall of Fame",
+                "Interactive Experience",
+                "Excellent Visibility",
+                "Fast Exit",
+                "Accessible Route"
+            ],
+            "live_status": {
+                "occupancy_percentage": 69,
+                "crowd_level": "MEDIUM",
+                "cleanliness": "EXCELLENT",
+                "noise_level": "HIGH",
+                "temperature_celsius": 23,
+                "last_cleaned": "2026-07-11T17:30:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-X",
+                "noise_sensor": "SEN-NOI-X",
+                "temperature_sensor": "SEN-TEMP-X",
+                "camera": "CAM-X01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-09",
+                "next_inspection": "2026-07-19"
+            },
+            "ai_metadata": {
+                "priority": "NORMAL",
+                "recommended_entry_gate": "GATE-G",
+                "recommended_exit_gate": "GATE-H",
+                "average_visit_duration_minutes": 191
+            }
+        },
+        {
+            "id": "SEC-Y",
+            "name": "Section Y",
+            "section_code": "Y",
+            "zone": "West",
+            "floor": "F2",
+            "category": "Upper Bowl Premium",
+            "coordinates": {
+                "x": 28,
+                "y": 24
+            },
+            "seating": {
+                "capacity": 3100,
+                "rows": 42,
+                "seats_per_row": 74,
+                "accessible_seats": 42,
+                "companion_seats": 42,
+                "vip_seats": 12
+            },
+            "entry": {
+                "primary_gate": "GATE-G",
+                "secondary_gate": "GATE-H",
+                "estimated_walk_time_minutes": 4
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-01",
+                    "FC-02"
+                ],
+                "medical_centers": [
+                    "MC-01",
+                    "MC-02"
+                ],
+                "information_desks": [
+                    "INFO-02",
+                    "INFO-03"
+                ],
+                "restrooms": [
+                    "RR-32",
+                    "RR-33",
+                    "RR-34"
+                ],
+                "charging_stations": [
+                    "CS-08",
+                    "CS-09"
+                ],
+                "water_stations": [
+                    "WS-12",
+                    "WS-13"
+                ],
+                "atms": [
+                    "ATM-03",
+                    "ATM-04"
+                ],
+                "elevators": [
+                    "EL-08"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 4.8,
+                "visibility_score": 97,
+                "distance_from_pitch": "Near",
+                "covered": true,
+                "sun_exposure": "Low"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-W6",
+                "nearest_emergency_exit": "E-EXIT-25",
+                "nearest_staircase": "ST-25",
+                "nearest_elevator": "EL-08"
+            },
+            "landmarks": [
+                "Champions Gallery",
+                "West Observation Deck"
+            ],
+            "recommendation_tags": [
+                "Premium Seating",
+                "Excellent Visibility",
+                "Great Atmosphere",
+                "Near Food Court",
+                "Fast Exit",
+                "Wheelchair Friendly"
+            ],
+            "live_status": {
+                "occupancy_percentage": 71,
+                "crowd_level": "MEDIUM",
+                "cleanliness": "EXCELLENT",
+                "noise_level": "HIGH",
+                "temperature_celsius": 23,
+                "last_cleaned": "2026-07-11T17:35:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-Y",
+                "noise_sensor": "SEN-NOI-Y",
+                "temperature_sensor": "SEN-TEMP-Y",
+                "camera": "CAM-Y01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-10",
+                "next_inspection": "2026-07-20"
+            },
+            "ai_metadata": {
+                "priority": "HIGH",
+                "recommended_entry_gate": "GATE-G",
+                "recommended_exit_gate": "GATE-H",
+                "average_visit_duration_minutes": 195
+            }
+        },
+        {
+            "id": "SEC-Z",
+            "name": "Section Z",
+            "section_code": "Z",
+            "zone": "West",
+            "floor": "F1",
+            "category": "VIP / Executive Club",
+            "coordinates": {
+                "x": 38,
+                "y": 14
+            },
+            "seating": {
+                "capacity": 850,
+                "rows": 17,
+                "seats_per_row": 50,
+                "accessible_seats": 28,
+                "companion_seats": 28,
+                "vip_seats": 850
+            },
+            "entry": {
+                "primary_gate": "GATE-H",
+                "secondary_gate": "GATE-G",
+                "estimated_walk_time_minutes": 2
+            },
+            "nearby": {
+                "food_courts": [
+                    "FC-01"
+                ],
+                "medical_centers": [
+                    "MC-01"
+                ],
+                "information_desks": [
+                    "INFO-01"
+                ],
+                "restrooms": [
+                    "RR-01",
+                    "RR-02"
+                ],
+                "charging_stations": [
+                    "CS-01",
+                    "CS-02"
+                ],
+                "water_stations": [
+                    "WS-01",
+                    "WS-02"
+                ],
+                "atms": [
+                    "ATM-01"
+                ],
+                "elevators": [
+                    "EL-08"
+                ]
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "accessible_seating": true,
+                "braille_signage": true,
+                "hearing_assistance": true,
+                "step_free_route": true
+            },
+            "view": {
+                "rating": 5.0,
+                "visibility_score": 100,
+                "distance_from_pitch": "Pitch Side",
+                "covered": true,
+                "sun_exposure": "Low"
+            },
+            "routes": {
+                "nearest_exit": "EXIT-VIP",
+                "nearest_emergency_exit": "E-EXIT-26",
+                "nearest_staircase": "ST-26",
+                "nearest_elevator": "EL-08"
+            },
+            "landmarks": [
+                "Executive Sky Lounge",
+                "Presidential Box",
+                "VIP Reception",
+                "Players Tunnel View"
+            ],
+            "recommendation_tags": [
+                "VIP Experience",
+                "Executive Lounge",
+                "Pitch Side View",
+                "Private Concierge",
+                "Premium Dining",
+                "Exclusive Access"
+            ],
+            "live_status": {
+                "occupancy_percentage": 96,
+                "crowd_level": "HIGH",
+                "cleanliness": "EXCELLENT",
+                "noise_level": "MEDIUM",
+                "temperature_celsius": 22,
+                "last_cleaned": "2026-07-11T17:40:00Z"
+            },
+            "sensors": {
+                "occupancy_sensor": "SEN-OCC-Z",
+                "noise_sensor": "SEN-NOI-Z",
+                "temperature_sensor": "SEN-TEMP-Z",
+                "camera": "CAM-Z01"
+            },
+            "maintenance": {
+                "status": "ACTIVE",
+                "last_inspection": "2026-07-11",
+                "next_inspection": "2026-07-21"
+            },
+            "ai_metadata": {
+                "priority": "CRITICAL",
+                "recommended_entry_gate": "GATE-H",
+                "recommended_exit_gate": "GATE-H",
+                "average_visit_duration_minutes": 240
+            }
+        }
+    ]
+}

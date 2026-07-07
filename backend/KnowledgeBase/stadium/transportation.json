@@ -1,0 +1,873 @@
+{
+    "shuttle_services": [
+        {
+            "id": "TS-01",
+            "name": "North Stadium Shuttle",
+            "transport_type": "Electric Shuttle Service",
+            "zone": "North",
+            "coordinates": {
+                "x": 20,
+                "y": 15
+            },
+            "routes": {
+                "origin": "PZ-01",
+                "destination": [
+                    "GATE-A",
+                    "GATE-B",
+                    "INFO-01"
+                ],
+                "distance_km": 1.2,
+                "average_trip_time_minutes": 5
+            },
+            "vehicle_details": {
+                "vehicle_type": "Electric Shuttle Bus",
+                "total_vehicles": 12,
+                "vehicles_active": 10,
+                "capacity_per_vehicle": 40,
+                "wheelchair_spaces_per_vehicle": 2
+            },
+            "operating_schedule": {
+                "start_time": "08:00",
+                "end_time": "23:30",
+                "frequency_minutes": 5
+            },
+            "facilities": {
+                "real_time_tracking": true,
+                "wheelchair_accessible": true,
+                "digital_ticketing": true,
+                "information_display": true,
+                "audio_announcements": true
+            },
+            "live_status": {
+                "status": "ACTIVE",
+                "current_wait_time_minutes": 4,
+                "passengers_waiting": 35,
+                "crowd_level": "MEDIUM",
+                "traffic_condition": "NORMAL",
+                "service_delay_minutes": 0,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "General Visitors",
+                    "Families",
+                    "Wheelchair Users"
+                ],
+                "alternative_routes": [
+                    "TS-02"
+                ]
+            }
+        },
+        {
+            "id": "TS-02",
+            "name": "East Stadium Shuttle",
+            "transport_type": "Electric Shuttle Service",
+            "zone": "East",
+            "coordinates": {
+                "x": 88,
+                "y": 38
+            },
+            "routes": {
+                "origin": "PZ-03",
+                "destination": [
+                    "GATE-C",
+                    "GATE-D",
+                    "INFO-03"
+                ],
+                "distance_km": 1.5,
+                "average_trip_time_minutes": 7
+            },
+            "vehicle_details": {
+                "vehicle_type": "Electric Shuttle Bus",
+                "total_vehicles": 15,
+                "vehicles_active": 12,
+                "capacity_per_vehicle": 45,
+                "wheelchair_spaces_per_vehicle": 2
+            },
+            "operating_schedule": {
+                "start_time": "08:00",
+                "end_time": "23:30",
+                "frequency_minutes": 6
+            },
+            "facilities": {
+                "real_time_tracking": true,
+                "wheelchair_accessible": true,
+                "digital_ticketing": true,
+                "information_display": true,
+                "audio_announcements": true
+            },
+            "live_status": {
+                "status": "ACTIVE",
+                "current_wait_time_minutes": 6,
+                "passengers_waiting": 65,
+                "crowd_level": "HIGH",
+                "traffic_condition": "MODERATE",
+                "service_delay_minutes": 3,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "East Stand Visitors",
+                    "Large Groups",
+                    "International Fans"
+                ],
+                "alternative_routes": [
+                    "TS-03"
+                ]
+            }
+        },
+        {
+            "id": "TS-03",
+            "name": "South Stadium Shuttle",
+            "transport_type": "Electric Shuttle Service",
+            "zone": "South",
+            "coordinates": {
+                "x": 65,
+                "y": 90
+            },
+            "routes": {
+                "origin": "PZ-05",
+                "destination": [
+                    "GATE-E",
+                    "GATE-F",
+                    "INFO-02"
+                ],
+                "distance_km": 1.1,
+                "average_trip_time_minutes": 5
+            },
+            "vehicle_details": {
+                "vehicle_type": "Electric Shuttle Bus",
+                "total_vehicles": 14,
+                "vehicles_active": 13,
+                "capacity_per_vehicle": 40,
+                "wheelchair_spaces_per_vehicle": 2
+            },
+            "operating_schedule": {
+                "start_time": "08:00",
+                "end_time": "23:30",
+                "frequency_minutes": 5
+            },
+            "facilities": {
+                "real_time_tracking": true,
+                "wheelchair_accessible": true,
+                "digital_ticketing": true,
+                "information_display": true,
+                "audio_announcements": true
+            },
+            "live_status": {
+                "status": "ACTIVE",
+                "current_wait_time_minutes": 3,
+                "passengers_waiting": 20,
+                "crowd_level": "LOW",
+                "traffic_condition": "NORMAL",
+                "service_delay_minutes": 0,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Families",
+                    "Accessibility Users",
+                    "South Stand Visitors"
+                ],
+                "alternative_routes": [
+                    "TS-04"
+                ]
+            }
+        },
+        {
+            "id": "TS-04",
+            "name": "West Stadium Shuttle",
+            "transport_type": "Electric Shuttle Service",
+            "zone": "West",
+            "coordinates": {
+                "x": 15,
+                "y": 58
+            },
+            "routes": {
+                "origin": "PZ-07",
+                "destination": [
+                    "GATE-G",
+                    "GATE-H",
+                    "INFO-04"
+                ],
+                "distance_km": 1.8,
+                "average_trip_time_minutes": 8
+            },
+            "vehicle_details": {
+                "vehicle_type": "Electric Shuttle Bus",
+                "total_vehicles": 18,
+                "vehicles_active": 15,
+                "capacity_per_vehicle": 50,
+                "wheelchair_spaces_per_vehicle": 3
+            },
+            "operating_schedule": {
+                "start_time": "08:00",
+                "end_time": "23:45",
+                "frequency_minutes": 7
+            },
+            "facilities": {
+                "real_time_tracking": true,
+                "wheelchair_accessible": true,
+                "digital_ticketing": true,
+                "information_display": true,
+                "audio_announcements": true
+            },
+            "live_status": {
+                "status": "ACTIVE",
+                "current_wait_time_minutes": 8,
+                "passengers_waiting": 90,
+                "crowd_level": "VERY_HIGH",
+                "traffic_condition": "HEAVY",
+                "service_delay_minutes": 6,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "West Stand Visitors",
+                    "Large Groups",
+                    "Park And Ride Users"
+                ],
+                "alternative_routes": [
+                    "TS-01"
+                ]
+            }
+        }
+    ],
+    "bus_terminals": [
+        {
+            "id": "BT-01",
+            "name": "North Public Bus Terminal",
+            "transport_type": "Public Bus Terminal",
+            "zone": "North",
+            "coordinates": {
+                "x": 15,
+                "y": 10
+            },
+            "routes": {
+                "connected_to": [
+                    "CITY_CENTER",
+                    "PZ-01",
+                    "PZ-02",
+                    "GATE-A",
+                    "GATE-B"
+                ],
+                "distance_to_stadium_entrance_km": 0.8,
+                "average_transfer_time_minutes": 6
+            },
+            "vehicle_details": {
+                "vehicle_types_supported": [
+                    "City Buses",
+                    "Express Buses",
+                    "Airport Shuttle Buses"
+                ],
+                "daily_bus_capacity": 180,
+                "average_passenger_capacity": 45
+            },
+            "facilities": {
+                "real_time_tracking": true,
+                "ticket_counter": true,
+                "digital_display": true,
+                "seating_area": true,
+                "wheelchair_accessible": true,
+                "restroom_available": true
+            },
+            "live_status": {
+                "status": "ACTIVE",
+                "buses_available": 12,
+                "passengers_waiting": 85,
+                "queue_length": 30,
+                "crowd_level": "MEDIUM",
+                "traffic_condition": "NORMAL",
+                "estimated_wait_time_minutes": 8,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_schedule": {
+                "start_time": "06:00",
+                "end_time": "00:30",
+                "peak_frequency_minutes": 10
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "General Visitors",
+                    "Public Transport Users"
+                ],
+                "alternative_terminals": [
+                    "BT-02"
+                ]
+            }
+        },
+        {
+            "id": "BT-02",
+            "name": "East Team & Staff Transport Terminal",
+            "transport_type": "Team And Staff Terminal",
+            "zone": "East",
+            "coordinates": {
+                "x": 92,
+                "y": 58
+            },
+            "routes": {
+                "connected_to": [
+                    "TEAM_HOTELS",
+                    "TRAINING_CENTER",
+                    "STAFF_ENTRY",
+                    "GATE-D"
+                ],
+                "distance_to_stadium_entrance_km": 0.4,
+                "average_transfer_time_minutes": 3
+            },
+            "vehicle_details": {
+                "vehicle_types_supported": [
+                    "Team Buses",
+                    "Staff Vans",
+                    "Official Transport"
+                ],
+                "daily_bus_capacity": 80,
+                "average_passenger_capacity": 50
+            },
+            "facilities": {
+                "real_time_tracking": true,
+                "security_checkpoint": true,
+                "digital_display": true,
+                "staff_waiting_area": true,
+                "wheelchair_accessible": true,
+                "restroom_available": true
+            },
+            "live_status": {
+                "status": "RESTRICTED",
+                "buses_available": 8,
+                "passengers_waiting": 25,
+                "queue_length": 5,
+                "crowd_level": "LOW",
+                "traffic_condition": "NORMAL",
+                "estimated_wait_time_minutes": 3,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_schedule": {
+                "start_time": "05:00",
+                "end_time": "01:00",
+                "peak_frequency_minutes": 15
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Players",
+                    "Coaching Staff",
+                    "Volunteers"
+                ],
+                "alternative_terminals": [
+                    "BT-04"
+                ]
+            }
+        },
+        {
+            "id": "BT-03",
+            "name": "South Fan Bus Terminal",
+            "transport_type": "Public Fan Bus Terminal",
+            "zone": "South",
+            "coordinates": {
+                "x": 70,
+                "y": 95
+            },
+            "routes": {
+                "connected_to": [
+                    "SUBURBS",
+                    "PZ-05",
+                    "PZ-06",
+                    "GATE-E",
+                    "GATE-F"
+                ],
+                "distance_to_stadium_entrance_km": 0.6,
+                "average_transfer_time_minutes": 5
+            },
+            "vehicle_details": {
+                "vehicle_types_supported": [
+                    "City Buses",
+                    "Fan Shuttle Buses",
+                    "Regional Buses"
+                ],
+                "daily_bus_capacity": 220,
+                "average_passenger_capacity": 50
+            },
+            "facilities": {
+                "real_time_tracking": true,
+                "ticket_counter": true,
+                "digital_display": true,
+                "seating_area": true,
+                "wheelchair_accessible": true,
+                "restroom_available": true,
+                "water_station": true
+            },
+            "live_status": {
+                "status": "ACTIVE",
+                "buses_available": 18,
+                "passengers_waiting": 140,
+                "queue_length": 55,
+                "crowd_level": "HIGH",
+                "traffic_condition": "MODERATE",
+                "estimated_wait_time_minutes": 12,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_schedule": {
+                "start_time": "06:00",
+                "end_time": "00:30",
+                "peak_frequency_minutes": 8
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Large Fan Groups",
+                    "Regional Visitors"
+                ],
+                "alternative_terminals": [
+                    "BT-01"
+                ]
+            }
+        },
+        {
+            "id": "BT-04",
+            "name": "West Official Transport Terminal",
+            "transport_type": "Official Transport Terminal",
+            "zone": "West",
+            "coordinates": {
+                "x": 12,
+                "y": 65
+            },
+            "routes": {
+                "connected_to": [
+                    "TEAM_HOTELS",
+                    "MEDIA_CENTER",
+                    "OPERATIONS_CENTER",
+                    "GATE-H"
+                ],
+                "distance_to_stadium_entrance_km": 0.3,
+                "average_transfer_time_minutes": 2
+            },
+            "vehicle_details": {
+                "vehicle_types_supported": [
+                    "Team Buses",
+                    "Media Vehicles",
+                    "Official Shuttle Buses"
+                ],
+                "daily_bus_capacity": 100,
+                "average_passenger_capacity": 55
+            },
+            "facilities": {
+                "real_time_tracking": true,
+                "security_checkpoint": true,
+                "digital_display": true,
+                "staff_waiting_area": true,
+                "wheelchair_accessible": true,
+                "emergency_access": true
+            },
+            "live_status": {
+                "status": "RESTRICTED",
+                "buses_available": 10,
+                "passengers_waiting": 40,
+                "queue_length": 8,
+                "crowd_level": "LOW",
+                "traffic_condition": "NORMAL",
+                "estimated_wait_time_minutes": 4,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_schedule": {
+                "start_time": "05:00",
+                "end_time": "01:30",
+                "peak_frequency_minutes": 20
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Team Officials",
+                    "Media Personnel",
+                    "Tournament Staff"
+                ],
+                "alternative_terminals": [
+                    "BT-02"
+                ]
+            }
+        }
+    ],
+    "taxi_zones": [
+        {
+            "id": "TZ-01",
+            "name": "North Taxi & Rideshare Zone",
+            "transport_type": "Taxi / Rideshare Pickup Zone",
+            "zone": "North",
+            "coordinates": {
+                "x": 25,
+                "y": 8
+            },
+            "routes": {
+                "connected_to": [
+                    "GATE-A",
+                    "GATE-B",
+                    "PZ-01",
+                    "PZ-02"
+                ],
+                "distance_to_stadium_entrance_km": 0.3,
+                "average_pickup_time_minutes": 6
+            },
+            "vehicle_details": {
+                "vehicle_types_supported": [
+                    "Taxi",
+                    "Uber",
+                    "Ride Share Cars",
+                    "Private Cars"
+                ],
+                "pickup_lanes": 4,
+                "maximum_vehicle_capacity": 40
+            },
+            "facilities": {
+                "real_time_tracking": true,
+                "digital_queue_management": true,
+                "covered_waiting_area": true,
+                "wheelchair_accessible": true,
+                "information_display": true
+            },
+            "live_status": {
+                "status": "ACTIVE",
+                "available_taxis": 25,
+                "passengers_waiting": 45,
+                "queue_length": 18,
+                "crowd_level": "MEDIUM",
+                "traffic_condition": "NORMAL",
+                "estimated_wait_time_minutes": 7,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_schedule": {
+                "start_time": "08:00",
+                "end_time": "01:00",
+                "peak_management_mode": true
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "North Gate Visitors",
+                    "Families",
+                    "Quick Exit"
+                ],
+                "alternative_zones": [
+                    "TZ-02"
+                ]
+            }
+        },
+        {
+            "id": "TZ-02",
+            "name": "East Premium Taxi Zone",
+            "transport_type": "Taxi / Premium Rideshare Zone",
+            "zone": "East",
+            "coordinates": {
+                "x": 90,
+                "y": 42
+            },
+            "routes": {
+                "connected_to": [
+                    "GATE-C",
+                    "GATE-D",
+                    "SEC-G",
+                    "SEC-M"
+                ],
+                "distance_to_stadium_entrance_km": 0.25,
+                "average_pickup_time_minutes": 5
+            },
+            "vehicle_details": {
+                "vehicle_types_supported": [
+                    "Taxi",
+                    "Premium Rideshare",
+                    "Private Chauffeur",
+                    "Executive Cars"
+                ],
+                "pickup_lanes": 5,
+                "maximum_vehicle_capacity": 50
+            },
+            "facilities": {
+                "real_time_tracking": true,
+                "digital_queue_management": true,
+                "covered_waiting_area": true,
+                "wheelchair_accessible": true,
+                "information_display": true,
+                "vip_waiting_area": true
+            },
+            "live_status": {
+                "status": "ACTIVE",
+                "available_taxis": 35,
+                "passengers_waiting": 60,
+                "queue_length": 22,
+                "crowd_level": "HIGH",
+                "traffic_condition": "MODERATE",
+                "estimated_wait_time_minutes": 10,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_schedule": {
+                "start_time": "08:00",
+                "end_time": "01:30",
+                "peak_management_mode": true
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Premium Guests",
+                    "International Visitors",
+                    "Corporate Guests"
+                ],
+                "alternative_zones": [
+                    "TZ-03"
+                ]
+            }
+        },
+        {
+            "id": "TZ-03",
+            "name": "South Fan Pickup Zone",
+            "transport_type": "Taxi / Rideshare Pickup Zone",
+            "zone": "South",
+            "coordinates": {
+                "x": 60,
+                "y": 95
+            },
+            "routes": {
+                "connected_to": [
+                    "GATE-E",
+                    "GATE-F",
+                    "PZ-05",
+                    "PZ-06"
+                ],
+                "distance_to_stadium_entrance_km": 0.4,
+                "average_pickup_time_minutes": 8
+            },
+            "vehicle_details": {
+                "vehicle_types_supported": [
+                    "Taxi",
+                    "Ride Share Cars",
+                    "Mini Vans"
+                ],
+                "pickup_lanes": 6,
+                "maximum_vehicle_capacity": 70
+            },
+            "facilities": {
+                "real_time_tracking": true,
+                "digital_queue_management": true,
+                "covered_waiting_area": true,
+                "wheelchair_accessible": true,
+                "information_display": true,
+                "water_station": true
+            },
+            "live_status": {
+                "status": "ACTIVE",
+                "available_taxis": 50,
+                "passengers_waiting": 120,
+                "queue_length": 45,
+                "crowd_level": "VERY_HIGH",
+                "traffic_condition": "HEAVY",
+                "estimated_wait_time_minutes": 18,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_schedule": {
+                "start_time": "08:00",
+                "end_time": "01:00",
+                "peak_management_mode": true
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Large Groups",
+                    "Fan Exit Traffic",
+                    "Family Visitors"
+                ],
+                "alternative_zones": [
+                    "TZ-04"
+                ]
+            }
+        },
+        {
+            "id": "TZ-04",
+            "name": "West Express Taxi Hub",
+            "transport_type": "Taxi / Express Rideshare Zone",
+            "zone": "West",
+            "coordinates": {
+                "x": 10,
+                "y": 62
+            },
+            "routes": {
+                "connected_to": [
+                    "GATE-G",
+                    "GATE-H",
+                    "PZ-07",
+                    "PZ-08"
+                ],
+                "distance_to_stadium_entrance_km": 0.2,
+                "average_pickup_time_minutes": 4
+            },
+            "vehicle_details": {
+                "vehicle_types_supported": [
+                    "Taxi",
+                    "Ride Share Cars",
+                    "Airport Transfers",
+                    "Private Vehicles"
+                ],
+                "pickup_lanes": 8,
+                "maximum_vehicle_capacity": 90
+            },
+            "facilities": {
+                "real_time_tracking": true,
+                "digital_queue_management": true,
+                "covered_waiting_area": true,
+                "wheelchair_accessible": true,
+                "information_display": true,
+                "emergency_phone": true
+            },
+            "live_status": {
+                "status": "ACTIVE",
+                "available_taxis": 60,
+                "passengers_waiting": 95,
+                "queue_length": 35,
+                "crowd_level": "HIGH",
+                "traffic_condition": "MODERATE",
+                "estimated_wait_time_minutes": 12,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_schedule": {
+                "start_time": "08:00",
+                "end_time": "02:00",
+                "peak_management_mode": true
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Fast Exit",
+                    "Airport Transfers",
+                    "West Stand Visitors"
+                ],
+                "alternative_zones": [
+                    "TZ-01"
+                ]
+            }
+        }
+    ],
+    "transit_connections": [
+        {
+            "id": "MT-01",
+            "name": "FIFA Stadium Metro Station",
+            "transport_type": "Metro Station",
+            "zone": "Main Entrance",
+            "coordinates": {
+                "x": 50,
+                "y": 5
+            },
+            "routes": {
+                "connected_to": [
+                    "CITY_CENTER",
+                    "AIRPORT_METRO_LINE",
+                    "CENTRAL_RAILWAY_STATION",
+                    "GATE-A",
+                    "GATE-H"
+                ],
+                "distance_to_stadium_entrance_km": 0.4,
+                "average_transfer_time_minutes": 6
+            },
+            "vehicle_details": {
+                "transport_lines": [
+                    "Blue Line",
+                    "Green Line"
+                ],
+                "trains_per_hour": 18,
+                "average_capacity_per_train": 800,
+                "operating_frequency_minutes": 5
+            },
+            "facilities": {
+                "real_time_tracking": true,
+                "digital_ticketing": true,
+                "ticket_counter": true,
+                "information_display": true,
+                "wheelchair_accessible": true,
+                "elevator_access": true,
+                "security_checkpoint": true,
+                "restroom_available": true
+            },
+            "live_status": {
+                "status": "OPERATIONAL",
+                "current_passenger_count": 4500,
+                "crowd_level": "HIGH",
+                "platform_wait_time_minutes": 6,
+                "service_delay_minutes": 0,
+                "traffic_condition": "NORMAL",
+                "next_train_arrival_minutes": 3,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_schedule": {
+                "first_train": "05:00",
+                "last_train": "01:30",
+                "match_day_extended_service": true
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "International Visitors",
+                    "Public Transport Users",
+                    "Large Fan Groups"
+                ],
+                "alternative_transit": [
+                    "MT-02"
+                ]
+            }
+        },
+        {
+            "id": "MT-02",
+            "name": "FIFA Stadium Central Railway Station",
+            "transport_type": "Railway Station",
+            "zone": "East Transit Corridor",
+            "coordinates": {
+                "x": 95,
+                "y": 50
+            },
+            "routes": {
+                "connected_to": [
+                    "INTERCITY_RAIL_NETWORK",
+                    "CITY_SUBURBS",
+                    "AIRPORT_EXPRESS",
+                    "GATE-C",
+                    "GATE-D"
+                ],
+                "distance_to_stadium_entrance_km": 1.2,
+                "average_transfer_time_minutes": 10
+            },
+            "vehicle_details": {
+                "train_services": [
+                    "Regional Express",
+                    "Intercity Trains",
+                    "Airport Express"
+                ],
+                "platform_count": 8,
+                "average_train_capacity": 1200,
+                "trains_per_hour": 24
+            },
+            "facilities": {
+                "real_time_tracking": true,
+                "digital_ticketing": true,
+                "ticket_counter": true,
+                "information_display": true,
+                "wheelchair_accessible": true,
+                "elevator_access": true,
+                "security_checkpoint": true,
+                "restroom_available": true,
+                "luggage_storage": true
+            },
+            "live_status": {
+                "status": "OPERATIONAL",
+                "current_passenger_count": 7200,
+                "crowd_level": "VERY_HIGH",
+                "platform_wait_time_minutes": 12,
+                "service_delay_minutes": 4,
+                "traffic_condition": "MODERATE",
+                "next_train_arrival_minutes": 5,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_schedule": {
+                "first_train": "04:30",
+                "last_train": "02:00",
+                "match_day_extended_service": true
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Outstation Fans",
+                    "International Visitors",
+                    "Airport Travelers"
+                ],
+                "alternative_transit": [
+                    "MT-01"
+                ]
+            }
+        }
+    ]
+}

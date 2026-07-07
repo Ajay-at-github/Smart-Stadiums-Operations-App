@@ -1,0 +1,215 @@
+.app-layout {
+
+  display: flex;
+
+  flex-direction: column;
+
+  height: 100vh;
+
+}
+
+.dashboard {
+
+  display: flex;
+
+  flex: 1;
+
+}
+
+.dashboard-content {
+
+  padding: 40px;
+
+  width: 100%;
+
+  overflow: auto;
+
+}
+
+.hero {
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  background: #1e293b;
+
+  color: white;
+
+  margin-bottom: 30px;
+
+}
+
+.cards {
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+
+  gap: 20px;
+
+}
+
+.action-card {
+
+  background: white;
+
+  padding: 25px;
+
+  border-radius: 15px;
+
+  text-decoration: none;
+
+  color: black;
+
+  transition: .2s;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .08);
+
+}
+
+.action-card:hover {
+
+  transform: translateY(-4px);
+
+}
+
+.suggestions {
+
+  margin-top: 40px;
+
+}
+
+.question-card {
+
+  display: block;
+
+  margin: 10px 0;
+
+  padding: 15px;
+
+  background: #f3f4f6;
+
+  border-radius: 10px;
+
+  text-decoration: none;
+
+  color: black;
+
+}
+
+.chat-page {
+
+  height: 100vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+  padding: 30px;
+
+}
+
+.chat-header {
+
+  margin-bottom: 20px;
+
+}
+
+.chat-container {
+
+  display: flex;
+
+  flex-direction: column;
+
+  height: 80vh;
+
+  border-radius: 15px;
+
+  background: white;
+
+  box-shadow: 0 6px 20px rgba(0, 0, 0, .1);
+
+}
+
+.messages {
+
+  flex: 1;
+
+  overflow: auto;
+
+  padding: 20px;
+
+  background: #f8fafc;
+
+}
+
+.message {
+
+  padding: 15px;
+
+  border-radius: 15px;
+
+  margin-bottom: 15px;
+
+  max-width: 75%;
+
+}
+
+.user {
+
+  margin-left: auto;
+
+  background: #2563eb;
+
+  color: white;
+
+}
+
+.bot {
+
+  background: white;
+
+  border: 1px solid #ddd;
+
+}
+
+.input-row {
+
+  display: flex;
+
+  padding: 15px;
+
+  border-top: 1px solid #eee;
+
+}
+
+.input-row input {
+
+  flex: 1;
+
+  padding: 14px;
+
+  border-radius: 10px;
+
+  border: 1px solid #ccc;
+
+}
+
+.input-row button {
+
+  margin-left: 10px;
+
+  padding: 14px 22px;
+
+  border: none;
+
+  background: #2563eb;
+
+  color: white;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+}

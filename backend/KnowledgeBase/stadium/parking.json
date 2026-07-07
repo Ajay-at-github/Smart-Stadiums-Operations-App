@@ -1,0 +1,530 @@
+{
+    "parking_zones": [
+        {
+            "id": "PZ-01",
+            "name": "North General Parking",
+            "zone": "North",
+            "coordinates": {
+                "x": 18,
+                "y": 12
+            },
+            "nearby_gates": [
+                "GATE-A",
+                "GATE-B"
+            ],
+            "serves_sections": [
+                "SEC-A",
+                "SEC-B",
+                "SEC-C",
+                "SEC-D",
+                "SEC-E",
+                "SEC-F"
+            ],
+            "parking_details": {
+                "parking_type": "General Parking",
+                "vehicle_types_supported": [
+                    "Cars",
+                    "Motorcycles",
+                    "SUVs"
+                ],
+                "total_capacity": 2500,
+                "reserved_spaces": {
+                    "disabled": 50,
+                    "electric_vehicle": 100,
+                    "family": 150
+                },
+                "facilities": {
+                    "security_camera": true,
+                    "lighting": true,
+                    "charging_available": true,
+                    "restroom_available": true,
+                    "shuttle_service": true
+                }
+            },
+            "live_status": {
+                "status": "OPEN",
+                "occupied_slots": 1820,
+                "available_slots": 680,
+                "occupancy_percentage": 73,
+                "traffic_level": "MEDIUM",
+                "entry_queue_length": 65,
+                "estimated_entry_wait_minutes": 8,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "pricing": {
+                "car_fee": 20,
+                "bike_fee": 10,
+                "bus_fee": 100
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "General Visitors",
+                    "Sections A-F"
+                ],
+                "alternative_parking": [
+                    "PZ-02"
+                ]
+            }
+        },
+        {
+            "id": "PZ-02",
+            "name": "North Premium & VIP Parking",
+            "zone": "North",
+            "coordinates": {
+                "x": 30,
+                "y": 8
+            },
+            "nearby_gates": [
+                "GATE-A"
+            ],
+            "serves_sections": [
+                "VIP-01",
+                "MEDIA-01"
+            ],
+            "parking_details": {
+                "parking_type": "VIP Parking",
+                "vehicle_types_supported": [
+                    "Cars",
+                    "Luxury Vehicles",
+                    "Official Vehicles"
+                ],
+                "total_capacity": 800,
+                "reserved_spaces": {
+                    "disabled": 40,
+                    "electric_vehicle": 80,
+                    "family": 20
+                },
+                "facilities": {
+                    "security_camera": true,
+                    "lighting": true,
+                    "charging_available": true,
+                    "restroom_available": true,
+                    "shuttle_service": true,
+                    "valet_service": true
+                }
+            },
+            "live_status": {
+                "status": "OPEN",
+                "occupied_slots": 560,
+                "available_slots": 240,
+                "occupancy_percentage": 70,
+                "traffic_level": "LOW",
+                "entry_queue_length": 12,
+                "estimated_entry_wait_minutes": 3,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "pricing": {
+                "car_fee": 100,
+                "bike_fee": 30,
+                "bus_fee": 250
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "VIP Guests",
+                    "Media Personnel",
+                    "Official Staff"
+                ],
+                "alternative_parking": [
+                    "PZ-01"
+                ]
+            }
+        },
+        {
+            "id": "PZ-03",
+            "name": "East Visitor Parking",
+            "zone": "East",
+            "coordinates": {
+                "x": 88,
+                "y": 38
+            },
+            "nearby_gates": [
+                "GATE-C",
+                "GATE-D"
+            ],
+            "serves_sections": [
+                "SEC-G",
+                "SEC-H",
+                "SEC-I",
+                "SEC-J",
+                "SEC-K",
+                "SEC-L",
+                "SEC-M"
+            ],
+            "parking_details": {
+                "parking_type": "General Visitor Parking",
+                "vehicle_types_supported": [
+                    "Cars",
+                    "Motorcycles",
+                    "SUVs"
+                ],
+                "total_capacity": 3000,
+                "reserved_spaces": {
+                    "disabled": 60,
+                    "electric_vehicle": 150,
+                    "family": 200
+                },
+                "facilities": {
+                    "security_camera": true,
+                    "lighting": true,
+                    "charging_available": true,
+                    "restroom_available": true,
+                    "shuttle_service": true
+                }
+            },
+            "live_status": {
+                "status": "OPEN",
+                "occupied_slots": 2350,
+                "available_slots": 650,
+                "occupancy_percentage": 78,
+                "traffic_level": "HIGH",
+                "entry_queue_length": 140,
+                "estimated_entry_wait_minutes": 18,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "pricing": {
+                "car_fee": 20,
+                "bike_fee": 10,
+                "bus_fee": 100
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "East Stand Visitors",
+                    "Sections G-M"
+                ],
+                "alternative_parking": [
+                    "PZ-04"
+                ]
+            }
+        },
+        {
+            "id": "PZ-04",
+            "name": "East Team & Staff Transport Parking",
+            "zone": "East",
+            "coordinates": {
+                "x": 92,
+                "y": 60
+            },
+            "nearby_gates": [
+                "GATE-D"
+            ],
+            "serves_sections": [
+                "TEAM-AREA",
+                "STAFF-AREA",
+                "OPERATIONS"
+            ],
+            "parking_details": {
+                "parking_type": "Staff & Transport Parking",
+                "vehicle_types_supported": [
+                    "Team Buses",
+                    "Staff Vehicles",
+                    "Service Vehicles"
+                ],
+                "total_capacity": 500,
+                "reserved_spaces": {
+                    "disabled": 20,
+                    "electric_vehicle": 50,
+                    "family": 0
+                },
+                "facilities": {
+                    "security_camera": true,
+                    "lighting": true,
+                    "charging_available": true,
+                    "restroom_available": true,
+                    "shuttle_service": true,
+                    "security_checkpoint": true
+                }
+            },
+            "live_status": {
+                "status": "RESTRICTED",
+                "occupied_slots": 350,
+                "available_slots": 150,
+                "occupancy_percentage": 70,
+                "traffic_level": "LOW",
+                "entry_queue_length": 5,
+                "estimated_entry_wait_minutes": 2,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "pricing": {
+                "car_fee": 0,
+                "bike_fee": 0,
+                "bus_fee": 0
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Team Transport",
+                    "Staff Members",
+                    "Authorized Vehicles"
+                ],
+                "alternative_parking": [
+                    "PZ-03"
+                ]
+            }
+        },
+        {
+            "parking_zones": [
+                {
+                    "id": "PZ-05",
+                    "name": "South General Parking",
+                    "zone": "South",
+                    "coordinates": {
+                        "x": 65,
+                        "y": 92
+                    },
+                    "nearby_gates": [
+                        "GATE-E",
+                        "GATE-F"
+                    ],
+                    "serves_sections": [
+                        "SEC-N",
+                        "SEC-O",
+                        "SEC-P",
+                        "SEC-Q",
+                        "SEC-R",
+                        "SEC-S"
+                    ],
+                    "parking_details": {
+                        "parking_type": "General Visitor Parking",
+                        "vehicle_types_supported": [
+                            "Cars",
+                            "Motorcycles",
+                            "SUVs"
+                        ],
+                        "total_capacity": 2800,
+                        "reserved_spaces": {
+                            "disabled": 70,
+                            "electric_vehicle": 120,
+                            "family": 180
+                        },
+                        "facilities": {
+                            "security_camera": true,
+                            "lighting": true,
+                            "charging_available": true,
+                            "restroom_available": true,
+                            "shuttle_service": true
+                        }
+                    },
+                    "live_status": {
+                        "status": "OPEN",
+                        "occupied_slots": 1500,
+                        "available_slots": 1300,
+                        "occupancy_percentage": 54,
+                        "traffic_level": "LOW",
+                        "entry_queue_length": 35,
+                        "estimated_entry_wait_minutes": 5,
+                        "last_updated": "2026-07-11T17:30:00Z"
+                    },
+                    "pricing": {
+                        "car_fee": 20,
+                        "bike_fee": 10,
+                        "bus_fee": 100
+                    },
+                    "ai_metadata": {
+                        "recommended_for": [
+                            "General Visitors",
+                            "Families",
+                            "Sections N-S"
+                        ],
+                        "alternative_parking": [
+                            "PZ-06"
+                        ]
+                    }
+                },
+                {
+                    "id": "PZ-06",
+                    "name": "South Family & Accessibility Parking",
+                    "zone": "South",
+                    "coordinates": {
+                        "x": 45,
+                        "y": 90
+                    },
+                    "nearby_gates": [
+                        "GATE-F"
+                    ],
+                    "serves_sections": [
+                        "SEC-Q",
+                        "SEC-R",
+                        "SEC-S"
+                    ],
+                    "parking_details": {
+                        "parking_type": "Family & Accessible Parking",
+                        "vehicle_types_supported": [
+                            "Cars",
+                            "SUVs",
+                            "Accessible Vehicles"
+                        ],
+                        "total_capacity": 1000,
+                        "reserved_spaces": {
+                            "disabled": 150,
+                            "electric_vehicle": 100,
+                            "family": 300
+                        },
+                        "facilities": {
+                            "security_camera": true,
+                            "lighting": true,
+                            "charging_available": true,
+                            "restroom_available": true,
+                            "shuttle_service": true,
+                            "wheelchair_assistance": true
+                        }
+                    },
+                    "live_status": {
+                        "status": "OPEN",
+                        "occupied_slots": 620,
+                        "available_slots": 380,
+                        "occupancy_percentage": 62,
+                        "traffic_level": "MEDIUM",
+                        "entry_queue_length": 25,
+                        "estimated_entry_wait_minutes": 6,
+                        "last_updated": "2026-07-11T17:30:00Z"
+                    },
+                    "pricing": {
+                        "car_fee": 15,
+                        "bike_fee": 10,
+                        "bus_fee": 50
+                    },
+                    "ai_metadata": {
+                        "recommended_for": [
+                            "Wheelchair Users",
+                            "Families",
+                            "Elderly Visitors"
+                        ],
+                        "alternative_parking": [
+                            "PZ-05"
+                        ]
+                    }
+                },
+                {
+                    "id": "PZ-07",
+                    "name": "West Visitor Parking",
+                    "zone": "West",
+                    "coordinates": {
+                        "x": 16,
+                        "y": 58
+                    },
+                    "nearby_gates": [
+                        "GATE-G",
+                        "GATE-H"
+                    ],
+                    "serves_sections": [
+                        "SEC-T",
+                        "SEC-U",
+                        "SEC-V",
+                        "SEC-W",
+                        "SEC-X",
+                        "SEC-Y",
+                        "SEC-Z"
+                    ],
+                    "parking_details": {
+                        "parking_type": "General Visitor Parking",
+                        "vehicle_types_supported": [
+                            "Cars",
+                            "Motorcycles",
+                            "SUVs"
+                        ],
+                        "total_capacity": 3200,
+                        "reserved_spaces": {
+                            "disabled": 80,
+                            "electric_vehicle": 180,
+                            "family": 200
+                        },
+                        "facilities": {
+                            "security_camera": true,
+                            "lighting": true,
+                            "charging_available": true,
+                            "restroom_available": true,
+                            "shuttle_service": true
+                        }
+                    },
+                    "live_status": {
+                        "status": "OPEN",
+                        "occupied_slots": 2700,
+                        "available_slots": 500,
+                        "occupancy_percentage": 84,
+                        "traffic_level": "HIGH",
+                        "entry_queue_length": 180,
+                        "estimated_entry_wait_minutes": 22,
+                        "last_updated": "2026-07-11T17:30:00Z"
+                    },
+                    "pricing": {
+                        "car_fee": 20,
+                        "bike_fee": 10,
+                        "bus_fee": 100
+                    },
+                    "ai_metadata": {
+                        "recommended_for": [
+                            "West Stand Visitors",
+                            "Sections T-Z"
+                        ],
+                        "alternative_parking": [
+                            "PZ-08"
+                        ]
+                    }
+                },
+                {
+                    "id": "PZ-08",
+                    "name": "West Transit Hub Parking",
+                    "zone": "West",
+                    "coordinates": {
+                        "x": 10,
+                        "y": 25
+                    },
+                    "nearby_gates": [
+                        "GATE-H"
+                    ],
+                    "serves_sections": [
+                        "TRANSPORT-HUB",
+                        "SHUTTLE-ZONE",
+                        "PARK-AND-RIDE"
+                    ],
+                    "parking_details": {
+                        "parking_type": "Transit & Shuttle Parking",
+                        "vehicle_types_supported": [
+                            "Buses",
+                            "Shuttle Vehicles",
+                            "Cars"
+                        ],
+                        "total_capacity": 1500,
+                        "reserved_spaces": {
+                            "disabled": 50,
+                            "electric_vehicle": 200,
+                            "family": 100
+                        },
+                        "facilities": {
+                            "security_camera": true,
+                            "lighting": true,
+                            "charging_available": true,
+                            "restroom_available": true,
+                            "shuttle_service": true,
+                            "bus_terminal": true
+                        }
+                    },
+                    "live_status": {
+                        "status": "OPEN",
+                        "occupied_slots": 900,
+                        "available_slots": 600,
+                        "occupancy_percentage": 60,
+                        "traffic_level": "MEDIUM",
+                        "entry_queue_length": 45,
+                        "estimated_entry_wait_minutes": 8,
+                        "last_updated": "2026-07-11T17:30:00Z"
+                    },
+                    "pricing": {
+                        "car_fee": 15,
+                        "bike_fee": 10,
+                        "bus_fee": 80
+                    },
+                    "ai_metadata": {
+                        "recommended_for": [
+                            "Public Transport Users",
+                            "Shuttle Users",
+                            "Park & Ride"
+                        ],
+                        "alternative_parking": [
+                            "PZ-07"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

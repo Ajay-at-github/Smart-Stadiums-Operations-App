@@ -1,0 +1,1490 @@
+{
+    "accessible_entrances": [
+        {
+            "id": "AE-01",
+            "name": "North Accessible Entrance A",
+            "accessibility_type": "Accessible Entrance",
+            "zone": "North",
+            "coordinates": {
+                "x": 20,
+                "y": 10
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-A",
+                "nearest_elevator": "EL-01",
+                "nearest_restroom": "RR-01",
+                "nearest_medical_center": "MC-01"
+            },
+            "supported_needs": {
+                "wheelchair_access": true,
+                "visual_assistance": true,
+                "hearing_assistance": true,
+                "elderly_support": true,
+                "priority_entry": true
+            },
+            "facilities": {
+                "ramps": true,
+                "automatic_doors": true,
+                "handrails": true,
+                "tactile_pathways": true,
+                "audio_guidance": true,
+                "sign_language_support": true,
+                "accessible_security_lane": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "current_users": 42,
+                "queue_length": 6,
+                "assistance_available": true,
+                "estimated_wait_time_minutes": 4,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Wheelchair Users",
+                    "Elderly Fans",
+                    "Visually Impaired Visitors"
+                ],
+                "alternative_locations": [
+                    "AE-02"
+                ]
+            }
+        },
+        {
+            "id": "AE-02",
+            "name": "North Accessible Entrance B",
+            "accessibility_type": "Accessible Entrance",
+            "zone": "North",
+            "coordinates": {
+                "x": 45,
+                "y": 12
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-B",
+                "nearest_elevator": "EL-02",
+                "nearest_restroom": "RR-02",
+                "nearest_medical_center": "MC-01"
+            },
+            "supported_needs": {
+                "wheelchair_access": true,
+                "visual_assistance": true,
+                "hearing_assistance": true,
+                "elderly_support": true,
+                "priority_entry": true
+            },
+            "facilities": {
+                "ramps": true,
+                "automatic_doors": true,
+                "handrails": true,
+                "tactile_pathways": true,
+                "audio_guidance": true,
+                "sign_language_support": false,
+                "accessible_security_lane": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "current_users": 55,
+                "queue_length": 10,
+                "assistance_available": true,
+                "estimated_wait_time_minutes": 6,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Wheelchair Users",
+                    "Families",
+                    "Elderly Visitors"
+                ],
+                "alternative_locations": [
+                    "AE-01"
+                ]
+            }
+        },
+        {
+            "id": "AE-03",
+            "name": "East Accessible Entrance C",
+            "accessibility_type": "Accessible Entrance",
+            "zone": "East",
+            "coordinates": {
+                "x": 88,
+                "y": 35
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-C",
+                "nearest_elevator": "EL-03",
+                "nearest_restroom": "RR-07",
+                "nearest_medical_center": "MC-02"
+            },
+            "supported_needs": {
+                "wheelchair_access": true,
+                "visual_assistance": true,
+                "hearing_assistance": true,
+                "elderly_support": true,
+                "priority_entry": true
+            },
+            "facilities": {
+                "ramps": true,
+                "automatic_doors": true,
+                "handrails": true,
+                "tactile_pathways": true,
+                "audio_guidance": true,
+                "sign_language_support": true,
+                "accessible_security_lane": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "current_users": 70,
+                "queue_length": 14,
+                "assistance_available": true,
+                "estimated_wait_time_minutes": 8,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Wheelchair Users",
+                    "International Fans",
+                    "Hearing Assistance Users"
+                ],
+                "alternative_locations": [
+                    "AE-04"
+                ]
+            }
+        },
+        {
+            "id": "AE-04",
+            "name": "East Accessible Entrance D",
+            "accessibility_type": "Accessible Entrance",
+            "zone": "East",
+            "coordinates": {
+                "x": 90,
+                "y": 65
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-D",
+                "nearest_elevator": "EL-04",
+                "nearest_restroom": "RR-10",
+                "nearest_medical_center": "MC-02"
+            },
+            "supported_needs": {
+                "wheelchair_access": true,
+                "visual_assistance": true,
+                "hearing_assistance": true,
+                "elderly_support": true,
+                "priority_entry": true
+            },
+            "facilities": {
+                "ramps": true,
+                "automatic_doors": true,
+                "handrails": true,
+                "tactile_pathways": true,
+                "audio_guidance": true,
+                "sign_language_support": true,
+                "accessible_security_lane": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "current_users": 38,
+                "queue_length": 4,
+                "assistance_available": true,
+                "estimated_wait_time_minutes": 3,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Quick Accessible Entry",
+                    "Wheelchair Users",
+                    "Premium Seating Visitors"
+                ],
+                "alternative_locations": [
+                    "AE-03"
+                ]
+            }
+        },
+        {
+            "id": "AE-05",
+            "name": "South Accessible Entrance E",
+            "accessibility_type": "Accessible Entrance",
+            "zone": "South",
+            "coordinates": {
+                "x": 65,
+                "y": 92
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-E",
+                "nearest_elevator": "EL-05",
+                "nearest_restroom": "RR-13",
+                "nearest_medical_center": "MC-03"
+            },
+            "supported_needs": {
+                "wheelchair_access": true,
+                "visual_assistance": true,
+                "hearing_assistance": true,
+                "elderly_support": true,
+                "priority_entry": true
+            },
+            "facilities": {
+                "ramps": true,
+                "automatic_doors": true,
+                "handrails": true,
+                "tactile_pathways": true,
+                "audio_guidance": true,
+                "sign_language_support": false,
+                "accessible_security_lane": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "current_users": 65,
+                "queue_length": 12,
+                "assistance_available": true,
+                "estimated_wait_time_minutes": 7,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Wheelchair Users",
+                    "Families",
+                    "Elderly Visitors"
+                ],
+                "alternative_locations": [
+                    "AE-06"
+                ]
+            }
+        },
+        {
+            "id": "AE-06",
+            "name": "South Accessible Entrance F",
+            "accessibility_type": "Accessible Entrance",
+            "zone": "South",
+            "coordinates": {
+                "x": 48,
+                "y": 95
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-F",
+                "nearest_elevator": "EL-06",
+                "nearest_restroom": "RR-15",
+                "nearest_medical_center": "MC-03"
+            },
+            "supported_needs": {
+                "wheelchair_access": true,
+                "visual_assistance": true,
+                "hearing_assistance": true,
+                "elderly_support": true,
+                "priority_entry": true
+            },
+            "facilities": {
+                "ramps": true,
+                "automatic_doors": true,
+                "handrails": true,
+                "tactile_pathways": true,
+                "audio_guidance": true,
+                "sign_language_support": true,
+                "accessible_security_lane": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "current_users": 30,
+                "queue_length": 3,
+                "assistance_available": true,
+                "estimated_wait_time_minutes": 2,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Fast Accessible Entry",
+                    "Wheelchair Users",
+                    "Sensory Support Users"
+                ],
+                "alternative_locations": [
+                    "AE-05"
+                ]
+            }
+        },
+        {
+            "id": "AE-07",
+            "name": "West Accessible Entrance G",
+            "accessibility_type": "Accessible Entrance",
+            "zone": "West",
+            "coordinates": {
+                "x": 15,
+                "y": 60
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-G",
+                "nearest_elevator": "EL-07",
+                "nearest_restroom": "RR-19",
+                "nearest_medical_center": "MC-04"
+            },
+            "supported_needs": {
+                "wheelchair_access": true,
+                "visual_assistance": true,
+                "hearing_assistance": true,
+                "elderly_support": true,
+                "priority_entry": true
+            },
+            "facilities": {
+                "ramps": true,
+                "automatic_doors": true,
+                "handrails": true,
+                "tactile_pathways": true,
+                "audio_guidance": true,
+                "sign_language_support": true,
+                "accessible_security_lane": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "current_users": 90,
+                "queue_length": 18,
+                "assistance_available": true,
+                "estimated_wait_time_minutes": 10,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Large Accessibility Groups",
+                    "Wheelchair Users",
+                    "International Visitors"
+                ],
+                "alternative_locations": [
+                    "AE-08"
+                ]
+            }
+        },
+        {
+            "id": "AE-08",
+            "name": "West Accessible Entrance H",
+            "accessibility_type": "Accessible Entrance",
+            "zone": "West",
+            "coordinates": {
+                "x": 8,
+                "y": 42
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-H",
+                "nearest_elevator": "EL-08",
+                "nearest_restroom": "RR-22",
+                "nearest_medical_center": "MC-04"
+            },
+            "supported_needs": {
+                "wheelchair_access": true,
+                "visual_assistance": true,
+                "hearing_assistance": true,
+                "elderly_support": true,
+                "priority_entry": true
+            },
+            "facilities": {
+                "ramps": true,
+                "automatic_doors": true,
+                "handrails": true,
+                "tactile_pathways": true,
+                "audio_guidance": true,
+                "sign_language_support": false,
+                "accessible_security_lane": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "current_users": 48,
+                "queue_length": 7,
+                "assistance_available": true,
+                "estimated_wait_time_minutes": 5,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Wheelchair Users",
+                    "Quick Exit Routes",
+                    "West Stand Visitors"
+                ],
+                "alternative_locations": [
+                    "AE-07"
+                ]
+            }
+        }
+    ],
+    "accessibility_assistance_desks": [
+        {
+            "id": "AD-01",
+            "name": "North Accessibility Support Desk",
+            "accessibility_type": "Accessibility Assistance Desk",
+            "zone": "North",
+            "coordinates": {
+                "x": 25,
+                "y": 18
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-A",
+                "nearest_accessible_entrance": "AE-01",
+                "nearest_elevator": "EL-01",
+                "nearest_medical_center": "MC-01"
+            },
+            "services_available": {
+                "wheelchair_assistance": true,
+                "mobility_guidance": true,
+                "visual_assistance": true,
+                "hearing_assistance": true,
+                "priority_entry_support": true,
+                "lost_and_found_support": true
+            },
+            "staff_details": {
+                "staff_count": 8,
+                "sign_language_staff_available": true,
+                "languages_supported": [
+                    "English",
+                    "Spanish",
+                    "French",
+                    "German"
+                ]
+            },
+            "facilities": {
+                "waiting_area": true,
+                "wheelchair_storage": true,
+                "charging_station": true,
+                "digital_information_kiosk": true,
+                "emergency_call_button": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "visitors_waiting": 12,
+                "assistance_requests_active": 5,
+                "staff_available": 6,
+                "estimated_wait_time_minutes": 4,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "North Gate Visitors",
+                    "International Fans",
+                    "Wheelchair Users"
+                ],
+                "alternative_locations": [
+                    "AD-02"
+                ]
+            }
+        },
+        {
+            "id": "AD-02",
+            "name": "East Accessibility Support Desk",
+            "accessibility_type": "Accessibility Assistance Desk",
+            "zone": "East",
+            "coordinates": {
+                "x": 86,
+                "y": 40
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-C",
+                "nearest_accessible_entrance": "AE-03",
+                "nearest_elevator": "EL-03",
+                "nearest_medical_center": "MC-02"
+            },
+            "services_available": {
+                "wheelchair_assistance": true,
+                "mobility_guidance": true,
+                "visual_assistance": true,
+                "hearing_assistance": true,
+                "priority_entry_support": true,
+                "lost_and_found_support": true
+            },
+            "staff_details": {
+                "staff_count": 10,
+                "sign_language_staff_available": true,
+                "languages_supported": [
+                    "English",
+                    "Arabic",
+                    "Hindi",
+                    "Tamil"
+                ]
+            },
+            "facilities": {
+                "waiting_area": true,
+                "wheelchair_storage": true,
+                "charging_station": true,
+                "digital_information_kiosk": true,
+                "emergency_call_button": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "visitors_waiting": 18,
+                "assistance_requests_active": 8,
+                "staff_available": 7,
+                "estimated_wait_time_minutes": 6,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "International Visitors",
+                    "Hearing Assistance Users",
+                    "East Stand Visitors"
+                ],
+                "alternative_locations": [
+                    "AD-03"
+                ]
+            }
+        },
+        {
+            "id": "AD-03",
+            "name": "South Accessibility Support Desk",
+            "accessibility_type": "Accessibility Assistance Desk",
+            "zone": "South",
+            "coordinates": {
+                "x": 62,
+                "y": 88
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-F",
+                "nearest_accessible_entrance": "AE-06",
+                "nearest_elevator": "EL-06",
+                "nearest_medical_center": "MC-03"
+            },
+            "services_available": {
+                "wheelchair_assistance": true,
+                "mobility_guidance": true,
+                "visual_assistance": true,
+                "hearing_assistance": true,
+                "priority_entry_support": true,
+                "family_assistance": true
+            },
+            "staff_details": {
+                "staff_count": 7,
+                "sign_language_staff_available": false,
+                "languages_supported": [
+                    "English",
+                    "Portuguese",
+                    "Italian",
+                    "Spanish"
+                ]
+            },
+            "facilities": {
+                "waiting_area": true,
+                "wheelchair_storage": true,
+                "charging_station": true,
+                "digital_information_kiosk": true,
+                "emergency_call_button": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "visitors_waiting": 9,
+                "assistance_requests_active": 4,
+                "staff_available": 5,
+                "estimated_wait_time_minutes": 3,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Families",
+                    "Mobility Assistance Users",
+                    "South Stand Visitors"
+                ],
+                "alternative_locations": [
+                    "AD-04"
+                ]
+            }
+        },
+        {
+            "id": "AD-04",
+            "name": "West Accessibility Support Desk",
+            "accessibility_type": "Accessibility Assistance Desk",
+            "zone": "West",
+            "coordinates": {
+                "x": 12,
+                "y": 55
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-H",
+                "nearest_accessible_entrance": "AE-08",
+                "nearest_elevator": "EL-08",
+                "nearest_medical_center": "MC-04"
+            },
+            "services_available": {
+                "wheelchair_assistance": true,
+                "mobility_guidance": true,
+                "visual_assistance": true,
+                "hearing_assistance": true,
+                "priority_entry_support": true,
+                "emergency_assistance": true
+            },
+            "staff_details": {
+                "staff_count": 12,
+                "sign_language_staff_available": true,
+                "languages_supported": [
+                    "English",
+                    "Japanese",
+                    "Korean",
+                    "Chinese"
+                ]
+            },
+            "facilities": {
+                "waiting_area": true,
+                "wheelchair_storage": true,
+                "charging_station": true,
+                "digital_information_kiosk": true,
+                "emergency_call_button": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "visitors_waiting": 25,
+                "assistance_requests_active": 10,
+                "staff_available": 8,
+                "estimated_wait_time_minutes": 8,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "International Fans",
+                    "Large Accessibility Groups",
+                    "Emergency Support"
+                ],
+                "alternative_locations": [
+                    "AD-01"
+                ]
+            }
+        }
+    ],
+    "wheelchair_service_points": [
+        {
+            "id": "WC-01",
+            "name": "North Wheelchair Service Point",
+            "accessibility_type": "Wheelchair Service Point",
+            "zone": "North",
+            "coordinates": {
+                "x": 22,
+                "y": 20
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-A",
+                "nearest_accessible_entrance": "AE-01",
+                "nearest_accessibility_desk": "AD-01",
+                "nearest_medical_center": "MC-01"
+            },
+            "wheelchair_services": {
+                "wheelchairs_available": 45,
+                "electric_wheelchairs_available": 10,
+                "wheelchair_rental_available": true,
+                "wheelchair_return_service": true,
+                "mobility_assistance_staff": true
+            },
+            "equipment_support": {
+                "wheelchair_charging": true,
+                "minor_repairs": true,
+                "battery_replacement": true,
+                "mobility_device_storage": true
+            },
+            "staff_details": {
+                "staff_count": 6,
+                "trained_assistants": 6,
+                "languages_supported": [
+                    "English",
+                    "Spanish",
+                    "French"
+                ]
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_wheelchairs": 28,
+                "active_requests": 6,
+                "waiting_users": 8,
+                "estimated_wait_time_minutes": 5,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "North Gate Visitors",
+                    "Wheelchair Rental",
+                    "Mobility Assistance"
+                ],
+                "alternative_locations": [
+                    "WC-02"
+                ]
+            }
+        },
+        {
+            "id": "WC-02",
+            "name": "East Wheelchair Service Point",
+            "accessibility_type": "Wheelchair Service Point",
+            "zone": "East",
+            "coordinates": {
+                "x": 85,
+                "y": 45
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-C",
+                "nearest_accessible_entrance": "AE-03",
+                "nearest_accessibility_desk": "AD-02",
+                "nearest_medical_center": "MC-02"
+            },
+            "wheelchair_services": {
+                "wheelchairs_available": 60,
+                "electric_wheelchairs_available": 15,
+                "wheelchair_rental_available": true,
+                "wheelchair_return_service": true,
+                "mobility_assistance_staff": true
+            },
+            "equipment_support": {
+                "wheelchair_charging": true,
+                "minor_repairs": true,
+                "battery_replacement": true,
+                "mobility_device_storage": true
+            },
+            "staff_details": {
+                "staff_count": 8,
+                "trained_assistants": 8,
+                "languages_supported": [
+                    "English",
+                    "Arabic",
+                    "Hindi",
+                    "Tamil"
+                ]
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_wheelchairs": 40,
+                "active_requests": 10,
+                "waiting_users": 15,
+                "estimated_wait_time_minutes": 7,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "International Visitors",
+                    "Large Accessibility Groups",
+                    "East Stand Visitors"
+                ],
+                "alternative_locations": [
+                    "WC-03"
+                ]
+            }
+        },
+        {
+            "id": "WC-03",
+            "name": "South Wheelchair Service Point",
+            "accessibility_type": "Wheelchair Service Point",
+            "zone": "South",
+            "coordinates": {
+                "x": 60,
+                "y": 90
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-F",
+                "nearest_accessible_entrance": "AE-06",
+                "nearest_accessibility_desk": "AD-03",
+                "nearest_medical_center": "MC-03"
+            },
+            "wheelchair_services": {
+                "wheelchairs_available": 50,
+                "electric_wheelchairs_available": 12,
+                "wheelchair_rental_available": true,
+                "wheelchair_return_service": true,
+                "mobility_assistance_staff": true
+            },
+            "equipment_support": {
+                "wheelchair_charging": true,
+                "minor_repairs": true,
+                "battery_replacement": false,
+                "mobility_device_storage": true
+            },
+            "staff_details": {
+                "staff_count": 7,
+                "trained_assistants": 7,
+                "languages_supported": [
+                    "English",
+                    "Portuguese",
+                    "Italian",
+                    "Spanish"
+                ]
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_wheelchairs": 32,
+                "active_requests": 4,
+                "waiting_users": 6,
+                "estimated_wait_time_minutes": 4,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Family Groups",
+                    "South Stand Visitors",
+                    "Elderly Fans"
+                ],
+                "alternative_locations": [
+                    "WC-04"
+                ]
+            }
+        },
+        {
+            "id": "WC-04",
+            "name": "West Wheelchair Service Point",
+            "accessibility_type": "Wheelchair Service Point",
+            "zone": "West",
+            "coordinates": {
+                "x": 14,
+                "y": 58
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-H",
+                "nearest_accessible_entrance": "AE-08",
+                "nearest_accessibility_desk": "AD-04",
+                "nearest_medical_center": "MC-04"
+            },
+            "wheelchair_services": {
+                "wheelchairs_available": 70,
+                "electric_wheelchairs_available": 20,
+                "wheelchair_rental_available": true,
+                "wheelchair_return_service": true,
+                "mobility_assistance_staff": true
+            },
+            "equipment_support": {
+                "wheelchair_charging": true,
+                "minor_repairs": true,
+                "battery_replacement": true,
+                "mobility_device_storage": true
+            },
+            "staff_details": {
+                "staff_count": 10,
+                "trained_assistants": 10,
+                "languages_supported": [
+                    "English",
+                    "Japanese",
+                    "Korean",
+                    "Chinese"
+                ]
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_wheelchairs": 45,
+                "active_requests": 12,
+                "waiting_users": 20,
+                "estimated_wait_time_minutes": 9,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Large Accessibility Groups",
+                    "International Fans",
+                    "West Stand Visitors"
+                ],
+                "alternative_locations": [
+                    "WC-01"
+                ]
+            }
+        }
+    ],
+    "sensory_assistance_zones": [
+        {
+            "id": "SA-01",
+            "name": "North Sensory Support Zone",
+            "accessibility_type": "Sensory Assistance Zone",
+            "zone": "North",
+            "coordinates": {
+                "x": 30,
+                "y": 25
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-A",
+                "nearest_accessible_entrance": "AE-01",
+                "nearest_accessibility_desk": "AD-01",
+                "nearest_medical_center": "MC-01"
+            },
+            "support_services": {
+                "visual_assistance": true,
+                "hearing_assistance": true,
+                "sensory_relief_area": true,
+                "quiet_room": true,
+                "guided_navigation": true,
+                "assistive_technology_support": true
+            },
+            "equipment_available": {
+                "audio_description_devices": 25,
+                "hearing_assistance_devices": 20,
+                "braille_maps": true,
+                "tactile_stadium_maps": true,
+                "noise_cancelling_headphones": 15
+            },
+            "staff_details": {
+                "staff_count": 5,
+                "trained_sensory_support_staff": 5,
+                "languages_supported": [
+                    "English",
+                    "Spanish",
+                    "French"
+                ]
+            },
+            "live_status": {
+                "status": "OPEN",
+                "visitors_using_zone": 18,
+                "available_devices": 22,
+                "quiet_room_occupancy": 4,
+                "estimated_wait_time_minutes": 2,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Visually Impaired Visitors",
+                    "Hearing Impaired Visitors",
+                    "Sensory Sensitive Fans"
+                ],
+                "alternative_locations": [
+                    "SA-02"
+                ]
+            }
+        },
+        {
+            "id": "SA-02",
+            "name": "East Sensory Support Zone",
+            "accessibility_type": "Sensory Assistance Zone",
+            "zone": "East",
+            "coordinates": {
+                "x": 82,
+                "y": 38
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-C",
+                "nearest_accessible_entrance": "AE-03",
+                "nearest_accessibility_desk": "AD-02",
+                "nearest_medical_center": "MC-02"
+            },
+            "support_services": {
+                "visual_assistance": true,
+                "hearing_assistance": true,
+                "sensory_relief_area": true,
+                "quiet_room": true,
+                "guided_navigation": true,
+                "assistive_technology_support": true
+            },
+            "equipment_available": {
+                "audio_description_devices": 30,
+                "hearing_assistance_devices": 35,
+                "braille_maps": true,
+                "tactile_stadium_maps": true,
+                "noise_cancelling_headphones": 20
+            },
+            "staff_details": {
+                "staff_count": 7,
+                "trained_sensory_support_staff": 7,
+                "languages_supported": [
+                    "English",
+                    "Arabic",
+                    "Hindi",
+                    "Tamil"
+                ]
+            },
+            "live_status": {
+                "status": "OPEN",
+                "visitors_using_zone": 25,
+                "available_devices": 35,
+                "quiet_room_occupancy": 7,
+                "estimated_wait_time_minutes": 5,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "International Visitors",
+                    "Hearing Assistance Users",
+                    "Families"
+                ],
+                "alternative_locations": [
+                    "SA-03"
+                ]
+            }
+        },
+        {
+            "id": "SA-03",
+            "name": "South Sensory Support Zone",
+            "accessibility_type": "Sensory Assistance Zone",
+            "zone": "South",
+            "coordinates": {
+                "x": 55,
+                "y": 85
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-F",
+                "nearest_accessible_entrance": "AE-06",
+                "nearest_accessibility_desk": "AD-03",
+                "nearest_medical_center": "MC-03"
+            },
+            "support_services": {
+                "visual_assistance": true,
+                "hearing_assistance": true,
+                "sensory_relief_area": true,
+                "quiet_room": true,
+                "guided_navigation": true,
+                "assistive_technology_support": false
+            },
+            "equipment_available": {
+                "audio_description_devices": 20,
+                "hearing_assistance_devices": 18,
+                "braille_maps": true,
+                "tactile_stadium_maps": true,
+                "noise_cancelling_headphones": 12
+            },
+            "staff_details": {
+                "staff_count": 4,
+                "trained_sensory_support_staff": 4,
+                "languages_supported": [
+                    "English",
+                    "Portuguese",
+                    "Italian",
+                    "Spanish"
+                ]
+            },
+            "live_status": {
+                "status": "OPEN",
+                "visitors_using_zone": 12,
+                "available_devices": 18,
+                "quiet_room_occupancy": 3,
+                "estimated_wait_time_minutes": 2,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Families",
+                    "Sensory Sensitive Visitors",
+                    "South Stand Visitors"
+                ],
+                "alternative_locations": [
+                    "SA-04"
+                ]
+            }
+        },
+        {
+            "id": "SA-04",
+            "name": "West Sensory Support Zone",
+            "accessibility_type": "Sensory Assistance Zone",
+            "zone": "West",
+            "coordinates": {
+                "x": 18,
+                "y": 52
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-H",
+                "nearest_accessible_entrance": "AE-08",
+                "nearest_accessibility_desk": "AD-04",
+                "nearest_medical_center": "MC-04"
+            },
+            "support_services": {
+                "visual_assistance": true,
+                "hearing_assistance": true,
+                "sensory_relief_area": true,
+                "quiet_room": true,
+                "guided_navigation": true,
+                "assistive_technology_support": true
+            },
+            "equipment_available": {
+                "audio_description_devices": 40,
+                "hearing_assistance_devices": 30,
+                "braille_maps": true,
+                "tactile_stadium_maps": true,
+                "noise_cancelling_headphones": 25
+            },
+            "staff_details": {
+                "staff_count": 9,
+                "trained_sensory_support_staff": 9,
+                "languages_supported": [
+                    "English",
+                    "Japanese",
+                    "Korean",
+                    "Chinese"
+                ]
+            },
+            "live_status": {
+                "status": "OPEN",
+                "visitors_using_zone": 32,
+                "available_devices": 45,
+                "quiet_room_occupancy": 8,
+                "estimated_wait_time_minutes": 6,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "International Fans",
+                    "Visually Impaired Visitors",
+                    "Large Accessibility Groups"
+                ],
+                "alternative_locations": [
+                    "SA-01"
+                ]
+            }
+        }
+    ],
+    "accessible_seating_areas": [
+        {
+            "id": "AS-01",
+            "name": "North Accessible Seating Section A",
+            "accessibility_type": "Accessible Seating Area",
+            "zone": "North",
+            "coordinates": {
+                "x": 30,
+                "y": 22
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-A",
+                "nearest_accessible_entrance": "AE-01",
+                "nearest_elevator": "EL-01",
+                "nearest_accessibility_desk": "AD-01",
+                "nearest_medical_center": "MC-01"
+            },
+            "seating_details": {
+                "wheelchair_spaces": 40,
+                "companion_seats": 80,
+                "total_capacity": 120,
+                "seat_type": "Wheelchair Platform Seating"
+            },
+            "accessibility_features": {
+                "clear_sightline": true,
+                "companion_seating": true,
+                "hearing_assistance_available": true,
+                "visual_assistance_available": true,
+                "nearby_assistance_staff": true,
+                "barrier_free_access": true
+            },
+            "live_status": {
+                "status": "AVAILABLE",
+                "occupied_spaces": 75,
+                "available_spaces": 45,
+                "current_requests": 8,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Wheelchair Users",
+                    "Families",
+                    "Elderly Visitors"
+                ],
+                "alternative_locations": [
+                    "AS-02"
+                ]
+            }
+        },
+        {
+            "id": "AS-02",
+            "name": "North Accessible Seating Section B",
+            "accessibility_type": "Accessible Seating Area",
+            "zone": "North",
+            "coordinates": {
+                "x": 42,
+                "y": 25
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-B",
+                "nearest_accessible_entrance": "AE-02",
+                "nearest_elevator": "EL-02",
+                "nearest_accessibility_desk": "AD-01",
+                "nearest_medical_center": "MC-01"
+            },
+            "seating_details": {
+                "wheelchair_spaces": 30,
+                "companion_seats": 60,
+                "total_capacity": 90,
+                "seat_type": "Wheelchair Platform Seating"
+            },
+            "accessibility_features": {
+                "clear_sightline": true,
+                "companion_seating": true,
+                "hearing_assistance_available": true,
+                "visual_assistance_available": false,
+                "nearby_assistance_staff": true,
+                "barrier_free_access": true
+            },
+            "live_status": {
+                "status": "AVAILABLE",
+                "occupied_spaces": 58,
+                "available_spaces": 32,
+                "current_requests": 5,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Wheelchair Users",
+                    "Hearing Assistance Users"
+                ],
+                "alternative_locations": [
+                    "AS-01"
+                ]
+            }
+        },
+        {
+            "id": "AS-03",
+            "name": "East Accessible Seating Section C",
+            "accessibility_type": "Accessible Seating Area",
+            "zone": "East",
+            "coordinates": {
+                "x": 82,
+                "y": 40
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-C",
+                "nearest_accessible_entrance": "AE-03",
+                "nearest_elevator": "EL-03",
+                "nearest_accessibility_desk": "AD-02",
+                "nearest_medical_center": "MC-02"
+            },
+            "seating_details": {
+                "wheelchair_spaces": 50,
+                "companion_seats": 100,
+                "total_capacity": 150,
+                "seat_type": "Premium Accessible Seating"
+            },
+            "accessibility_features": {
+                "clear_sightline": true,
+                "companion_seating": true,
+                "hearing_assistance_available": true,
+                "visual_assistance_available": true,
+                "nearby_assistance_staff": true,
+                "barrier_free_access": true
+            },
+            "live_status": {
+                "status": "AVAILABLE",
+                "occupied_spaces": 110,
+                "available_spaces": 40,
+                "current_requests": 12,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "International Visitors",
+                    "Wheelchair Users",
+                    "Premium Accessibility"
+                ],
+                "alternative_locations": [
+                    "AS-04"
+                ]
+            }
+        },
+        {
+            "id": "AS-04",
+            "name": "East Accessible Seating Section D",
+            "accessibility_type": "Accessible Seating Area",
+            "zone": "East",
+            "coordinates": {
+                "x": 88,
+                "y": 62
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-D",
+                "nearest_accessible_entrance": "AE-04",
+                "nearest_elevator": "EL-04",
+                "nearest_accessibility_desk": "AD-02",
+                "nearest_medical_center": "MC-02"
+            },
+            "seating_details": {
+                "wheelchair_spaces": 35,
+                "companion_seats": 70,
+                "total_capacity": 105,
+                "seat_type": "Accessible Family Seating"
+            },
+            "accessibility_features": {
+                "clear_sightline": true,
+                "companion_seating": true,
+                "hearing_assistance_available": true,
+                "visual_assistance_available": true,
+                "nearby_assistance_staff": true,
+                "barrier_free_access": true
+            },
+            "live_status": {
+                "status": "AVAILABLE",
+                "occupied_spaces": 70,
+                "available_spaces": 35,
+                "current_requests": 6,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Families",
+                    "Elderly Visitors",
+                    "Wheelchair Users"
+                ],
+                "alternative_locations": [
+                    "AS-03"
+                ]
+            }
+        },
+        {
+            "id": "AS-05",
+            "name": "South Accessible Seating Section E",
+            "accessibility_type": "Accessible Seating Area",
+            "zone": "South",
+            "coordinates": {
+                "x": 65,
+                "y": 85
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-E",
+                "nearest_accessible_entrance": "AE-05",
+                "nearest_elevator": "EL-05",
+                "nearest_accessibility_desk": "AD-03",
+                "nearest_medical_center": "MC-03"
+            },
+            "seating_details": {
+                "wheelchair_spaces": 45,
+                "companion_seats": 90,
+                "total_capacity": 135,
+                "seat_type": "Wheelchair Platform Seating"
+            },
+            "accessibility_features": {
+                "clear_sightline": true,
+                "companion_seating": true,
+                "hearing_assistance_available": true,
+                "visual_assistance_available": true,
+                "nearby_assistance_staff": true,
+                "barrier_free_access": true
+            },
+            "live_status": {
+                "status": "AVAILABLE",
+                "occupied_spaces": 90,
+                "available_spaces": 45,
+                "current_requests": 9,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "South Stand Visitors",
+                    "Wheelchair Users"
+                ],
+                "alternative_locations": [
+                    "AS-06"
+                ]
+            }
+        },
+        {
+            "id": "AS-06",
+            "name": "South Accessible Seating Section F",
+            "accessibility_type": "Accessible Seating Area",
+            "zone": "South",
+            "coordinates": {
+                "x": 50,
+                "y": 90
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-F",
+                "nearest_accessible_entrance": "AE-06",
+                "nearest_elevator": "EL-06",
+                "nearest_accessibility_desk": "AD-03",
+                "nearest_medical_center": "MC-03"
+            },
+            "seating_details": {
+                "wheelchair_spaces": 25,
+                "companion_seats": 50,
+                "total_capacity": 75,
+                "seat_type": "Quiet Accessible Seating"
+            },
+            "accessibility_features": {
+                "clear_sightline": true,
+                "companion_seating": true,
+                "hearing_assistance_available": true,
+                "visual_assistance_available": true,
+                "nearby_assistance_staff": true,
+                "barrier_free_access": true
+            },
+            "live_status": {
+                "status": "AVAILABLE",
+                "occupied_spaces": 40,
+                "available_spaces": 35,
+                "current_requests": 4,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Sensory Sensitive Visitors",
+                    "Families"
+                ],
+                "alternative_locations": [
+                    "AS-05"
+                ]
+            }
+        },
+        {
+            "id": "AS-07",
+            "name": "West Accessible Seating Section G",
+            "accessibility_type": "Accessible Seating Area",
+            "zone": "West",
+            "coordinates": {
+                "x": 20,
+                "y": 55
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-G",
+                "nearest_accessible_entrance": "AE-07",
+                "nearest_elevator": "EL-07",
+                "nearest_accessibility_desk": "AD-04",
+                "nearest_medical_center": "MC-04"
+            },
+            "seating_details": {
+                "wheelchair_spaces": 60,
+                "companion_seats": 120,
+                "total_capacity": 180,
+                "seat_type": "Premium Accessible Seating"
+            },
+            "accessibility_features": {
+                "clear_sightline": true,
+                "companion_seating": true,
+                "hearing_assistance_available": true,
+                "visual_assistance_available": true,
+                "nearby_assistance_staff": true,
+                "barrier_free_access": true
+            },
+            "live_status": {
+                "status": "AVAILABLE",
+                "occupied_spaces": 140,
+                "available_spaces": 40,
+                "current_requests": 15,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Large Accessibility Groups",
+                    "International Fans"
+                ],
+                "alternative_locations": [
+                    "AS-08"
+                ]
+            }
+        },
+        {
+            "id": "AS-08",
+            "name": "West Accessible Seating Section H",
+            "accessibility_type": "Accessible Seating Area",
+            "zone": "West",
+            "coordinates": {
+                "x": 12,
+                "y": 45
+            },
+            "connected_locations": {
+                "nearest_gate": "GATE-H",
+                "nearest_accessible_entrance": "AE-08",
+                "nearest_elevator": "EL-08",
+                "nearest_accessibility_desk": "AD-04",
+                "nearest_medical_center": "MC-04"
+            },
+            "seating_details": {
+                "wheelchair_spaces": 55,
+                "companion_seats": 110,
+                "total_capacity": 165,
+                "seat_type": "Accessible Family Seating"
+            },
+            "accessibility_features": {
+                "clear_sightline": true,
+                "companion_seating": true,
+                "hearing_assistance_available": true,
+                "visual_assistance_available": true,
+                "nearby_assistance_staff": true,
+                "barrier_free_access": true
+            },
+            "live_status": {
+                "status": "AVAILABLE",
+                "occupied_spaces": 100,
+                "available_spaces": 65,
+                "current_requests": 7,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Wheelchair Users",
+                    "Families",
+                    "Quick Exit Preference"
+                ],
+                "alternative_locations": [
+                    "AS-07"
+                ]
+            }
+        }
+    ]
+}

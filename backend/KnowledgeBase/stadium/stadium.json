@@ -1,0 +1,286 @@
+{
+    "stadium": {
+        "id": "WCA-001",
+        "name": "World Cup Arena",
+        "short_name": "WCA",
+        "version": "1.0.0",
+        "description": "A fictional FIFA World Cup 2026 stadium used for AI demonstrations and hackathon projects.",
+        "country": "United States",
+        "city": "Dallas",
+        "timezone": "America/Chicago",
+        "capacity": 80000,
+        "opened": 2026,
+        "floors": 4,
+        "surface": "Hybrid Grass",
+        "roof": "Retractable",
+        "ownership": "FIFA Tournament Operations",
+        "match_days": true,
+        "public_access": true
+    },
+    "operating_hours": {
+        "stadium_open": "08:00",
+        "stadium_close": "23:30",
+        "gates_open_before_match": "03:00",
+        "parking_open_before_match": "04:00",
+        "food_courts_open": "09:00",
+        "food_courts_close": "23:00",
+        "team_store_open": "09:00",
+        "team_store_close": "22:30"
+    },
+    "floors": [
+        {
+            "id": "F1",
+            "name": "Ground Level",
+            "description": "Main entrances, parking access, medical center, transportation hub."
+        },
+        {
+            "id": "F2",
+            "name": "Lower Bowl",
+            "description": "Lower seating sections, food courts, restrooms, merchandise."
+        },
+        {
+            "id": "F3",
+            "name": "Upper Bowl",
+            "description": "Upper seating, premium restaurants, lounges."
+        },
+        {
+            "id": "F4",
+            "name": "VIP & Operations",
+            "description": "VIP lounges, media center, tournament operations."
+        }
+    ],
+    "sections": {
+        "count": 26,
+        "names": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "H",
+            "I",
+            "J",
+            "K",
+            "L",
+            "M",
+            "N",
+            "O",
+            "P",
+            "Q",
+            "R",
+            "S",
+            "T",
+            "U",
+            "V",
+            "W",
+            "X",
+            "Y",
+            "Z"
+        ]
+    },
+    "gates": {
+        "count": 8,
+        "ids": [
+            "GATE-A",
+            "GATE-B",
+            "GATE-C",
+            "GATE-D",
+            "GATE-E",
+            "GATE-F",
+            "GATE-G",
+            "GATE-H"
+        ]
+    },
+    "parking": {
+        "lots": [
+            "P1",
+            "P2",
+            "P3",
+            "P4",
+            "P5",
+            "P6"
+        ]
+    },
+    "zones": [
+        {
+            "id": "ZONE-NORTH",
+            "name": "North Zone",
+            "serves_sections": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+            ]
+        },
+        {
+            "id": "ZONE-EAST",
+            "name": "East Zone",
+            "serves_sections": [
+                "H",
+                "I",
+                "J",
+                "K",
+                "L",
+                "M"
+            ]
+        },
+        {
+            "id": "ZONE-SOUTH",
+            "name": "South Zone",
+            "serves_sections": [
+                "N",
+                "O",
+                "P",
+                "Q",
+                "R",
+                "S"
+            ]
+        },
+        {
+            "id": "ZONE-WEST",
+            "name": "West Zone",
+            "serves_sections": [
+                "T",
+                "U",
+                "V",
+                "W",
+                "X",
+                "Y",
+                "Z"
+            ]
+        }
+    ],
+    "facilities_summary": {
+        "food_courts": 8,
+        "restaurants": 20,
+        "coffee_shops": 12,
+        "restrooms": 56,
+        "baby_care_rooms": 4,
+        "family_rooms": 4,
+        "medical_centers": 6,
+        "information_desks": 10,
+        "merchandise_stores": 8,
+        "charging_stations": 30,
+        "water_refill_stations": 40,
+        "atm": 18,
+        "prayer_rooms": 2,
+        "wheelchair_assistance_points": 8,
+        "accessible_restrooms": 24,
+        "vip_lounges": 4,
+        "media_rooms": 3,
+        "first_aid_points": 12
+    },
+    "transportation": {
+        "metro_station": "World Cup Arena Metro",
+        "bus_terminal": "WCA Central Bus Hub",
+        "taxi_zone": "East Plaza",
+        "rideshare_zone": "South Plaza",
+        "airport_shuttle": true,
+        "bicycle_parking": true
+    },
+    "security": {
+        "security_control_room": "Operations Floor",
+        "cctv_cameras": 1800,
+        "bag_screening_points": 16,
+        "metal_detectors": 32,
+        "emergency_exits": 24,
+        "fire_command_center": true
+    },
+    "accessibility": {
+        "wheelchair_accessible": true,
+        "wheelchair_rental": true,
+        "accessible_parking": true,
+        "accessible_restrooms": true,
+        "assistive_listening_devices": true,
+        "service_animals_allowed": true,
+        "braille_signage": true,
+        "hearing_loop_system": true,
+        "low_sensory_room": true
+    },
+    "supported_languages": [
+        "English",
+        "Spanish",
+        "French",
+        "German",
+        "Portuguese",
+        "Italian",
+        "Dutch",
+        "Arabic",
+        "Hindi",
+        "Japanese",
+        "Korean",
+        "Chinese",
+        "Turkish"
+    ],
+    "contact_information": {
+        "information_desk": "+1-800-WCA-INFO",
+        "lost_and_found": "+1-800-WCA-LOST",
+        "medical_emergency": "+1-800-WCA-MED",
+        "security": "+1-800-WCA-911",
+        "email": "support@worldcuparena.demo"
+    },
+    "digital_services": {
+        "free_wifi": true,
+        "wifi_ssid": "WorldCupArena-Free",
+        "mobile_app": "World Cup Arena",
+        "digital_ticketing": true,
+        "mobile_payments": true,
+        "cashless_stadium": true,
+        "ai_assistant": "StadiumGPT"
+    },
+    "environmental": {
+        "solar_power_percentage": 35,
+        "rainwater_harvesting": true,
+        "waste_segregation": true,
+        "plastic_free_goal": true,
+        "ev_charging_stations": 60
+    },
+    "match_day_flow": [
+        {
+            "time": "-4h",
+            "activity": "Parking opens"
+        },
+        {
+            "time": "-3h",
+            "activity": "Gates open"
+        },
+        {
+            "time": "-2h",
+            "activity": "Entertainment begins"
+        },
+        {
+            "time": "-1h",
+            "activity": "Teams warm up"
+        },
+        {
+            "time": "0",
+            "activity": "Kickoff"
+        },
+        {
+            "time": "+2h",
+            "activity": "Expected match end"
+        },
+        {
+            "time": "+3h",
+            "activity": "Venue closes gradually"
+        }
+    ],
+    "ai_context": {
+        "assistant_name": "StadiumGPT",
+        "purpose": "Help fans, volunteers, organizers and staff navigate and operate the stadium efficiently.",
+        "response_style": "Professional, concise, friendly and safety-first.",
+        "default_language": "English",
+        "always_prioritize": [
+            "Safety",
+            "Accessibility",
+            "Accurate Navigation",
+            "Official Stadium Policies",
+            "Real-time Announcements"
+        ]
+    }
+}

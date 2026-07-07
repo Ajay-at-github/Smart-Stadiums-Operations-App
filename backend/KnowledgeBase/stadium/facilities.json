@@ -1,0 +1,5699 @@
+{
+    "food_courts": [
+        {
+            "id": "FC-01",
+            "name": "North Food Court",
+            "zone": "North",
+            "floor": "F1",
+            "coordinates": {
+                "x": 18,
+                "y": 22
+            },
+            "nearby_sections": [
+                "SEC-A",
+                "SEC-B",
+                "SEC-C"
+            ],
+            "nearby_gates": [
+                "GATE-A",
+                "GATE-B"
+            ],
+            "vendors": [
+                {
+                    "id": "V-001",
+                    "name": "Pizza Corner",
+                    "category": "Italian"
+                },
+                {
+                    "id": "V-002",
+                    "name": "Burger Hub",
+                    "category": "Fast Food"
+                },
+                {
+                    "id": "V-003",
+                    "name": "Coffee Express",
+                    "category": "Beverages"
+                },
+                {
+                    "id": "V-004",
+                    "name": "Fresh Juice Bar",
+                    "category": "Juices"
+                },
+                {
+                    "id": "V-005",
+                    "name": "Sweet Treats",
+                    "category": "Desserts"
+                }
+            ],
+            "seating_capacity": 220,
+            "amenities": {
+                "indoor_seating": true,
+                "outdoor_seating": false,
+                "family_area": true,
+                "charging_points": true,
+                "drinking_water": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "braille_menu": true,
+                "hearing_assistance": false
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "MEDIUM",
+                "current_people": 132,
+                "queue_length": 24,
+                "estimated_wait_time_minutes": 8,
+                "available_tables": 21,
+                "cleanliness": "EXCELLENT",
+                "average_order_preparation_minutes": 7,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "payment_methods": [
+                "Cash",
+                "Debit Card",
+                "Credit Card",
+                "UPI"
+            ],
+            "ai_metadata": {
+                "recommended_for": [
+                    "Families",
+                    "Kids",
+                    "Quick Meals"
+                ],
+                "peak_hours": [
+                    "12:00-14:00",
+                    "18:00-20:30"
+                ],
+                "average_rating": 4.7
+            }
+        },
+        {
+            "id": "FC-02",
+            "name": "North Central Food Court",
+            "zone": "North",
+            "floor": "F1",
+            "coordinates": {
+                "x": 34,
+                "y": 20
+            },
+            "nearby_sections": [
+                "SEC-D",
+                "SEC-E",
+                "SEC-F"
+            ],
+            "nearby_gates": [
+                "GATE-B",
+                "GATE-C"
+            ],
+            "vendors": [
+                {
+                    "id": "V-006",
+                    "name": "South Spice Kitchen",
+                    "category": "Indian"
+                },
+                {
+                    "id": "V-007",
+                    "name": "Taco Fiesta",
+                    "category": "Mexican"
+                },
+                {
+                    "id": "V-008",
+                    "name": "Noodle Bowl",
+                    "category": "Asian"
+                },
+                {
+                    "id": "V-009",
+                    "name": "Green Leaf Café",
+                    "category": "Vegetarian"
+                },
+                {
+                    "id": "V-010",
+                    "name": "Ice Cream World",
+                    "category": "Desserts"
+                }
+            ],
+            "seating_capacity": 200,
+            "amenities": {
+                "indoor_seating": true,
+                "outdoor_seating": true,
+                "family_area": true,
+                "charging_points": true,
+                "drinking_water": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "braille_menu": true,
+                "hearing_assistance": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "HIGH",
+                "current_people": 186,
+                "queue_length": 41,
+                "estimated_wait_time_minutes": 14,
+                "available_tables": 8,
+                "cleanliness": "GOOD",
+                "average_order_preparation_minutes": 10,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "payment_methods": [
+                "Cash",
+                "Debit Card",
+                "Credit Card",
+                "UPI",
+                "NFC"
+            ],
+            "ai_metadata": {
+                "recommended_for": [
+                    "Vegetarian",
+                    "Groups",
+                    "Lunch"
+                ],
+                "peak_hours": [
+                    "11:30-14:30",
+                    "18:30-21:00"
+                ],
+                "average_rating": 4.5
+            }
+        },
+        {
+            "id": "FC-03",
+            "name": "West Food Court",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 16,
+                "y": 48
+            },
+            "nearby_sections": [
+                "SEC-W",
+                "SEC-X",
+                "SEC-Y"
+            ],
+            "nearby_gates": [
+                "GATE-G",
+                "GATE-H"
+            ],
+            "vendors": [
+                {
+                    "id": "V-011",
+                    "name": "Tokyo Ramen",
+                    "category": "Japanese",
+                    "cuisine": "Japanese",
+                    "popular_items": [
+                        "Tonkotsu Ramen",
+                        "Chicken Gyoza",
+                        "Miso Ramen"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": false,
+                    "halal": true,
+                    "gluten_free": false,
+                    "average_price_usd": 14,
+                    "average_preparation_minutes": 10
+                },
+                {
+                    "id": "V-012",
+                    "name": "BBQ Grill House",
+                    "category": "Barbecue",
+                    "cuisine": "American",
+                    "popular_items": [
+                        "BBQ Chicken",
+                        "Loaded Fries",
+                        "Grilled Corn"
+                    ],
+                    "vegetarian": false,
+                    "vegan_options": false,
+                    "halal": true,
+                    "gluten_free": true,
+                    "average_price_usd": 16,
+                    "average_preparation_minutes": 12
+                },
+                {
+                    "id": "V-013",
+                    "name": "Healthy Bites",
+                    "category": "Healthy",
+                    "cuisine": "International",
+                    "popular_items": [
+                        "Protein Bowl",
+                        "Caesar Salad",
+                        "Fruit Cup"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": true,
+                    "halal": true,
+                    "gluten_free": true,
+                    "average_price_usd": 11,
+                    "average_preparation_minutes": 6
+                },
+                {
+                    "id": "V-014",
+                    "name": "Coffee Express West",
+                    "category": "Beverages",
+                    "cuisine": "Cafe",
+                    "popular_items": [
+                        "Latte",
+                        "Cold Brew",
+                        "Blueberry Muffin"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": true,
+                    "halal": true,
+                    "gluten_free": false,
+                    "average_price_usd": 6,
+                    "average_preparation_minutes": 3
+                }
+            ],
+            "seating_capacity": 210,
+            "amenities": {
+                "indoor_seating": true,
+                "outdoor_seating": true,
+                "family_area": false,
+                "charging_points": true,
+                "drinking_water": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "braille_menu": true,
+                "hearing_assistance": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "LOW",
+                "current_people": 88,
+                "queue_length": 12,
+                "estimated_wait_time_minutes": 4,
+                "available_tables": 34,
+                "cleanliness": "EXCELLENT",
+                "average_order_preparation_minutes": 7,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "payment_methods": [
+                "Cash",
+                "Debit Card",
+                "Credit Card",
+                "UPI",
+                "NFC"
+            ],
+            "ai_metadata": {
+                "recommended_for": [
+                    "Healthy Meals",
+                    "Quick Snacks",
+                    "Coffee Lovers"
+                ],
+                "peak_hours": [
+                    "12:30-14:00",
+                    "18:00-19:30"
+                ],
+                "average_rating": 4.8
+            }
+        },
+        {
+            "id": "FC-04",
+            "name": "West Premium Food Court",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 14,
+                "y": 66
+            },
+            "nearby_sections": [
+                "SEC-T",
+                "SEC-U",
+                "SEC-V"
+            ],
+            "nearby_gates": [
+                "GATE-F",
+                "GATE-G"
+            ],
+            "vendors": [
+                {
+                    "id": "V-015",
+                    "name": "Napoli Pizza",
+                    "category": "Italian",
+                    "cuisine": "Italian",
+                    "popular_items": [
+                        "Wood Fired Pizza",
+                        "Pasta Alfredo",
+                        "Bruschetta"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": false,
+                    "halal": true,
+                    "gluten_free": false,
+                    "average_price_usd": 15,
+                    "average_preparation_minutes": 9
+                },
+                {
+                    "id": "V-016",
+                    "name": "Royal Biryani",
+                    "category": "Indian",
+                    "cuisine": "Indian",
+                    "popular_items": [
+                        "Chicken Biryani",
+                        "Veg Biryani",
+                        "Paneer Tikka"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": false,
+                    "halal": true,
+                    "gluten_free": true,
+                    "average_price_usd": 13,
+                    "average_preparation_minutes": 11
+                },
+                {
+                    "id": "V-017",
+                    "name": "Smoothie Station",
+                    "category": "Beverages",
+                    "cuisine": "Healthy",
+                    "popular_items": [
+                        "Mango Smoothie",
+                        "Berry Blast",
+                        "Protein Shake"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": true,
+                    "halal": true,
+                    "gluten_free": true,
+                    "average_price_usd": 7,
+                    "average_preparation_minutes": 4
+                },
+                {
+                    "id": "V-018",
+                    "name": "Sweet Delights",
+                    "category": "Desserts",
+                    "cuisine": "Bakery",
+                    "popular_items": [
+                        "Cheesecake",
+                        "Chocolate Brownie",
+                        "Macarons"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": true,
+                    "halal": true,
+                    "gluten_free": false,
+                    "average_price_usd": 8,
+                    "average_preparation_minutes": 2
+                }
+            ],
+            "seating_capacity": 250,
+            "amenities": {
+                "indoor_seating": true,
+                "outdoor_seating": true,
+                "family_area": true,
+                "charging_points": true,
+                "drinking_water": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "braille_menu": true,
+                "hearing_assistance": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "HIGH",
+                "current_people": 221,
+                "queue_length": 48,
+                "estimated_wait_time_minutes": 15,
+                "available_tables": 7,
+                "cleanliness": "GOOD",
+                "average_order_preparation_minutes": 10,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "payment_methods": [
+                "Cash",
+                "Debit Card",
+                "Credit Card",
+                "UPI",
+                "NFC"
+            ],
+            "ai_metadata": {
+                "recommended_for": [
+                    "Groups",
+                    "Premium Dining",
+                    "Dinner"
+                ],
+                "peak_hours": [
+                    "13:00-14:30",
+                    "19:00-21:30"
+                ],
+                "average_rating": 4.9
+            }
+        },
+        {
+            "id": "FC-05",
+            "name": "North-West Food Court",
+            "zone": "North-West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 12,
+                "y": 34
+            },
+            "nearby_sections": [
+                "SEC-G",
+                "SEC-S",
+                "SEC-T"
+            ],
+            "nearby_gates": [
+                "GATE-F",
+                "GATE-G"
+            ],
+            "vendors": [
+                {
+                    "id": "V-019",
+                    "name": "Mediterranean Grill",
+                    "category": "Mediterranean",
+                    "cuisine": "Mediterranean",
+                    "popular_items": [
+                        "Chicken Shawarma",
+                        "Falafel Wrap",
+                        "Hummus Platter"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": true,
+                    "halal": true,
+                    "gluten_free": false,
+                    "average_price_usd": 13,
+                    "average_preparation_minutes": 8
+                },
+                {
+                    "id": "V-020",
+                    "name": "Wok Express",
+                    "category": "Asian",
+                    "cuisine": "Chinese",
+                    "popular_items": [
+                        "Fried Rice",
+                        "Hakka Noodles",
+                        "Chilli Paneer"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": false,
+                    "halal": true,
+                    "gluten_free": false,
+                    "average_price_usd": 11,
+                    "average_preparation_minutes": 7
+                },
+                {
+                    "id": "V-021",
+                    "name": "Fresh Greens",
+                    "category": "Healthy",
+                    "cuisine": "International",
+                    "popular_items": [
+                        "Quinoa Bowl",
+                        "Greek Salad",
+                        "Fruit Smoothie"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": true,
+                    "halal": true,
+                    "gluten_free": true,
+                    "average_price_usd": 10,
+                    "average_preparation_minutes": 5
+                },
+                {
+                    "id": "V-022",
+                    "name": "Frozen Delights",
+                    "category": "Desserts",
+                    "cuisine": "Ice Cream",
+                    "popular_items": [
+                        "Gelato",
+                        "Frozen Yogurt",
+                        "Chocolate Sundae"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": true,
+                    "halal": true,
+                    "gluten_free": true,
+                    "average_price_usd": 6,
+                    "average_preparation_minutes": 2
+                }
+            ],
+            "seating_capacity": 230,
+            "amenities": {
+                "indoor_seating": true,
+                "outdoor_seating": true,
+                "family_area": true,
+                "charging_points": true,
+                "drinking_water": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "braille_menu": true,
+                "hearing_assistance": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "MEDIUM",
+                "current_people": 145,
+                "queue_length": 28,
+                "estimated_wait_time_minutes": 9,
+                "available_tables": 20,
+                "cleanliness": "EXCELLENT",
+                "average_order_preparation_minutes": 7,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "payment_methods": [
+                "Cash",
+                "Debit Card",
+                "Credit Card",
+                "UPI",
+                "NFC"
+            ],
+            "ai_metadata": {
+                "recommended_for": [
+                    "Healthy Meals",
+                    "Families",
+                    "Vegetarian"
+                ],
+                "peak_hours": [
+                    "12:00-14:00",
+                    "18:30-20:00"
+                ],
+                "average_rating": 4.7
+            }
+        },
+        {
+            "id": "FC-06",
+            "name": "East Food Court",
+            "zone": "East",
+            "floor": "F1",
+            "coordinates": {
+                "x": 82,
+                "y": 36
+            },
+            "nearby_sections": [
+                "SEC-H",
+                "SEC-I",
+                "SEC-J"
+            ],
+            "nearby_gates": [
+                "GATE-C",
+                "GATE-D"
+            ],
+            "vendors": [
+                {
+                    "id": "V-023",
+                    "name": "Seoul Kitchen",
+                    "category": "Korean",
+                    "cuisine": "Korean",
+                    "popular_items": [
+                        "Bibimbap",
+                        "Korean Fried Chicken",
+                        "Kimchi Rice"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": false,
+                    "halal": true,
+                    "gluten_free": false,
+                    "average_price_usd": 14,
+                    "average_preparation_minutes": 9
+                },
+                {
+                    "id": "V-024",
+                    "name": "Curry House",
+                    "category": "Indian",
+                    "cuisine": "Indian",
+                    "popular_items": [
+                        "Butter Chicken",
+                        "Paneer Butter Masala",
+                        "Garlic Naan"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": false,
+                    "halal": true,
+                    "gluten_free": true,
+                    "average_price_usd": 12,
+                    "average_preparation_minutes": 10
+                },
+                {
+                    "id": "V-025",
+                    "name": "Wrap & Roll",
+                    "category": "Fast Food",
+                    "cuisine": "International",
+                    "popular_items": [
+                        "Chicken Wrap",
+                        "Veg Wrap",
+                        "Loaded Fries"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": true,
+                    "halal": true,
+                    "gluten_free": false,
+                    "average_price_usd": 9,
+                    "average_preparation_minutes": 5
+                },
+                {
+                    "id": "V-026",
+                    "name": "Tea & Treats",
+                    "category": "Beverages",
+                    "cuisine": "Cafe",
+                    "popular_items": [
+                        "Masala Chai",
+                        "Cappuccino",
+                        "Chocolate Croissant"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": true,
+                    "halal": true,
+                    "gluten_free": false,
+                    "average_price_usd": 5,
+                    "average_preparation_minutes": 3
+                }
+            ],
+            "seating_capacity": 240,
+            "amenities": {
+                "indoor_seating": true,
+                "outdoor_seating": false,
+                "family_area": true,
+                "charging_points": true,
+                "drinking_water": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "braille_menu": true,
+                "hearing_assistance": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "LOW",
+                "current_people": 94,
+                "queue_length": 11,
+                "estimated_wait_time_minutes": 4,
+                "available_tables": 37,
+                "cleanliness": "EXCELLENT",
+                "average_order_preparation_minutes": 6,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "payment_methods": [
+                "Cash",
+                "Debit Card",
+                "Credit Card",
+                "UPI",
+                "NFC"
+            ],
+            "ai_metadata": {
+                "recommended_for": [
+                    "Quick Meals",
+                    "International Cuisine",
+                    "Families"
+                ],
+                "peak_hours": [
+                    "11:30-13:30",
+                    "18:00-19:30"
+                ],
+                "average_rating": 4.8
+            }
+        },
+        {
+            "id": "FC-07",
+            "name": "South Food Court",
+            "zone": "South",
+            "floor": "F1",
+            "coordinates": {
+                "x": 72,
+                "y": 84
+            },
+            "nearby_sections": [
+                "SEC-K",
+                "SEC-L",
+                "SEC-M",
+                "SEC-N"
+            ],
+            "nearby_gates": [
+                "GATE-D",
+                "GATE-E"
+            ],
+            "vendors": [
+                {
+                    "id": "V-027",
+                    "name": "Mexi Fiesta",
+                    "category": "Mexican",
+                    "cuisine": "Mexican",
+                    "popular_items": [
+                        "Chicken Burrito",
+                        "Veg Tacos",
+                        "Loaded Nachos"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": true,
+                    "halal": true,
+                    "gluten_free": false,
+                    "average_price_usd": 12,
+                    "average_preparation_minutes": 8
+                },
+                {
+                    "id": "V-028",
+                    "name": "Sushi Express",
+                    "category": "Japanese",
+                    "cuisine": "Japanese",
+                    "popular_items": [
+                        "California Roll",
+                        "Salmon Nigiri",
+                        "Veg Sushi"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": false,
+                    "halal": false,
+                    "gluten_free": true,
+                    "average_price_usd": 16,
+                    "average_preparation_minutes": 10
+                },
+                {
+                    "id": "V-029",
+                    "name": "Tandoor Junction",
+                    "category": "Indian",
+                    "cuisine": "North Indian",
+                    "popular_items": [
+                        "Chicken Tikka",
+                        "Paneer Tikka",
+                        "Butter Naan"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": false,
+                    "halal": true,
+                    "gluten_free": false,
+                    "average_price_usd": 13,
+                    "average_preparation_minutes": 9
+                },
+                {
+                    "id": "V-030",
+                    "name": "Fresh Brew Café",
+                    "category": "Beverages",
+                    "cuisine": "Cafe",
+                    "popular_items": [
+                        "Espresso",
+                        "Iced Latte",
+                        "Blueberry Cheesecake"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": true,
+                    "halal": true,
+                    "gluten_free": false,
+                    "average_price_usd": 7,
+                    "average_preparation_minutes": 3
+                }
+            ],
+            "seating_capacity": 260,
+            "amenities": {
+                "indoor_seating": true,
+                "outdoor_seating": true,
+                "family_area": true,
+                "charging_points": true,
+                "drinking_water": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "braille_menu": true,
+                "hearing_assistance": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "HIGH",
+                "current_people": 228,
+                "queue_length": 44,
+                "estimated_wait_time_minutes": 13,
+                "available_tables": 10,
+                "cleanliness": "GOOD",
+                "average_order_preparation_minutes": 8,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "payment_methods": [
+                "Cash",
+                "Debit Card",
+                "Credit Card",
+                "UPI",
+                "NFC"
+            ],
+            "ai_metadata": {
+                "recommended_for": [
+                    "Dinner",
+                    "Groups",
+                    "International Cuisine"
+                ],
+                "peak_hours": [
+                    "12:30-14:30",
+                    "18:30-21:00"
+                ],
+                "average_rating": 4.6
+            }
+        },
+        {
+            "id": "FC-08",
+            "name": "South Central Food Court",
+            "zone": "South",
+            "floor": "F1",
+            "coordinates": {
+                "x": 56,
+                "y": 94
+            },
+            "nearby_sections": [
+                "SEC-O",
+                "SEC-P",
+                "SEC-Q",
+                "SEC-R"
+            ],
+            "nearby_gates": [
+                "GATE-E",
+                "GATE-F"
+            ],
+            "vendors": [
+                {
+                    "id": "V-031",
+                    "name": "Mediterranean Delight",
+                    "category": "Mediterranean",
+                    "cuisine": "Mediterranean",
+                    "popular_items": [
+                        "Chicken Gyro",
+                        "Falafel Bowl",
+                        "Greek Salad"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": true,
+                    "halal": true,
+                    "gluten_free": true,
+                    "average_price_usd": 14,
+                    "average_preparation_minutes": 8
+                },
+                {
+                    "id": "V-032",
+                    "name": "Pasta Piazza",
+                    "category": "Italian",
+                    "cuisine": "Italian",
+                    "popular_items": [
+                        "Spaghetti Bolognese",
+                        "Penne Alfredo",
+                        "Garlic Bread"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": false,
+                    "halal": true,
+                    "gluten_free": false,
+                    "average_price_usd": 15,
+                    "average_preparation_minutes": 10
+                },
+                {
+                    "id": "V-033",
+                    "name": "Vegan Planet",
+                    "category": "Healthy",
+                    "cuisine": "Plant Based",
+                    "popular_items": [
+                        "Vegan Burger",
+                        "Quinoa Bowl",
+                        "Green Smoothie"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": true,
+                    "halal": true,
+                    "gluten_free": true,
+                    "average_price_usd": 11,
+                    "average_preparation_minutes": 6
+                },
+                {
+                    "id": "V-034",
+                    "name": "Sweet Corner",
+                    "category": "Desserts",
+                    "cuisine": "Bakery",
+                    "popular_items": [
+                        "Chocolate Lava Cake",
+                        "Fruit Tart",
+                        "Vanilla Ice Cream"
+                    ],
+                    "vegetarian": true,
+                    "vegan_options": false,
+                    "halal": true,
+                    "gluten_free": false,
+                    "average_price_usd": 6,
+                    "average_preparation_minutes": 2
+                }
+            ],
+            "seating_capacity": 240,
+            "amenities": {
+                "indoor_seating": true,
+                "outdoor_seating": false,
+                "family_area": true,
+                "charging_points": true,
+                "drinking_water": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "braille_menu": true,
+                "hearing_assistance": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "LOW",
+                "current_people": 98,
+                "queue_length": 9,
+                "estimated_wait_time_minutes": 4,
+                "available_tables": 39,
+                "cleanliness": "EXCELLENT",
+                "average_order_preparation_minutes": 5,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "payment_methods": [
+                "Cash",
+                "Debit Card",
+                "Credit Card",
+                "UPI",
+                "NFC"
+            ],
+            "ai_metadata": {
+                "recommended_for": [
+                    "Healthy Meals",
+                    "Vegetarian",
+                    "Quick Service",
+                    "Families"
+                ],
+                "peak_hours": [
+                    "12:00-13:30",
+                    "18:00-19:30"
+                ],
+                "average_rating": 4.8
+            }
+        }
+    ],
+    "medical_centers": [
+        {
+            "id": "MC-01",
+            "name": "North Medical Center",
+            "zone": "North",
+            "floor": "F1",
+            "coordinates": {
+                "x": 20,
+                "y": 18
+            },
+            "nearby_sections": [
+                "SEC-A",
+                "SEC-B",
+                "SEC-C",
+                "SEC-D",
+                "SEC-E",
+                "SEC-F"
+            ],
+            "nearby_gates": [
+                "GATE-A",
+                "GATE-B"
+            ],
+            "services": [
+                "First Aid",
+                "Emergency Care",
+                "Cardiac Support",
+                "Minor Trauma",
+                "Hydration Station"
+            ],
+            "staff": {
+                "doctors": 2,
+                "nurses": 6,
+                "paramedics": 4,
+                "volunteers": 5
+            },
+            "equipment": {
+                "aed": 2,
+                "wheelchairs": 6,
+                "stretchers": 4,
+                "oxygen_units": 8,
+                "trauma_kits": 5
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "sign_language_support": true,
+                "braille_signage": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "current_patients": 3,
+                "available_beds": 8,
+                "average_wait_time_minutes": 4,
+                "medical_alert_level": "NORMAL",
+                "ambulance_available": true,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "contact": {
+                "extension": "9111",
+                "radio_channel": "MEDICAL-1"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Minor Injuries",
+                    "First Aid",
+                    "Dehydration"
+                ],
+                "response_radius_sections": [
+                    "SEC-A",
+                    "SEC-B",
+                    "SEC-C",
+                    "SEC-D",
+                    "SEC-E",
+                    "SEC-F"
+                ]
+            }
+        },
+        {
+            "id": "MC-02",
+            "name": "West Medical Center",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 18,
+                "y": 52
+            },
+            "nearby_sections": [
+                "SEC-W",
+                "SEC-X",
+                "SEC-Y",
+                "SEC-Z"
+            ],
+            "nearby_gates": [
+                "GATE-G",
+                "GATE-H"
+            ],
+            "services": [
+                "Emergency Care",
+                "Orthopedic Care",
+                "Cardiac Support",
+                "VIP Medical Assistance",
+                "First Aid"
+            ],
+            "staff": {
+                "doctors": 3,
+                "nurses": 8,
+                "paramedics": 5,
+                "volunteers": 4
+            },
+            "equipment": {
+                "aed": 3,
+                "wheelchairs": 8,
+                "stretchers": 5,
+                "oxygen_units": 10,
+                "trauma_kits": 6
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "sign_language_support": true,
+                "braille_signage": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "current_patients": 6,
+                "available_beds": 6,
+                "average_wait_time_minutes": 7,
+                "medical_alert_level": "NORMAL",
+                "ambulance_available": true,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "contact": {
+                "extension": "9112",
+                "radio_channel": "MEDICAL-2"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "VIP",
+                    "Trauma",
+                    "Orthopedic"
+                ],
+                "response_radius_sections": [
+                    "SEC-T",
+                    "SEC-U",
+                    "SEC-V",
+                    "SEC-W",
+                    "SEC-X",
+                    "SEC-Y",
+                    "SEC-Z"
+                ]
+            }
+        },
+        {
+            "id": "MC-03",
+            "name": "South Medical Center",
+            "zone": "South",
+            "floor": "F1",
+            "coordinates": {
+                "x": 58,
+                "y": 92
+            },
+            "nearby_sections": [
+                "SEC-N",
+                "SEC-O",
+                "SEC-P",
+                "SEC-Q",
+                "SEC-R",
+                "SEC-S"
+            ],
+            "nearby_gates": [
+                "GATE-E",
+                "GATE-F"
+            ],
+            "services": [
+                "Emergency Care",
+                "Heat Stroke Treatment",
+                "First Aid",
+                "Hydration",
+                "Minor Surgery"
+            ],
+            "staff": {
+                "doctors": 2,
+                "nurses": 7,
+                "paramedics": 5,
+                "volunteers": 6
+            },
+            "equipment": {
+                "aed": 2,
+                "wheelchairs": 7,
+                "stretchers": 5,
+                "oxygen_units": 9,
+                "trauma_kits": 6
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "sign_language_support": true,
+                "braille_signage": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "current_patients": 4,
+                "available_beds": 7,
+                "average_wait_time_minutes": 5,
+                "medical_alert_level": "NORMAL",
+                "ambulance_available": true,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "contact": {
+                "extension": "9113",
+                "radio_channel": "MEDICAL-3"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Heat Exhaustion",
+                    "First Aid",
+                    "Families"
+                ],
+                "response_radius_sections": [
+                    "SEC-K",
+                    "SEC-L",
+                    "SEC-M",
+                    "SEC-N",
+                    "SEC-O",
+                    "SEC-P",
+                    "SEC-Q",
+                    "SEC-R",
+                    "SEC-S"
+                ]
+            }
+        },
+        {
+            "id": "MC-04",
+            "name": "East Medical Center",
+            "zone": "East",
+            "floor": "F1",
+            "coordinates": {
+                "x": 84,
+                "y": 42
+            },
+            "nearby_sections": [
+                "SEC-H",
+                "SEC-I",
+                "SEC-J",
+                "SEC-K",
+                "SEC-L",
+                "SEC-M"
+            ],
+            "nearby_gates": [
+                "GATE-C",
+                "GATE-D"
+            ],
+            "services": [
+                "Emergency Care",
+                "Pediatric First Aid",
+                "Allergy Treatment",
+                "Cardiac Support",
+                "First Aid"
+            ],
+            "staff": {
+                "doctors": 2,
+                "nurses": 6,
+                "paramedics": 4,
+                "volunteers": 5
+            },
+            "equipment": {
+                "aed": 2,
+                "wheelchairs": 6,
+                "stretchers": 4,
+                "oxygen_units": 8,
+                "trauma_kits": 5
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "sign_language_support": true,
+                "braille_signage": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "current_patients": 2,
+                "available_beds": 9,
+                "average_wait_time_minutes": 3,
+                "medical_alert_level": "NORMAL",
+                "ambulance_available": true,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "contact": {
+                "extension": "9114",
+                "radio_channel": "MEDICAL-4"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Children",
+                    "Allergies",
+                    "Quick Treatment"
+                ],
+                "response_radius_sections": [
+                    "SEC-G",
+                    "SEC-H",
+                    "SEC-I",
+                    "SEC-J",
+                    "SEC-K",
+                    "SEC-L",
+                    "SEC-M"
+                ]
+            }
+        }
+    ],
+    "information_desks": [
+        {
+            "id": "INFO-01",
+            "name": "North Information Desk",
+            "zone": "North",
+            "floor": "F1",
+            "coordinates": {
+                "x": 22,
+                "y": 18
+            },
+            "nearby_sections": [
+                "SEC-A",
+                "SEC-B",
+                "SEC-C",
+                "SEC-D",
+                "SEC-E",
+                "SEC-F"
+            ],
+            "nearby_gates": [
+                "GATE-A",
+                "GATE-B"
+            ],
+            "services": [
+                "General Information",
+                "AI Navigation Assistance",
+                "Ticket Assistance",
+                "Lost and Found",
+                "Match Schedule Information",
+                "Tourist Assistance",
+                "Hotel & Transportation Guidance"
+            ],
+            "languages_supported": [
+                "English",
+                "Spanish",
+                "French",
+                "German"
+            ],
+            "digital_services": {
+                "ai_kiosk": true,
+                "qr_navigation": true,
+                "ticket_assistance": true,
+                "lost_and_found": true,
+                "food_recommendation": true,
+                "live_match_updates": true,
+                "stadium_map": true,
+                "accessibility_assistance": true
+            },
+            "staff": {
+                "agents": 4,
+                "volunteers": 6
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "braille_support": true,
+                "sign_language_support": true,
+                "hearing_loop": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "current_visitors": 24,
+                "queue_length": 5,
+                "estimated_wait_time_minutes": 3,
+                "available_agents": 3,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "contact": {
+                "extension": "8101",
+                "radio_channel": "INFO-1"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Navigation",
+                    "Foreign Visitors",
+                    "Ticket Support",
+                    "General Assistance"
+                ],
+                "response_radius_sections": [
+                    "SEC-A",
+                    "SEC-B",
+                    "SEC-C",
+                    "SEC-D",
+                    "SEC-E",
+                    "SEC-F"
+                ]
+            }
+        },
+        {
+            "id": "INFO-02",
+            "name": "East Information Desk",
+            "zone": "East",
+            "floor": "F1",
+            "coordinates": {
+                "x": 84,
+                "y": 38
+            },
+            "nearby_sections": [
+                "SEC-G",
+                "SEC-H",
+                "SEC-I",
+                "SEC-J",
+                "SEC-K",
+                "SEC-L",
+                "SEC-M"
+            ],
+            "nearby_gates": [
+                "GATE-C",
+                "GATE-D"
+            ],
+            "services": [
+                "General Information",
+                "AI Navigation Assistance",
+                "Ticket Assistance",
+                "Lost and Found",
+                "Transportation Guidance",
+                "Emergency Information",
+                "Accessibility Support"
+            ],
+            "languages_supported": [
+                "English",
+                "Arabic",
+                "Hindi",
+                "Tamil"
+            ],
+            "digital_services": {
+                "ai_kiosk": true,
+                "qr_navigation": true,
+                "ticket_assistance": true,
+                "lost_and_found": true,
+                "food_recommendation": true,
+                "live_match_updates": true,
+                "stadium_map": true,
+                "accessibility_assistance": true
+            },
+            "staff": {
+                "agents": 5,
+                "volunteers": 5
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "braille_support": true,
+                "sign_language_support": true,
+                "hearing_loop": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "current_visitors": 19,
+                "queue_length": 3,
+                "estimated_wait_time_minutes": 2,
+                "available_agents": 4,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "contact": {
+                "extension": "8102",
+                "radio_channel": "INFO-2"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Regional Visitors",
+                    "Transportation",
+                    "Accessibility"
+                ],
+                "response_radius_sections": [
+                    "SEC-G",
+                    "SEC-H",
+                    "SEC-I",
+                    "SEC-J",
+                    "SEC-K",
+                    "SEC-L",
+                    "SEC-M"
+                ]
+            }
+        },
+        {
+            "id": "INFO-03",
+            "name": "South Information Desk",
+            "zone": "South",
+            "floor": "F1",
+            "coordinates": {
+                "x": 58,
+                "y": 90
+            },
+            "nearby_sections": [
+                "SEC-N",
+                "SEC-O",
+                "SEC-P",
+                "SEC-Q",
+                "SEC-R",
+                "SEC-S"
+            ],
+            "nearby_gates": [
+                "GATE-E",
+                "GATE-F"
+            ],
+            "services": [
+                "General Information",
+                "AI Navigation Assistance",
+                "Ticket Assistance",
+                "Lost and Found",
+                "Food Recommendations",
+                "Transportation Guidance",
+                "Tourist Assistance"
+            ],
+            "languages_supported": [
+                "English",
+                "Portuguese",
+                "Italian",
+                "Spanish"
+            ],
+            "digital_services": {
+                "ai_kiosk": true,
+                "qr_navigation": true,
+                "ticket_assistance": true,
+                "lost_and_found": true,
+                "food_recommendation": true,
+                "live_match_updates": true,
+                "stadium_map": true,
+                "accessibility_assistance": true
+            },
+            "staff": {
+                "agents": 4,
+                "volunteers": 5
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "braille_support": true,
+                "sign_language_support": true,
+                "hearing_loop": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "current_visitors": 27,
+                "queue_length": 6,
+                "estimated_wait_time_minutes": 4,
+                "available_agents": 2,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "contact": {
+                "extension": "8103",
+                "radio_channel": "INFO-3"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "International Visitors",
+                    "Food Assistance",
+                    "General Help"
+                ],
+                "response_radius_sections": [
+                    "SEC-N",
+                    "SEC-O",
+                    "SEC-P",
+                    "SEC-Q",
+                    "SEC-R",
+                    "SEC-S"
+                ]
+            }
+        },
+        {
+            "id": "INFO-04",
+            "name": "West Information Desk",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 18,
+                "y": 58
+            },
+            "nearby_sections": [
+                "SEC-T",
+                "SEC-U",
+                "SEC-V",
+                "SEC-W",
+                "SEC-X",
+                "SEC-Y",
+                "SEC-Z"
+            ],
+            "nearby_gates": [
+                "GATE-G",
+                "GATE-H"
+            ],
+            "services": [
+                "General Information",
+                "AI Navigation Assistance",
+                "Ticket Assistance",
+                "Lost and Found",
+                "Accessibility Support",
+                "Emergency Guidance",
+                "Match Schedule Information"
+            ],
+            "languages_supported": [
+                "English",
+                "Japanese",
+                "Korean",
+                "Chinese"
+            ],
+            "digital_services": {
+                "ai_kiosk": true,
+                "qr_navigation": true,
+                "ticket_assistance": true,
+                "lost_and_found": true,
+                "food_recommendation": true,
+                "live_match_updates": true,
+                "stadium_map": true,
+                "accessibility_assistance": true
+            },
+            "staff": {
+                "agents": 4,
+                "volunteers": 6
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "braille_support": true,
+                "sign_language_support": true,
+                "hearing_loop": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "current_visitors": 15,
+                "queue_length": 2,
+                "estimated_wait_time_minutes": 1,
+                "available_agents": 4,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "contact": {
+                "extension": "8104",
+                "radio_channel": "INFO-4"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Asian Visitors",
+                    "Navigation",
+                    "Accessibility"
+                ],
+                "response_radius_sections": [
+                    "SEC-T",
+                    "SEC-U",
+                    "SEC-V",
+                    "SEC-W",
+                    "SEC-X",
+                    "SEC-Y",
+                    "SEC-Z"
+                ]
+            }
+        }
+    ],
+    "restrooms": [
+        {
+            "id": "RR-01",
+            "name": "North Restroom 1",
+            "zone": "North",
+            "floor": "F1",
+            "coordinates": {
+                "x": 16,
+                "y": 10
+            },
+            "nearby_sections": [
+                "SEC-A",
+                "SEC-B"
+            ],
+            "nearby_gates": [
+                "GATE-A"
+            ],
+            "type": "Unisex",
+            "capacity": {
+                "male": 18,
+                "female": 22,
+                "accessible": 2,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": false
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T17:05:00Z",
+                "next_scheduled_cleaning": "2026-07-11T18:05:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "LOW",
+                "current_occupancy": 11,
+                "queue_length": 1,
+                "estimated_wait_time_minutes": 1,
+                "cleanliness": "EXCELLENT",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Families",
+                    "Wheelchair Users"
+                ],
+                "response_radius_sections": [
+                    "SEC-A",
+                    "SEC-B"
+                ]
+            }
+        },
+        {
+            "id": "RR-02",
+            "name": "North Restroom 2",
+            "zone": "North",
+            "floor": "F1",
+            "coordinates": {
+                "x": 28,
+                "y": 14
+            },
+            "nearby_sections": [
+                "SEC-C",
+                "SEC-D"
+            ],
+            "nearby_gates": [
+                "GATE-B"
+            ],
+            "type": "Male & Female",
+            "capacity": {
+                "male": 20,
+                "female": 24,
+                "accessible": 2,
+                "family": 1
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": false
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T16:50:00Z",
+                "next_scheduled_cleaning": "2026-07-11T17:50:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "MEDIUM",
+                "current_occupancy": 23,
+                "queue_length": 5,
+                "estimated_wait_time_minutes": 3,
+                "cleanliness": "GOOD",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "General Use",
+                    "Quick Access"
+                ],
+                "response_radius_sections": [
+                    "SEC-C",
+                    "SEC-D"
+                ]
+            }
+        },
+        {
+            "id": "RR-03",
+            "name": "North Restroom 3",
+            "zone": "North",
+            "floor": "F1",
+            "coordinates": {
+                "x": 38,
+                "y": 16
+            },
+            "nearby_sections": [
+                "SEC-E",
+                "SEC-F"
+            ],
+            "nearby_gates": [
+                "GATE-B",
+                "GATE-C"
+            ],
+            "type": "Unisex",
+            "capacity": {
+                "male": 16,
+                "female": 20,
+                "accessible": 3,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": true
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T17:15:00Z",
+                "next_scheduled_cleaning": "2026-07-11T18:15:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "LOW",
+                "current_occupancy": 9,
+                "queue_length": 0,
+                "estimated_wait_time_minutes": 0,
+                "cleanliness": "EXCELLENT",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Fastest Option",
+                    "Families",
+                    "Accessible"
+                ],
+                "response_radius_sections": [
+                    "SEC-E",
+                    "SEC-F"
+                ]
+            }
+        },
+        {
+            "id": "RR-04",
+            "name": "North Restroom 4",
+            "zone": "North",
+            "floor": "F1",
+            "coordinates": {
+                "x": 48,
+                "y": 18
+            },
+            "nearby_sections": [
+                "SEC-F",
+                "SEC-G"
+            ],
+            "nearby_gates": [
+                "GATE-C"
+            ],
+            "type": "Male & Female",
+            "capacity": {
+                "male": 22,
+                "female": 26,
+                "accessible": 2,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": false
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T16:40:00Z",
+                "next_scheduled_cleaning": "2026-07-11T17:40:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "HIGH",
+                "current_occupancy": 37,
+                "queue_length": 9,
+                "estimated_wait_time_minutes": 6,
+                "cleanliness": "GOOD",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "High Capacity",
+                    "Near Gate C"
+                ],
+                "response_radius_sections": [
+                    "SEC-F",
+                    "SEC-G"
+                ]
+            }
+        },
+        {
+            "id": "RR-05",
+            "name": "North Restroom 5",
+            "zone": "North",
+            "floor": "F1",
+            "coordinates": {
+                "x": 56,
+                "y": 20
+            },
+            "nearby_sections": [
+                "SEC-G",
+                "SEC-H"
+            ],
+            "nearby_gates": [
+                "GATE-C",
+                "GATE-D"
+            ],
+            "type": "Unisex",
+            "capacity": {
+                "male": 18,
+                "female": 24,
+                "accessible": 2,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": true
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T17:20:00Z",
+                "next_scheduled_cleaning": "2026-07-11T18:20:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "LOW",
+                "current_occupancy": 10,
+                "occupancy_percentage": 22,
+                "queue_length": 1,
+                "estimated_wait_time_minutes": 1,
+                "cleanliness": "EXCELLENT",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Families",
+                    "Accessible",
+                    "Least Crowded"
+                ],
+                "response_radius_sections": [
+                    "SEC-G",
+                    "SEC-H"
+                ]
+            }
+        },
+        {
+            "id": "RR-06",
+            "name": "North Restroom 6",
+            "zone": "North",
+            "floor": "F1",
+            "coordinates": {
+                "x": 68,
+                "y": 22
+            },
+            "nearby_sections": [
+                "SEC-I",
+                "SEC-J"
+            ],
+            "nearby_gates": [
+                "GATE-D"
+            ],
+            "type": "Male & Female",
+            "capacity": {
+                "male": 22,
+                "female": 26,
+                "accessible": 2,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": false
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T16:45:00Z",
+                "next_scheduled_cleaning": "2026-07-11T17:45:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "HIGH",
+                "current_occupancy": 39,
+                "occupancy_percentage": 78,
+                "queue_length": 8,
+                "estimated_wait_time_minutes": 5,
+                "cleanliness": "GOOD",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "High Capacity",
+                    "Near Gate D"
+                ],
+                "response_radius_sections": [
+                    "SEC-I",
+                    "SEC-J"
+                ]
+            }
+        },
+        {
+            "id": "RR-07",
+            "name": "East Restroom 1",
+            "zone": "East",
+            "floor": "F1",
+            "coordinates": {
+                "x": 84,
+                "y": 30
+            },
+            "nearby_sections": [
+                "SEC-K",
+                "SEC-L"
+            ],
+            "nearby_gates": [
+                "GATE-D"
+            ],
+            "type": "Unisex",
+            "capacity": {
+                "male": 20,
+                "female": 24,
+                "accessible": 3,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": true
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T17:10:00Z",
+                "next_scheduled_cleaning": "2026-07-11T18:10:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "MEDIUM",
+                "current_occupancy": 20,
+                "occupancy_percentage": 43,
+                "queue_length": 3,
+                "estimated_wait_time_minutes": 2,
+                "cleanliness": "EXCELLENT",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Families",
+                    "Wheelchair Users",
+                    "General Use"
+                ],
+                "response_radius_sections": [
+                    "SEC-K",
+                    "SEC-L"
+                ]
+            }
+        },
+        {
+            "id": "RR-08",
+            "name": "East Restroom 2",
+            "zone": "East",
+            "floor": "F1",
+            "coordinates": {
+                "x": 88,
+                "y": 42
+            },
+            "nearby_sections": [
+                "SEC-M",
+                "SEC-N"
+            ],
+            "nearby_gates": [
+                "GATE-D",
+                "GATE-E"
+            ],
+            "type": "Male & Female",
+            "capacity": {
+                "male": 24,
+                "female": 28,
+                "accessible": 2,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": false
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T16:55:00Z",
+                "next_scheduled_cleaning": "2026-07-11T17:55:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "HIGH",
+                "current_occupancy": 42,
+                "occupancy_percentage": 81,
+                "queue_length": 10,
+                "estimated_wait_time_minutes": 7,
+                "cleanliness": "GOOD",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "High Capacity",
+                    "Near Gate E"
+                ],
+                "response_radius_sections": [
+                    "SEC-M",
+                    "SEC-N"
+                ]
+            }
+        },
+        {
+            "id": "RR-09",
+            "name": "East Restroom 3",
+            "zone": "East",
+            "floor": "F1",
+            "coordinates": {
+                "x": 90,
+                "y": 54
+            },
+            "nearby_sections": [
+                "SEC-O",
+                "SEC-P"
+            ],
+            "nearby_gates": [
+                "GATE-E"
+            ],
+            "type": "Unisex",
+            "capacity": {
+                "male": 18,
+                "female": 24,
+                "accessible": 3,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": true
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T17:15:00Z",
+                "next_scheduled_cleaning": "2026-07-11T18:15:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "LOW",
+                "current_occupancy": 9,
+                "occupancy_percentage": 21,
+                "queue_length": 1,
+                "estimated_wait_time_minutes": 1,
+                "cleanliness": "EXCELLENT",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Families",
+                    "Wheelchair Users",
+                    "Least Crowded"
+                ],
+                "response_radius_sections": [
+                    "SEC-O",
+                    "SEC-P"
+                ]
+            }
+        },
+        {
+            "id": "RR-10",
+            "name": "East Restroom 4",
+            "zone": "East",
+            "floor": "F1",
+            "coordinates": {
+                "x": 88,
+                "y": 66
+            },
+            "nearby_sections": [
+                "SEC-Q",
+                "SEC-R"
+            ],
+            "nearby_gates": [
+                "GATE-E",
+                "GATE-F"
+            ],
+            "type": "Male & Female",
+            "capacity": {
+                "male": 22,
+                "female": 28,
+                "accessible": 2,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": false
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T16:45:00Z",
+                "next_scheduled_cleaning": "2026-07-11T17:45:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "HIGH",
+                "current_occupancy": 41,
+                "occupancy_percentage": 82,
+                "queue_length": 9,
+                "estimated_wait_time_minutes": 6,
+                "cleanliness": "GOOD",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "High Capacity",
+                    "Near Gate F"
+                ],
+                "response_radius_sections": [
+                    "SEC-Q",
+                    "SEC-R"
+                ]
+            }
+        },
+        {
+            "id": "RR-11",
+            "name": "East Restroom 5",
+            "zone": "East",
+            "floor": "F1",
+            "coordinates": {
+                "x": 84,
+                "y": 78
+            },
+            "nearby_sections": [
+                "SEC-S",
+                "SEC-T"
+            ],
+            "nearby_gates": [
+                "GATE-F"
+            ],
+            "type": "Unisex",
+            "capacity": {
+                "male": 20,
+                "female": 24,
+                "accessible": 2,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": true
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T17:25:00Z",
+                "next_scheduled_cleaning": "2026-07-11T18:25:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "LOW",
+                "current_occupancy": 13,
+                "occupancy_percentage": 30,
+                "queue_length": 2,
+                "estimated_wait_time_minutes": 1,
+                "cleanliness": "EXCELLENT",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Families",
+                    "Quick Access",
+                    "Accessible"
+                ],
+                "response_radius_sections": [
+                    "SEC-S",
+                    "SEC-T"
+                ]
+            }
+        },
+        {
+            "id": "RR-12",
+            "name": "East Restroom 6",
+            "zone": "East",
+            "floor": "F1",
+            "coordinates": {
+                "x": 78,
+                "y": 86
+            },
+            "nearby_sections": [
+                "SEC-U",
+                "SEC-V"
+            ],
+            "nearby_gates": [
+                "GATE-F",
+                "GATE-G"
+            ],
+            "type": "Male & Female",
+            "capacity": {
+                "male": 24,
+                "female": 30,
+                "accessible": 3,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": true
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T16:35:00Z",
+                "next_scheduled_cleaning": "2026-07-11T17:35:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "MEDIUM",
+                "current_occupancy": 28,
+                "occupancy_percentage": 52,
+                "queue_length": 4,
+                "estimated_wait_time_minutes": 3,
+                "cleanliness": "GOOD",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "General Use",
+                    "Families",
+                    "Near Gate G"
+                ],
+                "response_radius_sections": [
+                    "SEC-U",
+                    "SEC-V"
+                ]
+            }
+        },
+        {
+            "id": "RR-13",
+            "name": "South Restroom 1",
+            "zone": "South",
+            "floor": "F1",
+            "coordinates": {
+                "x": 68,
+                "y": 88
+            },
+            "nearby_sections": [
+                "SEC-O",
+                "SEC-P"
+            ],
+            "nearby_gates": [
+                "GATE-E"
+            ],
+            "type": "Unisex",
+            "capacity": {
+                "male": 20,
+                "female": 26,
+                "accessible": 3,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": true
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T17:18:00Z",
+                "next_scheduled_cleaning": "2026-07-11T18:18:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "LOW",
+                "current_occupancy": 12,
+                "occupancy_percentage": 26,
+                "queue_length": 1,
+                "estimated_wait_time_minutes": 1,
+                "cleanliness": "EXCELLENT",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Families",
+                    "Accessible",
+                    "Least Crowded"
+                ],
+                "response_radius_sections": [
+                    "SEC-O",
+                    "SEC-P"
+                ]
+            }
+        },
+        {
+            "id": "RR-14",
+            "name": "South Restroom 2",
+            "zone": "South",
+            "floor": "F1",
+            "coordinates": {
+                "x": 58,
+                "y": 92
+            },
+            "nearby_sections": [
+                "SEC-Q",
+                "SEC-R"
+            ],
+            "nearby_gates": [
+                "GATE-E",
+                "GATE-F"
+            ],
+            "type": "Male & Female",
+            "capacity": {
+                "male": 22,
+                "female": 28,
+                "accessible": 2,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": false
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T16:50:00Z",
+                "next_scheduled_cleaning": "2026-07-11T17:50:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "HIGH",
+                "current_occupancy": 39,
+                "occupancy_percentage": 78,
+                "queue_length": 8,
+                "estimated_wait_time_minutes": 5,
+                "cleanliness": "GOOD",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "High Capacity",
+                    "Near Gate F"
+                ],
+                "response_radius_sections": [
+                    "SEC-Q",
+                    "SEC-R"
+                ]
+            }
+        },
+        {
+            "id": "RR-15",
+            "name": "South Restroom 3",
+            "zone": "South",
+            "floor": "F1",
+            "coordinates": {
+                "x": 46,
+                "y": 90
+            },
+            "nearby_sections": [
+                "SEC-R",
+                "SEC-S"
+            ],
+            "nearby_gates": [
+                "GATE-F"
+            ],
+            "type": "Unisex",
+            "capacity": {
+                "male": 18,
+                "female": 24,
+                "accessible": 3,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": true
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T17:22:00Z",
+                "next_scheduled_cleaning": "2026-07-11T18:22:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "LOW",
+                "current_occupancy": 10,
+                "occupancy_percentage": 24,
+                "queue_length": 0,
+                "estimated_wait_time_minutes": 0,
+                "cleanliness": "EXCELLENT",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Fastest Option",
+                    "Families",
+                    "Wheelchair Users"
+                ],
+                "response_radius_sections": [
+                    "SEC-R",
+                    "SEC-S"
+                ]
+            }
+        },
+        {
+            "id": "RR-16",
+            "name": "South Restroom 4",
+            "zone": "South",
+            "floor": "F1",
+            "coordinates": {
+                "x": 36,
+                "y": 86
+            },
+            "nearby_sections": [
+                "SEC-S",
+                "SEC-T"
+            ],
+            "nearby_gates": [
+                "GATE-F",
+                "GATE-G"
+            ],
+            "type": "Male & Female",
+            "capacity": {
+                "male": 24,
+                "female": 30,
+                "accessible": 2,
+                "family": 3
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": true
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T16:42:00Z",
+                "next_scheduled_cleaning": "2026-07-11T17:42:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "MEDIUM",
+                "current_occupancy": 27,
+                "occupancy_percentage": 50,
+                "queue_length": 4,
+                "estimated_wait_time_minutes": 3,
+                "cleanliness": "GOOD",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "General Use",
+                    "Families",
+                    "Near Gate G"
+                ],
+                "response_radius_sections": [
+                    "SEC-S",
+                    "SEC-T"
+                ]
+            }
+        },
+        {
+            "id": "RR-17",
+            "name": "West Restroom 1",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 22,
+                "y": 78
+            },
+            "nearby_sections": [
+                "SEC-T",
+                "SEC-U"
+            ],
+            "nearby_gates": [
+                "GATE-G"
+            ],
+            "type": "Unisex",
+            "capacity": {
+                "male": 20,
+                "female": 24,
+                "accessible": 3,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": true
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T17:12:00Z",
+                "next_scheduled_cleaning": "2026-07-11T18:12:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "LOW",
+                "current_occupancy": 11,
+                "occupancy_percentage": 25,
+                "queue_length": 1,
+                "estimated_wait_time_minutes": 1,
+                "cleanliness": "EXCELLENT",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Families",
+                    "Accessible",
+                    "Least Crowded"
+                ],
+                "response_radius_sections": [
+                    "SEC-T",
+                    "SEC-U"
+                ]
+            }
+        },
+        {
+            "id": "RR-18",
+            "name": "West Restroom 2",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 16,
+                "y": 66
+            },
+            "nearby_sections": [
+                "SEC-U",
+                "SEC-V"
+            ],
+            "nearby_gates": [
+                "GATE-G"
+            ],
+            "type": "Male & Female",
+            "capacity": {
+                "male": 24,
+                "female": 28,
+                "accessible": 2,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": false
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T16:48:00Z",
+                "next_scheduled_cleaning": "2026-07-11T17:48:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "HIGH",
+                "current_occupancy": 40,
+                "occupancy_percentage": 80,
+                "queue_length": 9,
+                "estimated_wait_time_minutes": 6,
+                "cleanliness": "GOOD",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "High Capacity",
+                    "Near Gate G"
+                ],
+                "response_radius_sections": [
+                    "SEC-U",
+                    "SEC-V"
+                ]
+            }
+        },
+        {
+            "id": "RR-19",
+            "name": "West Restroom 3",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 14,
+                "y": 54
+            },
+            "nearby_sections": [
+                "SEC-V",
+                "SEC-W"
+            ],
+            "nearby_gates": [
+                "GATE-H"
+            ],
+            "type": "Unisex",
+            "capacity": {
+                "male": 18,
+                "female": 22,
+                "accessible": 3,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": true
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T17:24:00Z",
+                "next_scheduled_cleaning": "2026-07-11T18:24:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "LOW",
+                "current_occupancy": 9,
+                "occupancy_percentage": 22,
+                "queue_length": 0,
+                "estimated_wait_time_minutes": 0,
+                "cleanliness": "EXCELLENT",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Fastest Option",
+                    "Families",
+                    "Wheelchair Users"
+                ],
+                "response_radius_sections": [
+                    "SEC-V",
+                    "SEC-W"
+                ]
+            }
+        },
+        {
+            "id": "RR-20",
+            "name": "West Restroom 4",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 12,
+                "y": 42
+            },
+            "nearby_sections": [
+                "SEC-W",
+                "SEC-X"
+            ],
+            "nearby_gates": [
+                "GATE-H"
+            ],
+            "type": "Male & Female",
+            "capacity": {
+                "male": 24,
+                "female": 30,
+                "accessible": 2,
+                "family": 3
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": true
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T16:40:00Z",
+                "next_scheduled_cleaning": "2026-07-11T17:40:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "MEDIUM",
+                "current_occupancy": 28,
+                "occupancy_percentage": 52,
+                "queue_length": 4,
+                "estimated_wait_time_minutes": 3,
+                "cleanliness": "GOOD",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "General Use",
+                    "Families",
+                    "Near Gate H"
+                ],
+                "response_radius_sections": [
+                    "SEC-W",
+                    "SEC-X"
+                ]
+            }
+        },
+        {
+            "id": "RR-21",
+            "name": "West Restroom 5",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 10,
+                "y": 32
+            },
+            "nearby_sections": [
+                "SEC-X",
+                "SEC-Y"
+            ],
+            "nearby_gates": [
+                "GATE-H"
+            ],
+            "type": "Unisex",
+            "capacity": {
+                "male": 20,
+                "female": 24,
+                "accessible": 3,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": true
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T17:18:00Z",
+                "next_scheduled_cleaning": "2026-07-11T18:18:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "LOW",
+                "current_occupancy": 10,
+                "occupancy_percentage": 23,
+                "queue_length": 1,
+                "estimated_wait_time_minutes": 1,
+                "cleanliness": "EXCELLENT",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Families",
+                    "Wheelchair Users",
+                    "Least Crowded"
+                ],
+                "response_radius_sections": [
+                    "SEC-X",
+                    "SEC-Y"
+                ]
+            }
+        },
+        {
+            "id": "RR-22",
+            "name": "West Restroom 6",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 8,
+                "y": 22
+            },
+            "nearby_sections": [
+                "SEC-Y",
+                "SEC-Z"
+            ],
+            "nearby_gates": [
+                "GATE-H"
+            ],
+            "type": "Male & Female",
+            "capacity": {
+                "male": 22,
+                "female": 28,
+                "accessible": 2,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": false
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T16:50:00Z",
+                "next_scheduled_cleaning": "2026-07-11T17:50:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "HIGH",
+                "current_occupancy": 41,
+                "occupancy_percentage": 79,
+                "queue_length": 8,
+                "estimated_wait_time_minutes": 6,
+                "cleanliness": "GOOD",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "High Capacity",
+                    "Near Gate H"
+                ],
+                "response_radius_sections": [
+                    "SEC-Y",
+                    "SEC-Z"
+                ]
+            }
+        },
+        {
+            "id": "RR-23",
+            "name": "West Restroom 7",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 6,
+                "y": 14
+            },
+            "nearby_sections": [
+                "SEC-Z"
+            ],
+            "nearby_gates": [
+                "GATE-H"
+            ],
+            "type": "Unisex",
+            "capacity": {
+                "male": 18,
+                "female": 22,
+                "accessible": 3,
+                "family": 2
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": true
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T17:26:00Z",
+                "next_scheduled_cleaning": "2026-07-11T18:26:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "LOW",
+                "current_occupancy": 8,
+                "occupancy_percentage": 20,
+                "queue_length": 0,
+                "estimated_wait_time_minutes": 0,
+                "cleanliness": "EXCELLENT",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Fastest Option",
+                    "Accessible",
+                    "Families"
+                ],
+                "response_radius_sections": [
+                    "SEC-Z"
+                ]
+            }
+        },
+        {
+            "id": "RR-24",
+            "name": "West Concourse Restroom",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 12,
+                "y": 8
+            },
+            "nearby_sections": [
+                "SEC-X",
+                "SEC-Y",
+                "SEC-Z"
+            ],
+            "nearby_gates": [
+                "GATE-H"
+            ],
+            "type": "Male & Female",
+            "capacity": {
+                "male": 28,
+                "female": 34,
+                "accessible": 4,
+                "family": 4
+            },
+            "amenities": {
+                "baby_changing_station": true,
+                "wheelchair_accessible": true,
+                "touchless_fixtures": true,
+                "drinking_water": true
+            },
+            "cleaning": {
+                "last_cleaned": "2026-07-11T17:00:00Z",
+                "next_scheduled_cleaning": "2026-07-11T18:00:00Z"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "crowd_level": "MEDIUM",
+                "current_occupancy": 31,
+                "occupancy_percentage": 47,
+                "queue_length": 3,
+                "estimated_wait_time_minutes": 2,
+                "cleanliness": "EXCELLENT",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Highest Capacity",
+                    "Families",
+                    "Wheelchair Users",
+                    "Near Stadium Exit"
+                ],
+                "response_radius_sections": [
+                    "SEC-X",
+                    "SEC-Y",
+                    "SEC-Z"
+                ]
+            }
+        }
+    ],
+    "charging_stations": [
+        {
+            "id": "CS-01",
+            "name": "North Charging Hub",
+            "zone": "North",
+            "floor": "F1",
+            "coordinates": {
+                "x": 24,
+                "y": 22
+            },
+            "nearby_sections": [
+                "SEC-A",
+                "SEC-B",
+                "SEC-C"
+            ],
+            "nearby_gates": [
+                "GATE-A",
+                "GATE-B"
+            ],
+            "charging_ports": {
+                "usb_a": 8,
+                "usb_c": 12,
+                "wireless": 6,
+                "ac_outlets": 8
+            },
+            "supported_devices": [
+                "Android",
+                "iPhone",
+                "Laptop",
+                "Tablet",
+                "Smartwatch"
+            ],
+            "amenities": {
+                "seating_available": true,
+                "shade": true,
+                "wifi": true,
+                "security_camera": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "height_accessible": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_ports": {
+                    "usb_a": 6,
+                    "usb_c": 10,
+                    "wireless": 5,
+                    "ac_outlets": 6
+                },
+                "occupied_ports": {
+                    "usb_a": 2,
+                    "usb_c": 2,
+                    "wireless": 1,
+                    "ac_outlets": 2
+                },
+                "occupancy_percentage": 21,
+                "estimated_wait_time_minutes": 0,
+                "power_status": "NORMAL",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Quick Charge",
+                    "Laptop Charging",
+                    "Families"
+                ],
+                "response_radius_sections": [
+                    "SEC-A",
+                    "SEC-B",
+                    "SEC-C"
+                ]
+            }
+        },
+        {
+            "id": "CS-02",
+            "name": "North-East Charging Hub",
+            "zone": "North",
+            "floor": "F1",
+            "coordinates": {
+                "x": 54,
+                "y": 24
+            },
+            "nearby_sections": [
+                "SEC-D",
+                "SEC-E",
+                "SEC-F"
+            ],
+            "nearby_gates": [
+                "GATE-B",
+                "GATE-C"
+            ],
+            "charging_ports": {
+                "usb_a": 10,
+                "usb_c": 14,
+                "wireless": 8,
+                "ac_outlets": 10
+            },
+            "supported_devices": [
+                "Android",
+                "iPhone",
+                "Laptop",
+                "Tablet",
+                "Smartwatch"
+            ],
+            "amenities": {
+                "seating_available": true,
+                "shade": true,
+                "wifi": true,
+                "security_camera": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "height_accessible": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_ports": {
+                    "usb_a": 3,
+                    "usb_c": 5,
+                    "wireless": 2,
+                    "ac_outlets": 4
+                },
+                "occupied_ports": {
+                    "usb_a": 7,
+                    "usb_c": 9,
+                    "wireless": 6,
+                    "ac_outlets": 6
+                },
+                "occupancy_percentage": 67,
+                "estimated_wait_time_minutes": 5,
+                "power_status": "NORMAL",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Fast Charging",
+                    "USB-C Devices",
+                    "General Users"
+                ],
+                "response_radius_sections": [
+                    "SEC-D",
+                    "SEC-E",
+                    "SEC-F"
+                ]
+            }
+        },
+        {
+            "id": "CS-03",
+            "name": "East Charging Hub",
+            "zone": "East",
+            "floor": "F1",
+            "coordinates": {
+                "x": 84,
+                "y": 40
+            },
+            "nearby_sections": [
+                "SEC-G",
+                "SEC-H",
+                "SEC-I",
+                "SEC-J"
+            ],
+            "nearby_gates": [
+                "GATE-C",
+                "GATE-D"
+            ],
+            "charging_ports": {
+                "usb_a": 12,
+                "usb_c": 16,
+                "wireless": 10,
+                "ac_outlets": 12
+            },
+            "supported_devices": [
+                "Android",
+                "iPhone",
+                "Laptop",
+                "Tablet",
+                "Smartwatch"
+            ],
+            "amenities": {
+                "seating_available": true,
+                "shade": true,
+                "wifi": true,
+                "security_camera": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "height_accessible": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_ports": {
+                    "usb_a": 9,
+                    "usb_c": 12,
+                    "wireless": 8,
+                    "ac_outlets": 9
+                },
+                "occupied_ports": {
+                    "usb_a": 3,
+                    "usb_c": 4,
+                    "wireless": 2,
+                    "ac_outlets": 3
+                },
+                "occupancy_percentage": 25,
+                "estimated_wait_time_minutes": 0,
+                "power_status": "NORMAL",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Laptop Charging",
+                    "Wireless Charging",
+                    "Least Crowded"
+                ],
+                "response_radius_sections": [
+                    "SEC-G",
+                    "SEC-H",
+                    "SEC-I",
+                    "SEC-J"
+                ]
+            }
+        },
+        {
+            "id": "CS-04",
+            "name": "East Charging Hub 2",
+            "zone": "East",
+            "floor": "F1",
+            "coordinates": {
+                "x": 88,
+                "y": 68
+            },
+            "nearby_sections": [
+                "SEC-K",
+                "SEC-L",
+                "SEC-M"
+            ],
+            "nearby_gates": [
+                "GATE-D",
+                "GATE-E"
+            ],
+            "charging_ports": {
+                "usb_a": 10,
+                "usb_c": 16,
+                "wireless": 8,
+                "ac_outlets": 10
+            },
+            "supported_devices": [
+                "Android",
+                "iPhone",
+                "Laptop",
+                "Tablet",
+                "Smartwatch"
+            ],
+            "amenities": {
+                "seating_available": true,
+                "shade": true,
+                "wifi": true,
+                "security_camera": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "height_accessible": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_ports": {
+                    "usb_a": 7,
+                    "usb_c": 11,
+                    "wireless": 6,
+                    "ac_outlets": 7
+                },
+                "occupied_ports": {
+                    "usb_a": 3,
+                    "usb_c": 5,
+                    "wireless": 2,
+                    "ac_outlets": 3
+                },
+                "occupancy_percentage": 31,
+                "estimated_wait_time_minutes": 1,
+                "power_status": "NORMAL",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Wireless Charging",
+                    "Laptop Charging",
+                    "Quick Charge"
+                ],
+                "response_radius_sections": [
+                    "SEC-K",
+                    "SEC-L",
+                    "SEC-M"
+                ]
+            }
+        },
+        {
+            "id": "CS-05",
+            "name": "South Charging Hub",
+            "zone": "South",
+            "floor": "F1",
+            "coordinates": {
+                "x": 66,
+                "y": 90
+            },
+            "nearby_sections": [
+                "SEC-N",
+                "SEC-O",
+                "SEC-P"
+            ],
+            "nearby_gates": [
+                "GATE-E",
+                "GATE-F"
+            ],
+            "charging_ports": {
+                "usb_a": 12,
+                "usb_c": 18,
+                "wireless": 10,
+                "ac_outlets": 12
+            },
+            "supported_devices": [
+                "Android",
+                "iPhone",
+                "Laptop",
+                "Tablet",
+                "Smartwatch"
+            ],
+            "amenities": {
+                "seating_available": true,
+                "shade": true,
+                "wifi": true,
+                "security_camera": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "height_accessible": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_ports": {
+                    "usb_a": 2,
+                    "usb_c": 4,
+                    "wireless": 1,
+                    "ac_outlets": 3
+                },
+                "occupied_ports": {
+                    "usb_a": 10,
+                    "usb_c": 14,
+                    "wireless": 9,
+                    "ac_outlets": 9
+                },
+                "occupancy_percentage": 78,
+                "estimated_wait_time_minutes": 6,
+                "power_status": "NORMAL",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "High Capacity",
+                    "USB-C Devices",
+                    "General Users"
+                ],
+                "response_radius_sections": [
+                    "SEC-N",
+                    "SEC-O",
+                    "SEC-P"
+                ]
+            }
+        },
+        {
+            "id": "CS-06",
+            "name": "South-West Charging Hub",
+            "zone": "South",
+            "floor": "F1",
+            "coordinates": {
+                "x": 44,
+                "y": 88
+            },
+            "nearby_sections": [
+                "SEC-Q",
+                "SEC-R",
+                "SEC-S"
+            ],
+            "nearby_gates": [
+                "GATE-F",
+                "GATE-G"
+            ],
+            "charging_ports": {
+                "usb_a": 8,
+                "usb_c": 14,
+                "wireless": 8,
+                "ac_outlets": 10
+            },
+            "supported_devices": [
+                "Android",
+                "iPhone",
+                "Laptop",
+                "Tablet",
+                "Smartwatch"
+            ],
+            "amenities": {
+                "seating_available": true,
+                "shade": true,
+                "wifi": true,
+                "security_camera": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "height_accessible": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_ports": {
+                    "usb_a": 5,
+                    "usb_c": 9,
+                    "wireless": 5,
+                    "ac_outlets": 7
+                },
+                "occupied_ports": {
+                    "usb_a": 3,
+                    "usb_c": 5,
+                    "wireless": 3,
+                    "ac_outlets": 3
+                },
+                "occupancy_percentage": 36,
+                "estimated_wait_time_minutes": 2,
+                "power_status": "NORMAL",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Families",
+                    "Quick Charge",
+                    "Laptop Charging"
+                ],
+                "response_radius_sections": [
+                    "SEC-Q",
+                    "SEC-R",
+                    "SEC-S"
+                ]
+            }
+        },
+        {
+            "id": "CS-07",
+            "name": "West Charging Hub",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 18,
+                "y": 58
+            },
+            "nearby_sections": [
+                "SEC-T",
+                "SEC-U",
+                "SEC-V",
+                "SEC-W"
+            ],
+            "nearby_gates": [
+                "GATE-G",
+                "GATE-H"
+            ],
+            "charging_ports": {
+                "usb_a": 12,
+                "usb_c": 18,
+                "wireless": 10,
+                "ac_outlets": 12
+            },
+            "supported_devices": [
+                "Android",
+                "iPhone",
+                "Laptop",
+                "Tablet",
+                "Smartwatch"
+            ],
+            "amenities": {
+                "seating_available": true,
+                "shade": true,
+                "wifi": true,
+                "security_camera": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "height_accessible": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_ports": {
+                    "usb_a": 8,
+                    "usb_c": 13,
+                    "wireless": 7,
+                    "ac_outlets": 9
+                },
+                "occupied_ports": {
+                    "usb_a": 4,
+                    "usb_c": 5,
+                    "wireless": 3,
+                    "ac_outlets": 3
+                },
+                "occupancy_percentage": 29,
+                "estimated_wait_time_minutes": 1,
+                "power_status": "NORMAL",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Quick Charge",
+                    "Laptop Charging",
+                    "Least Crowded",
+                    "General Users"
+                ],
+                "response_radius_sections": [
+                    "SEC-T",
+                    "SEC-U",
+                    "SEC-V",
+                    "SEC-W"
+                ]
+            }
+        },
+        {
+            "id": "CS-08",
+            "name": "West Concourse Mega Charging Hub",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 10,
+                "y": 20
+            },
+            "nearby_sections": [
+                "SEC-X",
+                "SEC-Y",
+                "SEC-Z"
+            ],
+            "nearby_gates": [
+                "GATE-H"
+            ],
+            "charging_ports": {
+                "usb_a": 16,
+                "usb_c": 24,
+                "wireless": 16,
+                "ac_outlets": 16
+            },
+            "supported_devices": [
+                "Android",
+                "iPhone",
+                "Laptop",
+                "Tablet",
+                "Smartwatch",
+                "Camera",
+                "Power Bank"
+            ],
+            "amenities": {
+                "seating_available": true,
+                "shade": true,
+                "wifi": true,
+                "security_camera": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "height_accessible": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_ports": {
+                    "usb_a": 6,
+                    "usb_c": 10,
+                    "wireless": 5,
+                    "ac_outlets": 7
+                },
+                "occupied_ports": {
+                    "usb_a": 10,
+                    "usb_c": 14,
+                    "wireless": 11,
+                    "ac_outlets": 9
+                },
+                "occupancy_percentage": 61,
+                "estimated_wait_time_minutes": 4,
+                "power_status": "NORMAL",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Highest Capacity",
+                    "Laptop Charging",
+                    "USB-C Fast Charging",
+                    "Large Groups",
+                    "Near Stadium Exit"
+                ],
+                "response_radius_sections": [
+                    "SEC-X",
+                    "SEC-Y",
+                    "SEC-Z"
+                ]
+            }
+        }
+    ],
+    "water_stations": [
+        {
+            "id": "WS-01",
+            "name": "North Hydration Station",
+            "zone": "North",
+            "floor": "F1",
+            "coordinates": {
+                "x": 18,
+                "y": 18
+            },
+            "nearby_sections": [
+                "SEC-A",
+                "SEC-B",
+                "SEC-C"
+            ],
+            "nearby_gates": [
+                "GATE-A",
+                "GATE-B"
+            ],
+            "dispensers": {
+                "cold_water": 6,
+                "room_temperature": 2,
+                "bottle_refill": 4
+            },
+            "amenities": {
+                "cup_dispenser": true,
+                "bottle_filling_supported": true,
+                "touchless_operation": true,
+                "wheelchair_accessible": true,
+                "drainage_available": true
+            },
+            "water_quality": {
+                "ph_level": 7.2,
+                "temperature_celsius": 8,
+                "filter_status": "GOOD",
+                "last_filter_replaced": "2026-06-20"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_dispensing_points": 10,
+                "occupied_dispensing_points": 2,
+                "occupancy_percentage": 17,
+                "queue_length": 1,
+                "estimated_wait_time_minutes": 0,
+                "water_supply": "NORMAL",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Bottle Refill",
+                    "Families",
+                    "Least Crowded"
+                ],
+                "response_radius_sections": [
+                    "SEC-A",
+                    "SEC-B",
+                    "SEC-C"
+                ]
+            }
+        },
+        {
+            "id": "WS-02",
+            "name": "North-East Hydration Station",
+            "zone": "North",
+            "floor": "F1",
+            "coordinates": {
+                "x": 48,
+                "y": 22
+            },
+            "nearby_sections": [
+                "SEC-D",
+                "SEC-E",
+                "SEC-F"
+            ],
+            "nearby_gates": [
+                "GATE-B",
+                "GATE-C"
+            ],
+            "dispensers": {
+                "cold_water": 8,
+                "room_temperature": 2,
+                "bottle_refill": 6
+            },
+            "amenities": {
+                "cup_dispenser": true,
+                "bottle_filling_supported": true,
+                "touchless_operation": true,
+                "wheelchair_accessible": true,
+                "drainage_available": true
+            },
+            "water_quality": {
+                "ph_level": 7.1,
+                "temperature_celsius": 9,
+                "filter_status": "GOOD",
+                "last_filter_replaced": "2026-06-18"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_dispensing_points": 7,
+                "occupied_dispensing_points": 9,
+                "occupancy_percentage": 56,
+                "queue_length": 5,
+                "estimated_wait_time_minutes": 2,
+                "water_supply": "NORMAL",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Quick Bottle Refill",
+                    "General Spectators"
+                ],
+                "response_radius_sections": [
+                    "SEC-D",
+                    "SEC-E",
+                    "SEC-F"
+                ]
+            }
+        },
+        {
+            "id": "WS-03",
+            "name": "East Hydration Station",
+            "zone": "East",
+            "floor": "F1",
+            "coordinates": {
+                "x": 84,
+                "y": 36
+            },
+            "nearby_sections": [
+                "SEC-G",
+                "SEC-H",
+                "SEC-I",
+                "SEC-J"
+            ],
+            "nearby_gates": [
+                "GATE-C",
+                "GATE-D"
+            ],
+            "dispensers": {
+                "cold_water": 10,
+                "room_temperature": 2,
+                "bottle_refill": 8
+            },
+            "amenities": {
+                "cup_dispenser": true,
+                "bottle_filling_supported": true,
+                "touchless_operation": true,
+                "wheelchair_accessible": true,
+                "drainage_available": true
+            },
+            "water_quality": {
+                "ph_level": 7.3,
+                "temperature_celsius": 8,
+                "filter_status": "EXCELLENT",
+                "last_filter_replaced": "2026-07-02"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_dispensing_points": 15,
+                "occupied_dispensing_points": 5,
+                "occupancy_percentage": 25,
+                "queue_length": 1,
+                "estimated_wait_time_minutes": 0,
+                "water_supply": "NORMAL",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Cold Water",
+                    "Bottle Refill",
+                    "Least Crowded"
+                ],
+                "response_radius_sections": [
+                    "SEC-G",
+                    "SEC-H",
+                    "SEC-I",
+                    "SEC-J"
+                ]
+            }
+        },
+        {
+            "id": "WS-04",
+            "name": "East Central Hydration Station",
+            "zone": "East",
+            "floor": "F1",
+            "coordinates": {
+                "x": 88,
+                "y": 64
+            },
+            "nearby_sections": [
+                "SEC-K",
+                "SEC-L",
+                "SEC-M"
+            ],
+            "nearby_gates": [
+                "GATE-D",
+                "GATE-E"
+            ],
+            "dispensers": {
+                "cold_water": 8,
+                "room_temperature": 2,
+                "bottle_refill": 6
+            },
+            "amenities": {
+                "cup_dispenser": true,
+                "bottle_filling_supported": true,
+                "touchless_operation": true,
+                "wheelchair_accessible": true,
+                "drainage_available": true
+            },
+            "water_quality": {
+                "ph_level": 7.2,
+                "temperature_celsius": 9,
+                "filter_status": "GOOD",
+                "last_filter_replaced": "2026-06-26"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_dispensing_points": 8,
+                "occupied_dispensing_points": 8,
+                "occupancy_percentage": 50,
+                "queue_length": 3,
+                "estimated_wait_time_minutes": 1,
+                "water_supply": "NORMAL",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "General Spectators",
+                    "Families",
+                    "Bottle Refill"
+                ],
+                "response_radius_sections": [
+                    "SEC-K",
+                    "SEC-L",
+                    "SEC-M"
+                ]
+            }
+        },
+        {
+            "id": "WS-05",
+            "name": "South Hydration Station",
+            "zone": "South",
+            "floor": "F1",
+            "coordinates": {
+                "x": 66,
+                "y": 90
+            },
+            "nearby_sections": [
+                "SEC-N",
+                "SEC-O",
+                "SEC-P"
+            ],
+            "nearby_gates": [
+                "GATE-E",
+                "GATE-F"
+            ],
+            "dispensers": {
+                "cold_water": 10,
+                "room_temperature": 2,
+                "bottle_refill": 8
+            },
+            "amenities": {
+                "cup_dispenser": true,
+                "bottle_filling_supported": true,
+                "touchless_operation": true,
+                "wheelchair_accessible": true,
+                "drainage_available": true
+            },
+            "water_quality": {
+                "ph_level": 7.2,
+                "temperature_celsius": 8,
+                "tds_ppm": 94,
+                "quality_rating": "EXCELLENT",
+                "filter_status": "EXCELLENT",
+                "last_filter_replaced": "2026-07-04"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_dispensing_points": 9,
+                "occupied_dispensing_points": 11,
+                "occupancy_percentage": 55,
+                "queue_length": 4,
+                "estimated_wait_time_minutes": 2,
+                "water_supply": "NORMAL",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Cold Water",
+                    "Bottle Refill",
+                    "General Spectators"
+                ],
+                "response_radius_sections": [
+                    "SEC-N",
+                    "SEC-O",
+                    "SEC-P"
+                ]
+            }
+        },
+        {
+            "id": "WS-06",
+            "name": "South-West Hydration Station",
+            "zone": "South",
+            "floor": "F1",
+            "coordinates": {
+                "x": 42,
+                "y": 88
+            },
+            "nearby_sections": [
+                "SEC-Q",
+                "SEC-R",
+                "SEC-S"
+            ],
+            "nearby_gates": [
+                "GATE-F",
+                "GATE-G"
+            ],
+            "dispensers": {
+                "cold_water": 8,
+                "room_temperature": 2,
+                "bottle_refill": 6
+            },
+            "amenities": {
+                "cup_dispenser": true,
+                "bottle_filling_supported": true,
+                "touchless_operation": true,
+                "wheelchair_accessible": true,
+                "drainage_available": true
+            },
+            "water_quality": {
+                "ph_level": 7.1,
+                "temperature_celsius": 9,
+                "tds_ppm": 98,
+                "quality_rating": "GOOD",
+                "filter_status": "GOOD",
+                "last_filter_replaced": "2026-06-28"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_dispensing_points": 13,
+                "occupied_dispensing_points": 3,
+                "occupancy_percentage": 19,
+                "queue_length": 0,
+                "estimated_wait_time_minutes": 0,
+                "water_supply": "NORMAL",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Least Crowded",
+                    "Bottle Refill",
+                    "Families"
+                ],
+                "response_radius_sections": [
+                    "SEC-Q",
+                    "SEC-R",
+                    "SEC-S"
+                ]
+            }
+        },
+        {
+            "id": "WS-07",
+            "name": "West Hydration Station",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 20,
+                "y": 58
+            },
+            "nearby_sections": [
+                "SEC-T",
+                "SEC-U",
+                "SEC-V",
+                "SEC-W"
+            ],
+            "nearby_gates": [
+                "GATE-G",
+                "GATE-H"
+            ],
+            "dispensers": {
+                "cold_water": 10,
+                "room_temperature": 2,
+                "bottle_refill": 8
+            },
+            "amenities": {
+                "cup_dispenser": true,
+                "bottle_filling_supported": true,
+                "touchless_operation": true,
+                "wheelchair_accessible": true,
+                "drainage_available": true
+            },
+            "water_quality": {
+                "ph_level": 7.3,
+                "temperature_celsius": 8,
+                "tds_ppm": 91,
+                "quality_rating": "EXCELLENT",
+                "filter_status": "EXCELLENT",
+                "last_filter_replaced": "2026-07-06"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_dispensing_points": 15,
+                "occupied_dispensing_points": 5,
+                "occupancy_percentage": 25,
+                "queue_length": 1,
+                "estimated_wait_time_minutes": 0,
+                "water_supply": "NORMAL",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Fast Bottle Refill",
+                    "Cold Water",
+                    "Least Crowded"
+                ],
+                "response_radius_sections": [
+                    "SEC-T",
+                    "SEC-U",
+                    "SEC-V",
+                    "SEC-W"
+                ]
+            }
+        },
+        {
+            "id": "WS-08",
+            "name": "West Concourse Hydration Hub",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 10,
+                "y": 22
+            },
+            "nearby_sections": [
+                "SEC-X",
+                "SEC-Y",
+                "SEC-Z"
+            ],
+            "nearby_gates": [
+                "GATE-H"
+            ],
+            "dispensers": {
+                "cold_water": 12,
+                "room_temperature": 4,
+                "bottle_refill": 10
+            },
+            "amenities": {
+                "cup_dispenser": true,
+                "bottle_filling_supported": true,
+                "touchless_operation": true,
+                "wheelchair_accessible": true,
+                "drainage_available": true
+            },
+            "water_quality": {
+                "ph_level": 7.2,
+                "temperature_celsius": 7,
+                "tds_ppm": 89,
+                "quality_rating": "EXCELLENT",
+                "filter_status": "EXCELLENT",
+                "last_filter_replaced": "2026-07-08"
+            },
+            "live_status": {
+                "status": "OPEN",
+                "available_dispensing_points": 8,
+                "occupied_dispensing_points": 18,
+                "occupancy_percentage": 69,
+                "queue_length": 6,
+                "estimated_wait_time_minutes": 3,
+                "water_supply": "NORMAL",
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Highest Capacity",
+                    "Bottle Refill",
+                    "Near Stadium Exit"
+                ],
+                "response_radius_sections": [
+                    "SEC-X",
+                    "SEC-Y",
+                    "SEC-Z"
+                ]
+            }
+        }
+    ],
+    "atms": [
+        {
+            "id": "ATM-01",
+            "name": "North ATM Zone",
+            "zone": "North",
+            "floor": "F1",
+            "coordinates": {
+                "x": 20,
+                "y": 18
+            },
+            "nearby_sections": [
+                "SEC-A",
+                "SEC-B",
+                "SEC-C"
+            ],
+            "nearby_gates": [
+                "GATE-A",
+                "GATE-B"
+            ],
+            "atm_details": {
+                "bank_operator": "Global Bank",
+                "supported_cards": [
+                    "Visa",
+                    "Mastercard",
+                    "American Express"
+                ],
+                "currency_supported": [
+                    "USD",
+                    "EUR",
+                    "INR"
+                ],
+                "services": [
+                    "Cash Withdrawal",
+                    "Balance Inquiry",
+                    "Cash Deposit"
+                ]
+            },
+            "security": {
+                "cctv_available": true,
+                "security_guard_nearby": true,
+                "emergency_button": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "height_accessible": true
+            },
+            "live_status": {
+                "status": "OPERATIONAL",
+                "cash_availability": "HIGH",
+                "queue_length": 1,
+                "estimated_wait_time_minutes": 0,
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Quick Withdrawal",
+                    "Families",
+                    "Least Waiting Time"
+                ],
+                "response_radius_sections": [
+                    "SEC-A",
+                    "SEC-B",
+                    "SEC-C"
+                ]
+            }
+        },
+        {
+            "id": "ATM-02",
+            "name": "North Central ATM Hub",
+            "zone": "North",
+            "floor": "F1",
+            "coordinates": {
+                "x": 52,
+                "y": 20
+            },
+            "nearby_sections": [
+                "SEC-D",
+                "SEC-E",
+                "SEC-F"
+            ],
+            "nearby_gates": [
+                "GATE-B",
+                "GATE-C"
+            ],
+            "atm_details": {
+                "bank_operator": "WorldPay ATM Services",
+                "supported_cards": [
+                    "Visa",
+                    "Mastercard",
+                    "RuPay",
+                    "American Express"
+                ],
+                "currency_supported": [
+                    "USD",
+                    "EUR",
+                    "GBP",
+                    "INR"
+                ],
+                "services": [
+                    "Cash Withdrawal",
+                    "Balance Inquiry"
+                ]
+            },
+            "security": {
+                "cctv_available": true,
+                "security_guard_nearby": false,
+                "emergency_button": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "height_accessible": true
+            },
+            "live_status": {
+                "status": "OPERATIONAL",
+                "cash_availability": "MEDIUM",
+                "queue_length": 5,
+                "estimated_wait_time_minutes": 4,
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "International Cards",
+                    "Multiple Currency Support"
+                ],
+                "response_radius_sections": [
+                    "SEC-D",
+                    "SEC-E",
+                    "SEC-F"
+                ]
+            }
+        },
+        {
+            "id": "ATM-03",
+            "name": "East ATM Pavilion",
+            "zone": "East",
+            "floor": "F1",
+            "coordinates": {
+                "x": 82,
+                "y": 38
+            },
+            "nearby_sections": [
+                "SEC-G",
+                "SEC-H",
+                "SEC-I",
+                "SEC-J"
+            ],
+            "nearby_gates": [
+                "GATE-C",
+                "GATE-D"
+            ],
+            "atm_details": {
+                "bank_operator": "Global Bank",
+                "supported_cards": [
+                    "Visa",
+                    "Mastercard",
+                    "RuPay"
+                ],
+                "currency_supported": [
+                    "USD",
+                    "EUR",
+                    "INR"
+                ],
+                "services": [
+                    "Cash Withdrawal",
+                    "Balance Inquiry",
+                    "PIN Change"
+                ]
+            },
+            "security": {
+                "cctv_available": true,
+                "security_guard_nearby": true,
+                "emergency_button": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "height_accessible": true
+            },
+            "live_status": {
+                "status": "OPERATIONAL",
+                "cash_availability": "HIGH",
+                "queue_length": 2,
+                "estimated_wait_time_minutes": 1,
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Fast Withdrawal",
+                    "General Users"
+                ],
+                "response_radius_sections": [
+                    "SEC-G",
+                    "SEC-H",
+                    "SEC-I",
+                    "SEC-J"
+                ]
+            }
+        },
+        {
+            "id": "ATM-04",
+            "name": "East Premium ATM Lounge",
+            "zone": "East",
+            "floor": "F1",
+            "coordinates": {
+                "x": 86,
+                "y": 66
+            },
+            "nearby_sections": [
+                "SEC-K",
+                "SEC-L",
+                "SEC-M"
+            ],
+            "nearby_gates": [
+                "GATE-D",
+                "GATE-E"
+            ],
+            "atm_details": {
+                "bank_operator": "WorldPay ATM Services",
+                "supported_cards": [
+                    "Visa",
+                    "Mastercard",
+                    "American Express",
+                    "RuPay"
+                ],
+                "currency_supported": [
+                    "USD",
+                    "EUR",
+                    "GBP",
+                    "INR",
+                    "JPY"
+                ],
+                "services": [
+                    "Cash Withdrawal",
+                    "Balance Inquiry",
+                    "Currency Conversion"
+                ]
+            },
+            "security": {
+                "cctv_available": true,
+                "security_guard_nearby": true,
+                "emergency_button": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "height_accessible": true
+            },
+            "live_status": {
+                "status": "OPERATIONAL",
+                "cash_availability": "MEDIUM",
+                "queue_length": 6,
+                "estimated_wait_time_minutes": 5,
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "International Visitors",
+                    "Currency Conversion"
+                ],
+                "response_radius_sections": [
+                    "SEC-K",
+                    "SEC-L",
+                    "SEC-M"
+                ]
+            }
+        },
+        {
+            "id": "ATM-05",
+            "name": "South ATM Pavilion",
+            "zone": "South",
+            "floor": "F1",
+            "coordinates": {
+                "x": 64,
+                "y": 88
+            },
+            "nearby_sections": [
+                "SEC-N",
+                "SEC-O",
+                "SEC-P"
+            ],
+            "nearby_gates": [
+                "GATE-E",
+                "GATE-F"
+            ],
+            "atm_details": {
+                "bank_operator": "Global Bank",
+                "supported_cards": [
+                    "Visa",
+                    "Mastercard",
+                    "RuPay",
+                    "American Express"
+                ],
+                "currency_supported": [
+                    "USD",
+                    "EUR",
+                    "GBP",
+                    "INR"
+                ],
+                "services": [
+                    "Cash Withdrawal",
+                    "Balance Inquiry",
+                    "PIN Change"
+                ]
+            },
+            "security": {
+                "cctv_available": true,
+                "security_guard_nearby": true,
+                "emergency_button": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "height_accessible": true
+            },
+            "live_status": {
+                "status": "OPERATIONAL",
+                "cash_availability": "HIGH",
+                "queue_length": 3,
+                "estimated_wait_time_minutes": 2,
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Families",
+                    "General Withdrawal",
+                    "RuPay Users"
+                ],
+                "response_radius_sections": [
+                    "SEC-N",
+                    "SEC-O",
+                    "SEC-P"
+                ]
+            }
+        },
+        {
+            "id": "ATM-06",
+            "name": "South-West ATM Hub",
+            "zone": "South",
+            "floor": "F1",
+            "coordinates": {
+                "x": 40,
+                "y": 86
+            },
+            "nearby_sections": [
+                "SEC-Q",
+                "SEC-R",
+                "SEC-S"
+            ],
+            "nearby_gates": [
+                "GATE-F",
+                "GATE-G"
+            ],
+            "atm_details": {
+                "bank_operator": "WorldPay ATM Services",
+                "supported_cards": [
+                    "Visa",
+                    "Mastercard",
+                    "American Express"
+                ],
+                "currency_supported": [
+                    "USD",
+                    "EUR",
+                    "INR",
+                    "JPY"
+                ],
+                "services": [
+                    "Cash Withdrawal",
+                    "Balance Inquiry",
+                    "Currency Conversion"
+                ]
+            },
+            "security": {
+                "cctv_available": true,
+                "security_guard_nearby": false,
+                "emergency_button": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "height_accessible": true
+            },
+            "live_status": {
+                "status": "OPERATIONAL",
+                "cash_availability": "MEDIUM",
+                "queue_length": 7,
+                "estimated_wait_time_minutes": 6,
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "International Visitors",
+                    "Currency Conversion"
+                ],
+                "response_radius_sections": [
+                    "SEC-Q",
+                    "SEC-R",
+                    "SEC-S"
+                ]
+            }
+        },
+        {
+            "id": "ATM-07",
+            "name": "West ATM Center",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 18,
+                "y": 56
+            },
+            "nearby_sections": [
+                "SEC-T",
+                "SEC-U",
+                "SEC-V",
+                "SEC-W"
+            ],
+            "nearby_gates": [
+                "GATE-G",
+                "GATE-H"
+            ],
+            "atm_details": {
+                "bank_operator": "Global Bank",
+                "supported_cards": [
+                    "Visa",
+                    "Mastercard",
+                    "RuPay"
+                ],
+                "currency_supported": [
+                    "USD",
+                    "EUR",
+                    "GBP",
+                    "INR"
+                ],
+                "services": [
+                    "Cash Withdrawal",
+                    "Balance Inquiry"
+                ]
+            },
+            "security": {
+                "cctv_available": true,
+                "security_guard_nearby": true,
+                "emergency_button": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "height_accessible": true
+            },
+            "live_status": {
+                "status": "OPERATIONAL",
+                "cash_availability": "HIGH",
+                "queue_length": 1,
+                "estimated_wait_time_minutes": 0,
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Quick Withdrawal",
+                    "Short Queue",
+                    "General Users"
+                ],
+                "response_radius_sections": [
+                    "SEC-T",
+                    "SEC-U",
+                    "SEC-V",
+                    "SEC-W"
+                ]
+            }
+        },
+        {
+            "id": "ATM-08",
+            "name": "West Concourse International ATM Lounge",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 12,
+                "y": 20
+            },
+            "nearby_sections": [
+                "SEC-X",
+                "SEC-Y",
+                "SEC-Z"
+            ],
+            "nearby_gates": [
+                "GATE-H"
+            ],
+            "atm_details": {
+                "bank_operator": "WorldPay ATM Services",
+                "supported_cards": [
+                    "Visa",
+                    "Mastercard",
+                    "American Express",
+                    "RuPay"
+                ],
+                "currency_supported": [
+                    "USD",
+                    "EUR",
+                    "GBP",
+                    "INR",
+                    "JPY",
+                    "AUD"
+                ],
+                "services": [
+                    "Cash Withdrawal",
+                    "Balance Inquiry",
+                    "Currency Conversion",
+                    "Emergency Cash Assistance"
+                ]
+            },
+            "security": {
+                "cctv_available": true,
+                "security_guard_nearby": true,
+                "emergency_button": true
+            },
+            "accessibility": {
+                "wheelchair_accessible": true,
+                "height_accessible": true
+            },
+            "live_status": {
+                "status": "OPERATIONAL",
+                "cash_availability": "MEDIUM",
+                "queue_length": 8,
+                "estimated_wait_time_minutes": 7,
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "00:00",
+                "close": "23:59"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "International Visitors",
+                    "Multiple Currency Support",
+                    "Emergency Cash"
+                ],
+                "response_radius_sections": [
+                    "SEC-X",
+                    "SEC-Y",
+                    "SEC-Z"
+                ]
+            }
+        }
+    ],
+    "elevators": [
+        {
+            "id": "EL-01",
+            "name": "North Public Elevator 1",
+            "zone": "North",
+            "floors_served": [
+                "Ground Floor",
+                "Level 1",
+                "Level 2",
+                "VIP Level"
+            ],
+            "coordinates": {
+                "x": 20,
+                "y": 20
+            },
+            "nearby_sections": [
+                "SEC-A",
+                "SEC-B",
+                "SEC-C"
+            ],
+            "nearby_gates": [
+                "GATE-A",
+                "GATE-B"
+            ],
+            "capacity": {
+                "max_people": 18,
+                "wheelchair_capacity": 2
+            },
+            "features": {
+                "wheelchair_accessible": true,
+                "braille_buttons": true,
+                "voice_assistance": true,
+                "emergency_phone": true,
+                "security_camera": true
+            },
+            "live_status": {
+                "status": "OPERATIONAL",
+                "current_floor": "Level 1",
+                "direction": "UP",
+                "current_load_percentage": 35,
+                "queue_length": 2,
+                "estimated_wait_time_seconds": 30,
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Wheelchair Users",
+                    "Elderly Fans",
+                    "Sections A-C"
+                ],
+                "response_radius_sections": [
+                    "SEC-A",
+                    "SEC-B",
+                    "SEC-C"
+                ]
+            }
+        },
+        {
+            "id": "EL-02",
+            "name": "North Public Elevator 2",
+            "zone": "North",
+            "floors_served": [
+                "Ground Floor",
+                "Level 1",
+                "Level 2",
+                "Media Level"
+            ],
+            "coordinates": {
+                "x": 50,
+                "y": 22
+            },
+            "nearby_sections": [
+                "SEC-D",
+                "SEC-E",
+                "SEC-F"
+            ],
+            "nearby_gates": [
+                "GATE-B",
+                "GATE-C"
+            ],
+            "capacity": {
+                "max_people": 20,
+                "wheelchair_capacity": 2
+            },
+            "features": {
+                "wheelchair_accessible": true,
+                "braille_buttons": true,
+                "voice_assistance": true,
+                "emergency_phone": true,
+                "security_camera": true
+            },
+            "live_status": {
+                "status": "OPERATIONAL",
+                "current_floor": "Ground Floor",
+                "direction": "UP",
+                "current_load_percentage": 60,
+                "queue_length": 5,
+                "estimated_wait_time_seconds": 90,
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Large Groups",
+                    "Upper Level Access",
+                    "Sections D-F"
+                ],
+                "response_radius_sections": [
+                    "SEC-D",
+                    "SEC-E",
+                    "SEC-F"
+                ]
+            }
+        },
+        {
+            "id": "EL-03",
+            "name": "East Main Accessibility Elevator",
+            "zone": "East",
+            "floors_served": [
+                "Ground Floor",
+                "Level 1",
+                "Level 2",
+                "Premium Seating Level"
+            ],
+            "coordinates": {
+                "x": 82,
+                "y": 38
+            },
+            "nearby_sections": [
+                "SEC-G",
+                "SEC-H",
+                "SEC-I",
+                "SEC-J"
+            ],
+            "nearby_gates": [
+                "GATE-C",
+                "GATE-D"
+            ],
+            "capacity": {
+                "max_people": 22,
+                "wheelchair_capacity": 3
+            },
+            "features": {
+                "wheelchair_accessible": true,
+                "braille_buttons": true,
+                "voice_assistance": true,
+                "emergency_phone": true,
+                "security_camera": true
+            },
+            "live_status": {
+                "status": "OPERATIONAL",
+                "current_floor": "Level 2",
+                "direction": "DOWN",
+                "current_load_percentage": 40,
+                "queue_length": 1,
+                "estimated_wait_time_seconds": 20,
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Wheelchair Users",
+                    "Premium Seating",
+                    "Quick Access"
+                ],
+                "response_radius_sections": [
+                    "SEC-G",
+                    "SEC-H",
+                    "SEC-I",
+                    "SEC-J"
+                ]
+            }
+        },
+        {
+            "id": "EL-04",
+            "name": "East Central Elevator Hub",
+            "zone": "East",
+            "floors_served": [
+                "Ground Floor",
+                "Level 1",
+                "Level 2",
+                "VIP Level"
+            ],
+            "coordinates": {
+                "x": 86,
+                "y": 65
+            },
+            "nearby_sections": [
+                "SEC-K",
+                "SEC-L",
+                "SEC-M"
+            ],
+            "nearby_gates": [
+                "GATE-D",
+                "GATE-E"
+            ],
+            "capacity": {
+                "max_people": 24,
+                "wheelchair_capacity": 3
+            },
+            "features": {
+                "wheelchair_accessible": true,
+                "braille_buttons": true,
+                "voice_assistance": true,
+                "emergency_phone": true,
+                "security_camera": true
+            },
+            "live_status": {
+                "status": "OPERATIONAL",
+                "current_floor": "Level 1",
+                "direction": "IDLE",
+                "current_load_percentage": 25,
+                "queue_length": 0,
+                "estimated_wait_time_seconds": 0,
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "VIP Access",
+                    "Families",
+                    "Low Waiting Time"
+                ],
+                "response_radius_sections": [
+                    "SEC-K",
+                    "SEC-L",
+                    "SEC-M"
+                ]
+            }
+        },
+        {
+            "id": "EL-05",
+            "name": "South Main Accessibility Elevator",
+            "zone": "South",
+            "floors_served": [
+                "Ground Floor",
+                "Level 1",
+                "Level 2",
+                "Premium Seating Level"
+            ],
+            "coordinates": {
+                "x": 66,
+                "y": 88
+            },
+            "nearby_sections": [
+                "SEC-N",
+                "SEC-O",
+                "SEC-P"
+            ],
+            "nearby_gates": [
+                "GATE-E",
+                "GATE-F"
+            ],
+            "capacity": {
+                "max_people": 22,
+                "wheelchair_capacity": 3
+            },
+            "features": {
+                "wheelchair_accessible": true,
+                "braille_buttons": true,
+                "voice_assistance": true,
+                "emergency_phone": true,
+                "security_camera": true
+            },
+            "live_status": {
+                "status": "OPERATIONAL",
+                "current_floor": "Level 1",
+                "direction": "UP",
+                "current_load_percentage": 55,
+                "queue_length": 4,
+                "estimated_wait_time_seconds": 75,
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Wheelchair Users",
+                    "Families",
+                    "Sections N-P"
+                ],
+                "response_radius_sections": [
+                    "SEC-N",
+                    "SEC-O",
+                    "SEC-P"
+                ]
+            }
+        },
+        {
+            "id": "EL-06",
+            "name": "South-West Elevator Hub",
+            "zone": "South",
+            "floors_served": [
+                "Ground Floor",
+                "Level 1",
+                "Level 2",
+                "VIP Level"
+            ],
+            "coordinates": {
+                "x": 42,
+                "y": 86
+            },
+            "nearby_sections": [
+                "SEC-Q",
+                "SEC-R",
+                "SEC-S"
+            ],
+            "nearby_gates": [
+                "GATE-F",
+                "GATE-G"
+            ],
+            "capacity": {
+                "max_people": 20,
+                "wheelchair_capacity": 2
+            },
+            "features": {
+                "wheelchair_accessible": true,
+                "braille_buttons": true,
+                "voice_assistance": true,
+                "emergency_phone": true,
+                "security_camera": true
+            },
+            "live_status": {
+                "status": "OPERATIONAL",
+                "current_floor": "Ground Floor",
+                "direction": "IDLE",
+                "current_load_percentage": 30,
+                "queue_length": 1,
+                "estimated_wait_time_seconds": 25,
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Quick Access",
+                    "Elderly Fans",
+                    "Low Waiting Time"
+                ],
+                "response_radius_sections": [
+                    "SEC-Q",
+                    "SEC-R",
+                    "SEC-S"
+                ]
+            }
+        },
+        {
+            "id": "EL-07",
+            "name": "West Accessibility Elevator",
+            "zone": "West",
+            "floors_served": [
+                "Ground Floor",
+                "Level 1",
+                "Level 2",
+                "Media Level"
+            ],
+            "coordinates": {
+                "x": 18,
+                "y": 56
+            },
+            "nearby_sections": [
+                "SEC-T",
+                "SEC-U",
+                "SEC-V",
+                "SEC-W"
+            ],
+            "nearby_gates": [
+                "GATE-G",
+                "GATE-H"
+            ],
+            "capacity": {
+                "max_people": 24,
+                "wheelchair_capacity": 3
+            },
+            "features": {
+                "wheelchair_accessible": true,
+                "braille_buttons": true,
+                "voice_assistance": true,
+                "emergency_phone": true,
+                "security_camera": true
+            },
+            "live_status": {
+                "status": "OPERATIONAL",
+                "current_floor": "Level 2",
+                "direction": "DOWN",
+                "current_load_percentage": 65,
+                "queue_length": 6,
+                "estimated_wait_time_seconds": 120,
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Large Groups",
+                    "Upper Level Access",
+                    "Sections T-W"
+                ],
+                "response_radius_sections": [
+                    "SEC-T",
+                    "SEC-U",
+                    "SEC-V",
+                    "SEC-W"
+                ]
+            }
+        },
+        {
+            "id": "EL-08",
+            "name": "West Concourse Premium Elevator Hub",
+            "zone": "West",
+            "floors_served": [
+                "Ground Floor",
+                "Level 1",
+                "Level 2",
+                "VIP Level",
+                "Emergency Access Level"
+            ],
+            "coordinates": {
+                "x": 12,
+                "y": 22
+            },
+            "nearby_sections": [
+                "SEC-X",
+                "SEC-Y",
+                "SEC-Z"
+            ],
+            "nearby_gates": [
+                "GATE-H"
+            ],
+            "capacity": {
+                "max_people": 28,
+                "wheelchair_capacity": 4
+            },
+            "features": {
+                "wheelchair_accessible": true,
+                "braille_buttons": true,
+                "voice_assistance": true,
+                "emergency_phone": true,
+                "security_camera": true,
+                "priority_medical_access": true
+            },
+            "live_status": {
+                "status": "OPERATIONAL",
+                "current_floor": "Ground Floor",
+                "direction": "UP",
+                "current_load_percentage": 70,
+                "queue_length": 8,
+                "estimated_wait_time_seconds": 150,
+                "maintenance_required": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "08:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Wheelchair Users",
+                    "Medical Assistance",
+                    "VIP Access",
+                    "Emergency Routing"
+                ],
+                "response_radius_sections": [
+                    "SEC-X",
+                    "SEC-Y",
+                    "SEC-Z"
+                ]
+            }
+        }
+    ],
+    "merchandise_stores": [
+        {
+            "id": "MS-01",
+            "name": "Official Fan Store North",
+            "zone": "North",
+            "floor": "F1",
+            "coordinates": {
+                "x": 22,
+                "y": 20
+            },
+            "nearby_sections": [
+                "SEC-A",
+                "SEC-B",
+                "SEC-C",
+                "SEC-D",
+                "SEC-E",
+                "SEC-F"
+            ],
+            "nearby_gates": [
+                "GATE-A",
+                "GATE-B"
+            ],
+            "store_details": {
+                "store_type": "Official Merchandise Store",
+                "products_available": [
+                    "Official Jerseys",
+                    "Scarves",
+                    "Caps",
+                    "Flags",
+                    "Souvenirs",
+                    "Team Accessories"
+                ],
+                "payment_methods": [
+                    "Credit Card",
+                    "Debit Card",
+                    "Mobile Payment",
+                    "Cash"
+                ]
+            },
+            "inventory": {
+                "jersey_availability": "HIGH",
+                "souvenir_availability": "HIGH",
+                "limited_edition_items": true,
+                "popular_items": [
+                    "Home Jersey",
+                    "Team Scarf",
+                    "Collector Pin"
+                ]
+            },
+            "amenities": {
+                "fitting_room": true,
+                "digital_payment": true,
+                "wheelchair_accessible": true,
+                "gift_wrapping": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "queue_length": 10,
+                "estimated_wait_time_minutes": 4,
+                "crowd_level": "MEDIUM",
+                "inventory_alert": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "09:00",
+                "close": "23:00"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Official Jerseys",
+                    "Souvenirs",
+                    "Families",
+                    "First-Time Visitors"
+                ],
+                "response_radius_sections": [
+                    "SEC-A",
+                    "SEC-B",
+                    "SEC-C",
+                    "SEC-D",
+                    "SEC-E",
+                    "SEC-F"
+                ]
+            }
+        },
+        {
+            "id": "MS-02",
+            "name": "East Premium Fan Store",
+            "zone": "East",
+            "floor": "F1",
+            "coordinates": {
+                "x": 84,
+                "y": 40
+            },
+            "nearby_sections": [
+                "SEC-G",
+                "SEC-H",
+                "SEC-I",
+                "SEC-J",
+                "SEC-K",
+                "SEC-L",
+                "SEC-M"
+            ],
+            "nearby_gates": [
+                "GATE-C",
+                "GATE-D"
+            ],
+            "store_details": {
+                "store_type": "Premium Merchandise Store",
+                "products_available": [
+                    "Official Jerseys",
+                    "Player Merchandise",
+                    "Limited Edition Collectibles",
+                    "Scarves",
+                    "Caps",
+                    "Flags",
+                    "Souvenirs"
+                ],
+                "payment_methods": [
+                    "Credit Card",
+                    "Debit Card",
+                    "Mobile Payment",
+                    "Cash",
+                    "Contactless Payment"
+                ]
+            },
+            "inventory": {
+                "jersey_availability": "MEDIUM",
+                "souvenir_availability": "HIGH",
+                "limited_edition_items": true,
+                "popular_items": [
+                    "Player Name Jersey",
+                    "Signed Memorabilia",
+                    "Limited Edition Ball"
+                ]
+            },
+            "amenities": {
+                "fitting_room": true,
+                "digital_payment": true,
+                "wheelchair_accessible": true,
+                "gift_wrapping": true,
+                "vip_purchase_counter": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "queue_length": 18,
+                "estimated_wait_time_minutes": 8,
+                "crowd_level": "HIGH",
+                "inventory_alert": true,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "09:00",
+                "close": "23:00"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Premium Merchandise",
+                    "Limited Edition Items",
+                    "International Fans"
+                ],
+                "response_radius_sections": [
+                    "SEC-G",
+                    "SEC-H",
+                    "SEC-I",
+                    "SEC-J",
+                    "SEC-K",
+                    "SEC-L",
+                    "SEC-M"
+                ]
+            }
+        },
+        {
+            "id": "MS-03",
+            "name": "South Fan Store",
+            "zone": "South",
+            "floor": "F1",
+            "coordinates": {
+                "x": 64,
+                "y": 88
+            },
+            "nearby_sections": [
+                "SEC-N",
+                "SEC-O",
+                "SEC-P",
+                "SEC-Q",
+                "SEC-R",
+                "SEC-S"
+            ],
+            "nearby_gates": [
+                "GATE-E",
+                "GATE-F"
+            ],
+            "store_details": {
+                "store_type": "Official Merchandise Store",
+                "products_available": [
+                    "Official Jerseys",
+                    "Scarves",
+                    "Caps",
+                    "Flags",
+                    "Souvenirs",
+                    "Team Accessories",
+                    "Kids Merchandise"
+                ],
+                "payment_methods": [
+                    "Credit Card",
+                    "Debit Card",
+                    "Mobile Payment",
+                    "Cash",
+                    "Contactless Payment"
+                ]
+            },
+            "inventory": {
+                "jersey_availability": "HIGH",
+                "souvenir_availability": "MEDIUM",
+                "limited_edition_items": false,
+                "popular_items": [
+                    "Home Jersey",
+                    "Team Scarf",
+                    "Mini Football"
+                ]
+            },
+            "amenities": {
+                "fitting_room": true,
+                "digital_payment": true,
+                "wheelchair_accessible": true,
+                "gift_wrapping": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "queue_length": 7,
+                "estimated_wait_time_minutes": 3,
+                "crowd_level": "LOW",
+                "inventory_alert": false,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "09:00",
+                "close": "23:00"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "Quick Shopping",
+                    "Family Merchandise",
+                    "Kids Products"
+                ],
+                "response_radius_sections": [
+                    "SEC-N",
+                    "SEC-O",
+                    "SEC-P",
+                    "SEC-Q",
+                    "SEC-R",
+                    "SEC-S"
+                ]
+            }
+        },
+        {
+            "id": "MS-04",
+            "name": "West Ultimate Fan Experience Store",
+            "zone": "West",
+            "floor": "F1",
+            "coordinates": {
+                "x": 14,
+                "y": 24
+            },
+            "nearby_sections": [
+                "SEC-T",
+                "SEC-U",
+                "SEC-V",
+                "SEC-W",
+                "SEC-X",
+                "SEC-Y",
+                "SEC-Z"
+            ],
+            "nearby_gates": [
+                "GATE-G",
+                "GATE-H"
+            ],
+            "store_details": {
+                "store_type": "Premium Fan Experience Store",
+                "products_available": [
+                    "Official Jerseys",
+                    "Player Merchandise",
+                    "Signed Memorabilia",
+                    "Limited Edition Collectibles",
+                    "Scarves",
+                    "Caps",
+                    "Flags",
+                    "Souvenirs"
+                ],
+                "payment_methods": [
+                    "Credit Card",
+                    "Debit Card",
+                    "Mobile Payment",
+                    "Cash",
+                    "Contactless Payment",
+                    "Digital Wallet"
+                ]
+            },
+            "inventory": {
+                "jersey_availability": "MEDIUM",
+                "souvenir_availability": "HIGH",
+                "limited_edition_items": true,
+                "popular_items": [
+                    "Player Jersey",
+                    "Signed Football",
+                    "Collector Edition Scarf"
+                ]
+            },
+            "amenities": {
+                "fitting_room": true,
+                "digital_payment": true,
+                "wheelchair_accessible": true,
+                "gift_wrapping": true,
+                "photo_zone": true,
+                "custom_printing_counter": true
+            },
+            "live_status": {
+                "status": "OPEN",
+                "queue_length": 22,
+                "estimated_wait_time_minutes": 10,
+                "crowd_level": "HIGH",
+                "inventory_alert": true,
+                "last_updated": "2026-07-11T17:30:00Z"
+            },
+            "operating_hours": {
+                "open": "09:00",
+                "close": "23:30"
+            },
+            "ai_metadata": {
+                "recommended_for": [
+                    "International Fans",
+                    "Limited Edition Items",
+                    "Fan Experience",
+                    "Photo Opportunities"
+                ],
+                "response_radius_sections": [
+                    "SEC-T",
+                    "SEC-U",
+                    "SEC-V",
+                    "SEC-W",
+                    "SEC-X",
+                    "SEC-Y",
+                    "SEC-Z"
+                ]
+            }
+        }
+    ]
+}

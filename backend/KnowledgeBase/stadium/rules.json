@@ -1,0 +1,1379 @@
+{
+    "entry_rules": [
+        {
+            "rule_id": "ER-01",
+            "category": "Entry Rules",
+            "title": "Valid Match Ticket Required",
+            "description": "Every visitor must present a valid match ticket before entering the stadium. Tickets must be issued through authorized channels.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "MANDATORY",
+            "enforcement": {
+                "security_check": true,
+                "automatic_validation": true,
+                "staff_verification": true
+            },
+            "exceptions": [],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I enter without a ticket?",
+                    "Can I buy tickets at the stadium?"
+                ],
+                "recommended_response": "A valid match ticket is required for entry. Visitors should purchase tickets only through official channels."
+            }
+        },
+        {
+            "rule_id": "ER-02",
+            "category": "Entry Rules",
+            "title": "Digital Ticket Verification",
+            "description": "Visitors using digital tickets must display the QR code on their registered mobile device during security verification.",
+            "applies_to": [
+                "Digital Ticket Holders"
+            ],
+            "severity": "MANDATORY",
+            "enforcement": {
+                "security_check": true,
+                "automatic_validation": true,
+                "staff_verification": true
+            },
+            "exceptions": [
+                "Printed tickets issued by official organizers"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I use a screenshot of my ticket?",
+                    "Can someone else use my QR code?"
+                ],
+                "recommended_response": "Visitors should use the official ticket application or authorized ticket format for entry."
+            }
+        },
+        {
+            "rule_id": "ER-03",
+            "category": "Entry Rules",
+            "title": "Identity Verification Required",
+            "description": "Visitors may be required to present valid identification documents matching their ticket details.",
+            "applies_to": [
+                "International Visitors",
+                "Restricted Ticket Categories",
+                "VIP Guests"
+            ],
+            "severity": "MANDATORY",
+            "enforcement": {
+                "security_check": true,
+                "automatic_validation": false,
+                "staff_verification": true
+            },
+            "exceptions": [
+                "Children accompanied by verified guardians"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Do I need my passport?",
+                    "Can I enter with another person's ticket?"
+                ],
+                "recommended_response": "Carry a valid identification document if your ticket category requires verification."
+            }
+        },
+        {
+            "rule_id": "ER-04",
+            "category": "Entry Rules",
+            "title": "Early Arrival Recommendation",
+            "description": "Visitors are encouraged to arrive early to complete security checks and avoid congestion during peak entry periods.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "RECOMMENDED",
+            "enforcement": {
+                "security_check": false,
+                "automatic_validation": false,
+                "staff_verification": false
+            },
+            "exceptions": [],
+            "ai_metadata": {
+                "common_questions": [
+                    "When should I reach the stadium?",
+                    "How early should I arrive?"
+                ],
+                "recommended_response": "Arrive at least 90 minutes before kickoff to allow time for security checks and navigation."
+            }
+        },
+        {
+            "rule_id": "ER-05",
+            "category": "Entry Rules",
+            "title": "Designated Gate Entry",
+            "description": "Visitors must enter through the gate assigned on their ticket to maintain crowd distribution and security control.",
+            "applies_to": [
+                "All Ticket Holders"
+            ],
+            "severity": "MANDATORY",
+            "enforcement": {
+                "security_check": true,
+                "automatic_validation": true,
+                "staff_verification": true
+            },
+            "exceptions": [
+                "Emergency rerouting authorized by stadium staff"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I enter through another gate?",
+                    "Where is my assigned gate?"
+                ],
+                "recommended_response": "Use the gate mentioned on your ticket. Staff may redirect visitors during operational changes."
+            }
+        },
+        {
+            "rule_id": "ER-06",
+            "category": "Entry Rules",
+            "title": "Single Entry Validation",
+            "description": "Each ticket can only be scanned once. Duplicate attempts may result in entry denial.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "MANDATORY",
+            "enforcement": {
+                "security_check": true,
+                "automatic_validation": true,
+                "staff_verification": true
+            },
+            "exceptions": [],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can multiple people use one ticket?",
+                    "Can I leave and come back?"
+                ],
+                "recommended_response": "Tickets are valid for a single authorized entry unless re-entry is specifically allowed."
+            }
+        },
+        {
+            "rule_id": "ER-07",
+            "category": "Entry Rules",
+            "title": "Security Screening Required",
+            "description": "All visitors must pass security screening before entering the stadium premises.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "MANDATORY",
+            "enforcement": {
+                "security_check": true,
+                "automatic_validation": false,
+                "staff_verification": true
+            },
+            "exceptions": [
+                "Emergency responders",
+                "Authorized officials"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "What happens during security checks?",
+                    "How long does screening take?"
+                ],
+                "recommended_response": "Security screening includes ticket validation, bag inspection, and prohibited item checks."
+            }
+        },
+        {
+            "rule_id": "ER-08",
+            "category": "Entry Rules",
+            "title": "No Unauthorized Entry Areas",
+            "description": "Visitors may only access zones and seating areas permitted by their ticket type.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "MANDATORY",
+            "enforcement": {
+                "security_check": true,
+                "automatic_validation": true,
+                "staff_verification": true
+            },
+            "exceptions": [
+                "Authorized accessibility assistance",
+                "Official event personnel"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I visit another seating area?",
+                    "Can I enter VIP zones?"
+                ],
+                "recommended_response": "Access is limited to your assigned seating and permitted zones."
+            }
+        }
+    ],
+    "bag_rules": [
+        {
+            "rule_id": "BR-01",
+            "category": "Bag Rules",
+            "title": "Small Bags Only Policy",
+            "description": "Visitors are allowed to bring only small personal bags that comply with stadium size restrictions.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "MANDATORY",
+            "enforcement": {
+                "security_check": true,
+                "bag_inspection": true,
+                "staff_verification": true
+            },
+            "restrictions": {
+                "maximum_dimensions": "40cm x 30cm x 20cm",
+                "allowed_bag_types": [
+                    "Small Backpack",
+                    "Handbag",
+                    "Shoulder Bag"
+                ]
+            },
+            "exceptions": [
+                "Approved medical bags",
+                "Approved baby care bags"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I bring a backpack?",
+                    "What size bag is allowed?"
+                ],
+                "recommended_response": "Only small bags within the approved size limit are allowed after security inspection."
+            }
+        },
+        {
+            "rule_id": "BR-02",
+            "category": "Bag Rules",
+            "title": "Large Bag Restriction",
+            "description": "Large backpacks, suitcases, travel bags, and oversized luggage are not permitted inside the stadium.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "PROHIBITED",
+            "enforcement": {
+                "security_check": true,
+                "bag_inspection": true,
+                "staff_verification": true
+            },
+            "restrictions": {
+                "prohibited_bag_types": [
+                    "Large Backpacks",
+                    "Suitcases",
+                    "Travel Bags",
+                    "Large Sports Bags"
+                ]
+            },
+            "exceptions": [
+                "Official team equipment",
+                "Authorized staff luggage"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I bring a suitcase?",
+                    "Is a large backpack allowed?"
+                ],
+                "recommended_response": "Large bags and luggage are not allowed inside the stadium. Use designated storage facilities if available."
+            }
+        },
+        {
+            "rule_id": "BR-03",
+            "category": "Bag Rules",
+            "title": "Transparent Bag Recommendation",
+            "description": "Transparent bags are recommended to speed up security screening and reduce entry waiting time.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "RECOMMENDED",
+            "enforcement": {
+                "security_check": true,
+                "bag_inspection": true,
+                "staff_verification": false
+            },
+            "restrictions": {
+                "preferred_bag_type": [
+                    "Clear Plastic Bag",
+                    "Transparent Backpack"
+                ]
+            },
+            "exceptions": [],
+            "ai_metadata": {
+                "common_questions": [
+                    "Do I need a clear bag?",
+                    "Will a transparent bag make entry faster?"
+                ],
+                "recommended_response": "Clear bags are recommended because they allow faster security inspection."
+            }
+        },
+        {
+            "rule_id": "BR-04",
+            "category": "Bag Rules",
+            "title": "Medical Bag Exception",
+            "description": "Visitors carrying medically necessary equipment or supplies may bring approved medical bags after security verification.",
+            "applies_to": [
+                "Visitors With Medical Requirements"
+            ],
+            "severity": "EXCEPTION",
+            "enforcement": {
+                "security_check": true,
+                "bag_inspection": true,
+                "staff_verification": true
+            },
+            "restrictions": {
+                "allowed_items": [
+                    "Medical Devices",
+                    "Medication",
+                    "Medical Supplies"
+                ],
+                "documentation_required": false
+            },
+            "exceptions": [
+                "Emergency medical requirements"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I bring my medicine?",
+                    "Are medical devices allowed?"
+                ],
+                "recommended_response": "Medical equipment and medication are allowed after appropriate security verification."
+            }
+        },
+        {
+            "rule_id": "BR-05",
+            "category": "Bag Rules",
+            "title": "Baby Care Bag Exception",
+            "description": "Parents or guardians may bring essential baby care items after security inspection.",
+            "applies_to": [
+                "Parents",
+                "Guardians With Infants"
+            ],
+            "severity": "EXCEPTION",
+            "enforcement": {
+                "security_check": true,
+                "bag_inspection": true,
+                "staff_verification": true
+            },
+            "restrictions": {
+                "allowed_items": [
+                    "Baby Food",
+                    "Diapers",
+                    "Baby Care Products",
+                    "Small Baby Bag"
+                ]
+            },
+            "exceptions": [
+                "Special childcare requirements approved by staff"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I bring baby food?",
+                    "Are diaper bags allowed?"
+                ],
+                "recommended_response": "Essential baby care items are allowed after security inspection."
+            }
+        }
+    ],
+    "prohibited_items": [
+        {
+            "rule_id": "PI-01",
+            "category": "Prohibited Items",
+            "title": "Weapons and Dangerous Objects",
+            "description": "Weapons, sharp objects, and items capable of causing injury are strictly prohibited inside the stadium.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "STRICTLY_PROHIBITED",
+            "enforcement": {
+                "security_check": true,
+                "bag_inspection": true,
+                "item_confiscation": true,
+                "staff_verification": true
+            },
+            "restricted_items": [
+                "Firearms",
+                "Knives",
+                "Blades",
+                "Explosive Devices",
+                "Weapons"
+            ],
+            "exceptions": [
+                "Authorized security personnel equipment"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I carry a knife?",
+                    "Are weapons allowed?"
+                ],
+                "recommended_response": "Weapons and dangerous objects are not permitted inside the stadium."
+            }
+        },
+        {
+            "rule_id": "PI-02",
+            "category": "Prohibited Items",
+            "title": "Explosive and Flammable Materials",
+            "description": "Explosive substances, fireworks, and flammable materials are prohibited due to safety risks.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "STRICTLY_PROHIBITED",
+            "enforcement": {
+                "security_check": true,
+                "bag_inspection": true,
+                "item_confiscation": true,
+                "staff_verification": true
+            },
+            "restricted_items": [
+                "Fireworks",
+                "Firecrackers",
+                "Fuel Containers",
+                "Flammable Liquids"
+            ],
+            "exceptions": [
+                "Approved event equipment"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I bring fireworks?",
+                    "Can I carry a lighter?"
+                ],
+                "recommended_response": "Explosive and flammable materials are prohibited inside the stadium."
+            }
+        },
+        {
+            "rule_id": "PI-03",
+            "category": "Prohibited Items",
+            "title": "Illegal Substances",
+            "description": "Illegal drugs and unauthorized controlled substances are prohibited within stadium premises.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "STRICTLY_PROHIBITED",
+            "enforcement": {
+                "security_check": true,
+                "staff_verification": true,
+                "security_escalation": true
+            },
+            "restricted_items": [
+                "Illegal Drugs",
+                "Unauthorized Substances"
+            ],
+            "exceptions": [
+                "Prescribed medication with valid medical purpose"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I bring medication?",
+                    "Are substances allowed?"
+                ],
+                "recommended_response": "Only medically approved medication is allowed. Illegal substances are prohibited."
+            }
+        },
+        {
+            "rule_id": "PI-04",
+            "category": "Prohibited Items",
+            "title": "Drones and Unauthorized Flying Devices",
+            "description": "Drones, remote-controlled aircraft, and unauthorized flying devices are not allowed inside stadium premises.",
+            "applies_to": [
+                "Visitors",
+                "Media Personnel"
+            ],
+            "severity": "PROHIBITED",
+            "enforcement": {
+                "security_check": true,
+                "equipment_detection": true,
+                "staff_verification": true
+            },
+            "restricted_items": [
+                "Drones",
+                "Remote Controlled Aircraft"
+            ],
+            "exceptions": [
+                "Official broadcast equipment"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I bring my drone?",
+                    "Can I record aerial footage?"
+                ],
+                "recommended_response": "Only officially authorized aerial equipment is permitted."
+            }
+        },
+        {
+            "rule_id": "PI-05",
+            "category": "Prohibited Items",
+            "title": "Laser Devices",
+            "description": "Laser pointers and devices that may interfere with players, officials, or spectators are prohibited.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "PROHIBITED",
+            "enforcement": {
+                "security_check": true,
+                "item_confiscation": true
+            },
+            "restricted_items": [
+                "Laser Pointers",
+                "High-Powered Lasers"
+            ],
+            "exceptions": [],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I bring a laser pointer?"
+                ],
+                "recommended_response": "Laser devices are not allowed inside the stadium."
+            }
+        },
+        {
+            "rule_id": "PI-06",
+            "category": "Prohibited Items",
+            "title": "Large Flags and Banners",
+            "description": "Large flags, banners, and displays that obstruct views or create safety concerns are restricted.",
+            "applies_to": [
+                "Supporters",
+                "Fan Groups"
+            ],
+            "severity": "RESTRICTED",
+            "enforcement": {
+                "security_check": true,
+                "staff_approval_required": true
+            },
+            "restricted_items": [
+                "Large Flags",
+                "Oversized Banners",
+                "Unauthorized Signs"
+            ],
+            "exceptions": [
+                "Approved supporter banners"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I bring a flag?",
+                    "Are banners allowed?"
+                ],
+                "recommended_response": "Small approved flags may be allowed. Large banners require prior approval."
+            }
+        },
+        {
+            "rule_id": "PI-07",
+            "category": "Prohibited Items",
+            "title": "Glass Containers",
+            "description": "Glass bottles and containers are prohibited due to breakage and safety risks.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "PROHIBITED",
+            "enforcement": {
+                "security_check": true,
+                "item_confiscation": true
+            },
+            "restricted_items": [
+                "Glass Bottles",
+                "Glass Containers"
+            ],
+            "exceptions": [
+                "Approved medical glass containers"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I bring a glass bottle?"
+                ],
+                "recommended_response": "Glass containers are not allowed inside the stadium."
+            }
+        },
+        {
+            "rule_id": "PI-08",
+            "category": "Prohibited Items",
+            "title": "Professional Recording Equipment",
+            "description": "Professional cameras and recording equipment require prior authorization.",
+            "applies_to": [
+                "Visitors",
+                "Media"
+            ],
+            "severity": "RESTRICTED",
+            "enforcement": {
+                "security_check": true,
+                "staff_verification": true
+            },
+            "restricted_items": [
+                "Professional Cameras",
+                "Tripods",
+                "Large Recording Equipment"
+            ],
+            "exceptions": [
+                "Accredited Media Personnel"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I bring a DSLR?",
+                    "Can I record the match?"
+                ],
+                "recommended_response": "Personal cameras may be allowed, but professional equipment requires authorization."
+            }
+        },
+        {
+            "rule_id": "PI-09",
+            "category": "Prohibited Items",
+            "title": "Outside Food and Beverages",
+            "description": "Outside food and beverages are generally not allowed unless approved for medical or special requirements.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "RESTRICTED",
+            "enforcement": {
+                "security_check": true,
+                "bag_inspection": true
+            },
+            "restricted_items": [
+                "Outside Meals",
+                "Alcoholic Beverages",
+                "Large Drink Containers"
+            ],
+            "exceptions": [
+                "Medical requirements",
+                "Approved baby food"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I bring water?",
+                    "Can I bring snacks?"
+                ],
+                "recommended_response": "Outside food and beverages are restricted. Exceptions may apply for medical or childcare needs."
+            }
+        },
+        {
+            "rule_id": "PI-10",
+            "category": "Prohibited Items",
+            "title": "Noise and Disruption Devices",
+            "description": "Devices intended to create excessive noise or disturb visitors are prohibited.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "PROHIBITED",
+            "enforcement": {
+                "security_check": true,
+                "staff_verification": true
+            },
+            "restricted_items": [
+                "Air Horns",
+                "Large Sound Devices",
+                "Unauthorized Amplifiers"
+            ],
+            "exceptions": [
+                "Official event equipment"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I bring an air horn?",
+                    "Are noise makers allowed?"
+                ],
+                "recommended_response": "Devices that create excessive noise or disruption are not allowed."
+            }
+        }
+    ],
+    "fan_conduct_rules": [
+        {
+            "rule_id": "FC-01",
+            "category": "Fan Conduct Rules",
+            "title": "Respectful Behaviour Required",
+            "description": "All visitors must behave respectfully toward players, officials, staff, and other spectators.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "MANDATORY",
+            "enforcement": {
+                "staff_monitoring": true,
+                "security_intervention": true,
+                "incident_reporting": true
+            },
+            "violations": [
+                "Verbal Abuse",
+                "Threatening Behaviour",
+                "Disrespectful Conduct"
+            ],
+            "exceptions": [],
+            "ai_metadata": {
+                "common_questions": [
+                    "What behaviour is expected?",
+                    "What happens if someone causes problems?"
+                ],
+                "recommended_response": "Visitors must maintain respectful behaviour throughout the event."
+            }
+        },
+        {
+            "rule_id": "FC-02",
+            "category": "Fan Conduct Rules",
+            "title": "No Discrimination or Hate Speech",
+            "description": "Discriminatory behaviour, hate speech, or offensive actions based on identity or background are strictly prohibited.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "STRICTLY_PROHIBITED",
+            "enforcement": {
+                "staff_monitoring": true,
+                "security_intervention": true,
+                "incident_reporting": true
+            },
+            "violations": [
+                "Racist Behaviour",
+                "Hate Speech",
+                "Discriminatory Actions"
+            ],
+            "exceptions": [],
+            "ai_metadata": {
+                "common_questions": [
+                    "Where can I report discrimination?",
+                    "What behaviour is not allowed?"
+                ],
+                "recommended_response": "Discrimination and hate speech are not tolerated. Report incidents to stadium staff."
+            }
+        },
+        {
+            "rule_id": "FC-03",
+            "category": "Fan Conduct Rules",
+            "title": "No Fighting or Physical Violence",
+            "description": "Physical fights, aggressive behaviour, and attempts to harm others are strictly prohibited.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "STRICTLY_PROHIBITED",
+            "enforcement": {
+                "security_intervention": true,
+                "incident_reporting": true,
+                "removal_possible": true
+            },
+            "violations": [
+                "Physical Altercations",
+                "Assault",
+                "Aggressive Behaviour"
+            ],
+            "exceptions": [],
+            "ai_metadata": {
+                "common_questions": [
+                    "What should I do if a fight starts?",
+                    "How do I report an incident?"
+                ],
+                "recommended_response": "Move away from unsafe situations and immediately notify nearby stadium staff."
+            }
+        },
+        {
+            "rule_id": "FC-04",
+            "category": "Fan Conduct Rules",
+            "title": "No Pitch Invasion",
+            "description": "Visitors must remain within designated spectator areas and are not allowed to enter the playing field.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "STRICTLY_PROHIBITED",
+            "enforcement": {
+                "security_intervention": true,
+                "removal_possible": true,
+                "legal_action_possible": true
+            },
+            "violations": [
+                "Entering Playing Area",
+                "Climbing Barriers"
+            ],
+            "exceptions": [
+                "Authorized event personnel"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can fans enter the field after the match?",
+                    "Where can I meet players?"
+                ],
+                "recommended_response": "Only authorized personnel may enter the playing area."
+            }
+        },
+        {
+            "rule_id": "FC-05",
+            "category": "Fan Conduct Rules",
+            "title": "Follow Staff Instructions",
+            "description": "Visitors must follow instructions provided by stadium staff, security personnel, and emergency teams.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "MANDATORY",
+            "enforcement": {
+                "staff_monitoring": true,
+                "security_intervention": true
+            },
+            "violations": [
+                "Ignoring Safety Instructions",
+                "Refusing Staff Direction"
+            ],
+            "exceptions": [],
+            "ai_metadata": {
+                "common_questions": [
+                    "Who should I ask for help?",
+                    "Can staff move my seating?"
+                ],
+                "recommended_response": "Follow official instructions from trained stadium personnel."
+            }
+        },
+        {
+            "rule_id": "FC-06",
+            "category": "Fan Conduct Rules",
+            "title": "No Harassment or Intimidation",
+            "description": "Harassment, intimidation, stalking, or unwanted behaviour toward other visitors is prohibited.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "STRICTLY_PROHIBITED",
+            "enforcement": {
+                "staff_monitoring": true,
+                "security_intervention": true,
+                "incident_reporting": true
+            },
+            "violations": [
+                "Harassment",
+                "Threats",
+                "Unwanted Contact"
+            ],
+            "exceptions": [],
+            "ai_metadata": {
+                "common_questions": [
+                    "How do I report harassment?",
+                    "Who can help me?"
+                ],
+                "recommended_response": "Report harassment immediately to stadium staff or security personnel."
+            }
+        },
+        {
+            "rule_id": "FC-07",
+            "category": "Fan Conduct Rules",
+            "title": "Maintain Clean Stadium Environment",
+            "description": "Visitors must dispose of waste properly and avoid damaging stadium property.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "MANDATORY",
+            "enforcement": {
+                "staff_monitoring": true,
+                "facility_monitoring": true
+            },
+            "violations": [
+                "Littering",
+                "Property Damage",
+                "Vandalism"
+            ],
+            "exceptions": [],
+            "ai_metadata": {
+                "common_questions": [
+                    "Where are waste bins located?",
+                    "Can I leave items at my seat?"
+                ],
+                "recommended_response": "Use designated waste disposal areas and help maintain a clean stadium."
+            }
+        },
+        {
+            "rule_id": "FC-08",
+            "category": "Fan Conduct Rules",
+            "title": "Responsible Alcohol Behaviour",
+            "description": "Visitors must follow alcohol consumption rules and must not create disturbances while under the influence.",
+            "applies_to": [
+                "Visitors Purchasing Alcohol"
+            ],
+            "severity": "MANDATORY",
+            "enforcement": {
+                "staff_monitoring": true,
+                "security_intervention": true
+            },
+            "violations": [
+                "Excessive Intoxication",
+                "Disruptive Behaviour",
+                "Alcohol Abuse"
+            ],
+            "exceptions": [
+                "Designated hospitality areas"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I drink inside the stadium?",
+                    "What happens if someone is disruptive?"
+                ],
+                "recommended_response": "Alcohol policies must be followed. Disruptive behaviour may result in removal."
+            }
+        }
+    ],
+    "accessibility_rules": [
+        {
+            "rule_id": "AR-01",
+            "category": "Accessibility Rules",
+            "title": "Accessible Entrances Must Be Used For Accessible Routing",
+            "description": "Visitors requiring accessibility support should use designated accessible entrances equipped with ramps, elevators, and assistance services.",
+            "applies_to": [
+                "Wheelchair Users",
+                "Visitors With Mobility Requirements",
+                "Visitors Requiring Assistance"
+            ],
+            "severity": "RECOMMENDED",
+            "enforcement": {
+                "staff_guidance": true,
+                "route_validation": true,
+                "assistance_available": true
+            },
+            "related_resources": {
+                "accessible_entrances": [
+                    "AE-01",
+                    "AE-02",
+                    "AE-03",
+                    "AE-04",
+                    "AE-05",
+                    "AE-06",
+                    "AE-07",
+                    "AE-08"
+                ],
+                "accessibility_desks": [
+                    "AD-01",
+                    "AD-02",
+                    "AD-03",
+                    "AD-04"
+                ]
+            },
+            "exceptions": [
+                "Visitors may use regular entrances if accessibility assistance is not required"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Where is the accessible entrance?",
+                    "Which gate should wheelchair users use?"
+                ],
+                "recommended_response": "Use designated accessible entrances for step-free access and dedicated assistance."
+            }
+        },
+        {
+            "rule_id": "AR-02",
+            "category": "Accessibility Rules",
+            "title": "Accessible Seating Reserved For Eligible Visitors",
+            "description": "Accessible seating areas are reserved for visitors with accessibility requirements and their approved companions.",
+            "applies_to": [
+                "Wheelchair Users",
+                "Visitors With Disabilities",
+                "Approved Companions"
+            ],
+            "severity": "MANDATORY",
+            "enforcement": {
+                "ticket_validation": true,
+                "staff_verification": true,
+                "seating_monitoring": true
+            },
+            "related_resources": {
+                "accessible_seating_sections": [
+                    "AS-01",
+                    "AS-02",
+                    "AS-03",
+                    "AS-04",
+                    "AS-05",
+                    "AS-06",
+                    "AS-07",
+                    "AS-08"
+                ]
+            },
+            "exceptions": [
+                "Authorized event staff"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Who can use accessible seats?",
+                    "Can my companion sit with me?"
+                ],
+                "recommended_response": "Accessible seating is reserved for eligible visitors and approved companions."
+            }
+        },
+        {
+            "rule_id": "AR-03",
+            "category": "Accessibility Rules",
+            "title": "Wheelchair Assistance Available",
+            "description": "Visitors requiring wheelchair support may request assistance from designated wheelchair service points.",
+            "applies_to": [
+                "Wheelchair Users",
+                "Visitors With Mobility Requirements"
+            ],
+            "severity": "SUPPORTED",
+            "enforcement": {
+                "staff_assistance": true,
+                "request_tracking": true,
+                "service_coordination": true
+            },
+            "related_resources": {
+                "wheelchair_service_points": [
+                    "WC-01",
+                    "WC-02",
+                    "WC-03",
+                    "WC-04"
+                ]
+            },
+            "exceptions": [],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I request a wheelchair?",
+                    "Where can I borrow a wheelchair?"
+                ],
+                "recommended_response": "Wheelchair assistance and rental services are available at designated wheelchair service points."
+            }
+        },
+        {
+            "rule_id": "AR-04",
+            "category": "Accessibility Rules",
+            "title": "Service Animals Permitted",
+            "description": "Certified service animals supporting visitors with disabilities are permitted inside approved stadium areas.",
+            "applies_to": [
+                "Visitors With Service Animals"
+            ],
+            "severity": "MANDATORY",
+            "enforcement": {
+                "staff_verification": true,
+                "animal_support_guidance": true
+            },
+            "requirements": {
+                "service_animal_identification": true,
+                "visitor_responsibility": true,
+                "animal_control_required": true
+            },
+            "exceptions": [
+                "Non-service pets are not permitted"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I bring my guide dog?",
+                    "Are pets allowed?"
+                ],
+                "recommended_response": "Certified service animals are permitted with appropriate identification and visitor responsibility."
+            }
+        },
+        {
+            "rule_id": "AR-05",
+            "category": "Accessibility Rules",
+            "title": "Priority Assistance Available",
+            "description": "Visitors requiring additional support can request priority assistance from accessibility staff.",
+            "applies_to": [
+                "Visitors With Accessibility Needs",
+                "Elderly Visitors",
+                "Temporary Mobility Limitations"
+            ],
+            "severity": "SUPPORTED",
+            "enforcement": {
+                "staff_assistance": true,
+                "priority_queue_support": true,
+                "request_tracking": true
+            },
+            "related_resources": {
+                "assistance_desks": [
+                    "AD-01",
+                    "AD-02",
+                    "AD-03",
+                    "AD-04"
+                ],
+                "sensory_zones": [
+                    "SA-01",
+                    "SA-02",
+                    "SA-03",
+                    "SA-04"
+                ]
+            },
+            "exceptions": [],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I get priority assistance?",
+                    "Where can I find accessibility staff?"
+                ],
+                "recommended_response": "Accessibility staff are available throughout the stadium to provide priority support."
+            }
+        }
+    ],
+    "photography_rules": [
+        {
+            "rule_id": "PR-01",
+            "category": "Photography Rules",
+            "title": "Personal Photography Allowed",
+            "description": "Visitors may take personal photographs using small handheld cameras or mobile phones for personal use, provided they do not disturb other spectators.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "ALLOWED_WITH_CONDITIONS",
+            "enforcement": {
+                "staff_monitoring": true,
+                "security_check": false,
+                "incident_reporting": true
+            },
+            "restrictions": {
+                "allowed_devices": [
+                    "Mobile Phones",
+                    "Small Personal Cameras"
+                ],
+                "prohibited_usage": [
+                    "Blocking Spectator Views",
+                    "Disrupting Event Operations"
+                ]
+            },
+            "exceptions": [],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I take photos?",
+                    "Can I bring my phone camera?"
+                ],
+                "recommended_response": "Personal photography using phones and small cameras is allowed if it does not disturb others."
+            }
+        },
+        {
+            "rule_id": "PR-02",
+            "category": "Photography Rules",
+            "title": "Professional Camera Restrictions",
+            "description": "Professional photography equipment requires prior authorization from event organizers.",
+            "applies_to": [
+                "Visitors",
+                "Photographers"
+            ],
+            "severity": "RESTRICTED",
+            "enforcement": {
+                "security_check": true,
+                "equipment_verification": true,
+                "staff_approval_required": true
+            },
+            "restrictions": {
+                "restricted_devices": [
+                    "Professional DSLR Cameras",
+                    "Large Telephoto Lenses",
+                    "Tripods",
+                    "Professional Video Equipment"
+                ]
+            },
+            "exceptions": [
+                "Accredited Media Personnel",
+                "Official Event Photographers"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I bring my DSLR?",
+                    "Are zoom lenses allowed?"
+                ],
+                "recommended_response": "Professional photography equipment requires prior approval or media accreditation."
+            }
+        },
+        {
+            "rule_id": "PR-03",
+            "category": "Photography Rules",
+            "title": "No Unauthorized Live Streaming",
+            "description": "Visitors must not broadcast or stream live match footage without official permission.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "PROHIBITED",
+            "enforcement": {
+                "staff_monitoring": true,
+                "digital_monitoring": true,
+                "incident_reporting": true
+            },
+            "restrictions": {
+                "prohibited_actions": [
+                    "Live Match Streaming",
+                    "Unauthorized Broadcasting",
+                    "Commercial Recording"
+                ]
+            },
+            "exceptions": [
+                "Official Broadcasters",
+                "Authorized Media Partners"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I livestream the match?",
+                    "Can I upload live footage?"
+                ],
+                "recommended_response": "Live streaming match footage requires official authorization."
+            }
+        },
+        {
+            "rule_id": "PR-04",
+            "category": "Photography Rules",
+            "title": "Drone and Aerial Photography Restrictions",
+            "description": "Aerial photography devices including drones are prohibited unless specifically authorized by stadium management.",
+            "applies_to": [
+                "Visitors",
+                "Media Personnel"
+            ],
+            "severity": "STRICTLY_PROHIBITED",
+            "enforcement": {
+                "security_check": true,
+                "airspace_monitoring": true,
+                "staff_verification": true
+            },
+            "restrictions": {
+                "prohibited_devices": [
+                    "Drones",
+                    "Remote Controlled Cameras",
+                    "Aerial Recording Devices"
+                ]
+            },
+            "exceptions": [
+                "Official Event Production Teams",
+                "Authorized Security Operations"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Can I bring a drone?",
+                    "Can I take aerial photos?"
+                ],
+                "recommended_response": "Drones and aerial recording devices require official authorization."
+            }
+        }
+    ],
+    "emergency_rules": [
+        {
+            "rule_id": "EMR-01",
+            "category": "Emergency Rules",
+            "title": "Follow Emergency Instructions",
+            "description": "Visitors must immediately follow instructions provided by stadium staff, security personnel, and emergency response teams during an emergency.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "MANDATORY",
+            "enforcement": {
+                "staff_monitoring": true,
+                "public_announcements": true,
+                "security_intervention": true
+            },
+            "emergency_actions": [
+                "Remain Calm",
+                "Follow Staff Instructions",
+                "Avoid Panic Movement",
+                "Move To Designated Areas"
+            ],
+            "exceptions": [],
+            "ai_metadata": {
+                "common_questions": [
+                    "What should I do during an emergency?",
+                    "Who should I follow during an incident?"
+                ],
+                "recommended_response": "Remain calm and follow instructions from official stadium emergency personnel."
+            }
+        },
+        {
+            "rule_id": "EMR-02",
+            "category": "Emergency Rules",
+            "title": "Emergency Exit Access",
+            "description": "Emergency exits and evacuation routes must remain clear and accessible at all times.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "MANDATORY",
+            "enforcement": {
+                "security_monitoring": true,
+                "staff_monitoring": true,
+                "camera_monitoring": true
+            },
+            "requirements": {
+                "exit_obstruction": false,
+                "crowd_blocking": false,
+                "unauthorized_access": false
+            },
+            "exceptions": [
+                "Emergency response personnel"
+            ],
+            "ai_metadata": {
+                "common_questions": [
+                    "Where is the nearest emergency exit?",
+                    "Can I wait near an exit?"
+                ],
+                "recommended_response": "Emergency exits must remain clear. Use the nearest available exit during evacuation."
+            }
+        },
+        {
+            "rule_id": "EMR-03",
+            "category": "Emergency Rules",
+            "title": "Medical Emergency Reporting",
+            "description": "Visitors should immediately report medical emergencies to nearby staff or use emergency assistance channels.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "MANDATORY",
+            "enforcement": {
+                "medical_team_response": true,
+                "staff_coordination": true,
+                "incident_tracking": true
+            },
+            "related_resources": {
+                "medical_centers": [
+                    "MC-01",
+                    "MC-02",
+                    "MC-03",
+                    "MC-04"
+                ],
+                "accessibility_desks": [
+                    "AD-01",
+                    "AD-02",
+                    "AD-03",
+                    "AD-04"
+                ]
+            },
+            "exceptions": [],
+            "ai_metadata": {
+                "common_questions": [
+                    "Someone needs medical help, what do I do?",
+                    "Where is the nearest medical center?"
+                ],
+                "recommended_response": "Contact nearby staff immediately or request medical assistance through the stadium support system."
+            }
+        },
+        {
+            "rule_id": "EMR-04",
+            "category": "Emergency Rules",
+            "title": "Crowd Safety During Emergencies",
+            "description": "Visitors must avoid rushing, pushing, or creating panic situations during emergency movement.",
+            "applies_to": [
+                "All Visitors"
+            ],
+            "severity": "MANDATORY",
+            "enforcement": {
+                "crowd_monitoring": true,
+                "security_intervention": true,
+                "public_announcements": true
+            },
+            "prohibited_actions": [
+                "Running Without Instruction",
+                "Pushing Others",
+                "Blocking Routes",
+                "Creating Panic"
+            ],
+            "exceptions": [],
+            "ai_metadata": {
+                "common_questions": [
+                    "What should I do if the crowd starts moving?",
+                    "How can I stay safe?"
+                ],
+                "recommended_response": "Move calmly, avoid pushing, and follow official evacuation guidance."
+            }
+        },
+        {
+            "rule_id": "EMR-05",
+            "category": "Emergency Rules",
+            "title": "Lost Person Emergency Assistance",
+            "description": "Visitors can report missing children, vulnerable individuals, or separated groups to designated support locations.",
+            "applies_to": [
+                "Families",
+                "Caregivers",
+                "All Visitors"
+            ],
+            "severity": "SUPPORTED",
+            "enforcement": {
+                "staff_assistance": true,
+                "information_desk_support": true,
+                "security_coordination": true
+            },
+            "related_resources": {
+                "information_desks": [
+                    "INFO-01",
+                    "INFO-02",
+                    "INFO-03",
+                    "INFO-04"
+                ],
+                "accessibility_desks": [
+                    "AD-01",
+                    "AD-02",
+                    "AD-03",
+                    "AD-04"
+                ]
+            },
+            "exceptions": [],
+            "ai_metadata": {
+                "common_questions": [
+                    "My child is missing, what should I do?",
+                    "Where is lost and found?"
+                ],
+                "recommended_response": "Report missing persons immediately to stadium staff or the nearest information desk."
+            }
+        }
+    ]
+}
