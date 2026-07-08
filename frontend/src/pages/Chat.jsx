@@ -8,13 +8,13 @@ export default function Chat() {
             <Navbar />
             <div className="dashboard flex flex-1">
                 <Sidebar />
-                <div className="dashboard-content p-6 md:p-10 flex-1 flex flex-col">
-                    <div className="mb-6">
+                <main id="main-content" className="dashboard-content p-6 md:p-10 flex-1 flex flex-col">
+                    <header className="mb-6">
                         <h1 className="text-3xl font-extrabold tracking-tight text-white">🏟 Stadium Assistant</h1>
                         <p className="text-slate-400 text-sm mt-1">Chat bot powered by Gemini 2.5 and RAG knowledge base.</p>
-                    </div>
+                    </header>
                     <ChatBox />
-                </div>
+                </main>
             </div>
         </div>
     );

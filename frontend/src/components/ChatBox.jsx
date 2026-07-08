@@ -58,33 +58,37 @@ export default function ChatBox() {
         "Where is Gate A?",
         "Where can I charge my phone?",
         "Where is the nearest wheelchair accessible entrance?",
-        "Show rules on prohibited items",
     ];
 
     return (
-        <div className="flex-1 flex flex-col h-[calc(100vh-210px)] bg-slate-900 rounded-2xl border border-slate-800 shadow-2xl overflow-hidden">
+        <section aria-label="Stadium Chat Assistant" className="flex-1 flex flex-col h-[calc(100vh-210px)] bg-slate-900 rounded-2xl border border-slate-800 shadow-2xl overflow-hidden">
             {/* Header info */}
             <div className="bg-slate-900 border-b border-slate-850 px-6 py-4 flex items-center justify-between shrink-0">
                 <div className="flex items-center gap-2.5">
                     <div className="w-9 h-9 rounded-full bg-blue-600/10 border border-blue-500/20 flex items-center justify-center text-blue-400">
-                        <Bot size={20} />
+                        <Bot size={20} aria-hidden="true" />
                     </div>
                     <div>
                         <div className="font-semibold text-sm text-slate-200">Stadium AI Concierge</div>
                         <div className="text-xs text-emerald-400 flex items-center gap-1.5 font-medium">
-                            <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-pulse"></span>
+                            <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-pulse" aria-hidden="true"></span>
                             Online & ready
                         </div>
                     </div>
                 </div>
                 <div className="text-xs text-slate-500 flex items-center gap-1">
-                    <Sparkles size={12} className="text-blue-400" />
+                    <Sparkles size={12} className="text-blue-400" aria-hidden="true" />
                     Gemini + RAG powered
                 </div>
             </div>
 
             {/* Message Area */}
-            <div className="flex-1 overflow-y-auto p-6 space-y-4 bg-slate-950 scrollbar-thin scrollbar-thumb-slate-800 scrollbar-track-transparent">
+            <div 
+                role="log" 
+                aria-live="polite" 
+                aria-label="Chat Message History"
+                className="flex-1 overflow-y-auto p-6 space-y-4 bg-slate-955 scrollbar-thin scrollbar-thumb-slate-800 scrollbar-track-transparent"
+            >
                 {messages.map((msg, index) => (
                     <div
                         key={index}
@@ -94,6 +98,7 @@ export default function ChatBox() {
                     >
                         {/* Avatar */}
                         <div
+                            aria-hidden="true"
                             className={`w-8 h-8 rounded-full shrink-0 flex items-center justify-center text-xs font-semibold border ${
                                 msg.sender === "user"
                                     ? "bg-blue-600 border-blue-500 text-white"
@@ -115,6 +120,9 @@ export default function ChatBox() {
                                     : "bg-slate-900 border border-slate-800 text-slate-100 rounded-tl-none"
                             }`}
                         >
+                            <span className="sr-only">
+                                {msg.sender === "user" ? "You said: " : "Concierge said: "}
+                            </span>
                             {msg.text}
                         </div>
                     </div>
@@ -122,14 +130,15 @@ export default function ChatBox() {
 
                 {/* Loading indicator */}
                 {loading && (
-                    <div className="flex gap-3 max-w-[85%]">
-                        <div className="w-8 h-8 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-300 text-xs">
+                    <div className="flex gap-3 max-w-[85%]" aria-live="assertive" aria-label="Concierge is typing...">
+                        <div className="w-8 h-8 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center text-slate-300 text-xs" aria-hidden="true">
                             <Bot size={14} />
                         </div>
                         <div className="bg-slate-900 border border-slate-800 text-slate-400 rounded-2xl rounded-tl-none px-4 py-3 text-sm flex items-center gap-2">
-                            <span className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: "0ms" }}></span>
-                            <span className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: "150ms" }}></span>
-                            <span className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: "300ms" }}></span>
+                            <span className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: "0ms" }} aria-hidden="true"></span>
+                            <span className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: "150ms" }} aria-hidden="true"></span>
+                            <span className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: "300ms" }} aria-hidden="true"></span>
+                            <span className="sr-only">Typing...</span>
                         </div>
                     </div>
                 )}
@@ -140,12 +149,13 @@ export default function ChatBox() {
             {messages.length === 1 && !loading && (
                 <div className="px-6 py-3 border-t border-slate-850 bg-slate-900 shrink-0">
                     <div className="text-xs text-slate-500 mb-2 font-medium">Quick Suggestions:</div>
-                    <div className="flex flex-wrap gap-2">
+                    <div className="flex flex-wrap gap-2" role="group" aria-label="Chat query suggestions">
                         {suggestions.map((suggestion) => (
                             <button
                                 key={suggestion}
                                 onClick={() => handleSuggestionClick(suggestion)}
-                                className="text-xs bg-slate-950 hover:bg-slate-800 text-slate-300 border border-slate-800 hover:border-slate-700 px-3 py-2 rounded-full transition text-left cursor-pointer"
+                                aria-label={`Use suggestion: ${suggestion}`}
+                                className="text-xs bg-slate-950 hover:bg-slate-800 text-slate-300 border border-slate-800 hover:border-slate-700 px-3 py-2 rounded-full transition text-left cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
                             >
                                 {suggestion}
                             </button>
@@ -155,24 +165,28 @@ export default function ChatBox() {
             )}
 
             {/* Input Row */}
-            <form onSubmit={handleSendMessage} className="p-4 bg-slate-900 border-t border-slate-850 flex gap-3 shrink-0">
+            <form onSubmit={handleSendMessage} className="p-4 bg-slate-900 border-t border-slate-855 flex gap-3 shrink-0">
+                <label htmlFor="chat-message-input" className="sr-only">Message text input</label>
                 <input
+                    id="chat-message-input"
                     type="text"
                     value={input}
                     onChange={(e) => setInput(e.target.value)}
                     placeholder="Ask about stadium, rules, gates, facilities..."
-                    className="flex-1 bg-slate-950 text-slate-200 border border-slate-800 focus:border-blue-500 rounded-xl px-4 py-3 text-sm outline-none transition focus:ring-1 focus:ring-blue-500"
+                    className="flex-1 bg-slate-950 text-slate-200 border border-slate-800 focus:border-blue-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-xl px-4 py-3 text-sm outline-none transition focus:ring-1 focus:ring-blue-500"
                     disabled={loading}
                 />
                 <button
                     type="submit"
                     disabled={loading || !input.trim()}
-                    className="bg-blue-600 hover:bg-blue-700 disabled:bg-slate-800 disabled:text-slate-600 text-white px-5 py-3 rounded-xl transition flex items-center justify-center font-medium gap-1.5 shrink-0 cursor-pointer"
+                    aria-label="Send message"
+                    className="bg-blue-600 hover:bg-blue-700 disabled:bg-slate-800 disabled:text-slate-600 text-white px-5 py-3 rounded-xl transition flex items-center justify-center font-medium gap-1.5 shrink-0 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
                 >
-                    <Send size={16} />
+                    <Send size={16} aria-hidden="true" />
                     <span>Send</span>
                 </button>
             </form>
-        </div>
+        </section>
     );
 }
+

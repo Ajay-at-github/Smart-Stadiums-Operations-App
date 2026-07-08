@@ -94,11 +94,12 @@ export default function Login() {
                     className="space-y-4"
                 >
                     <div className="space-y-1">
-                        <label className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Email Address</label>
+                        <label htmlFor="email-address-input" className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Email Address</label>
                         <input
+                            id="email-address-input"
                             type="email"
                             placeholder="you@example.com"
-                            className="w-full bg-slate-950 text-slate-200 border border-slate-800 focus:border-blue-500 rounded-xl px-4 py-3 text-sm outline-none transition focus:ring-1 focus:ring-blue-500"
+                            className="w-full bg-slate-950 text-slate-200 border border-slate-800 focus:border-blue-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-xl px-4 py-3 text-sm outline-none transition focus:ring-1 focus:ring-blue-500"
                             value={email}
                             onChange={(e) =>
                                 setEmail(e.target.value)
@@ -108,11 +109,12 @@ export default function Login() {
                     </div>
 
                     <div className="space-y-1">
-                        <label className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Password</label>
+                        <label htmlFor="password-input" className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Password</label>
                         <input
+                            id="password-input"
                             type="password"
                             placeholder="••••••••"
-                            className="w-full bg-slate-955 text-slate-200 border border-slate-800 focus:border-blue-500 rounded-xl px-4 py-3 text-sm outline-none transition focus:ring-1 focus:ring-blue-500"
+                            className="w-full bg-slate-955 text-slate-200 border border-slate-800 focus:border-blue-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-xl px-4 py-3 text-sm outline-none transition focus:ring-1 focus:ring-blue-500"
                             value={password}
                             onChange={(e) =>
                                 setPassword(e.target.value)
@@ -122,7 +124,7 @@ export default function Login() {
                     </div>
 
                     {error && (
-                        <div className="rounded-xl bg-red-500/10 border border-red-500/20 p-3.5 text-xs text-red-400 leading-normal">
+                        <div role="alert" aria-live="assertive" className="rounded-xl bg-red-500/10 border border-red-500/20 p-3.5 text-xs text-red-400 leading-normal">
                             {error}
                         </div>
                     )}
@@ -130,18 +132,18 @@ export default function Login() {
                     <button
                         type="submit"
                         disabled={loading}
-                        className="w-full rounded-xl bg-blue-600 hover:bg-blue-700 disabled:bg-slate-800 disabled:text-slate-500 text-white py-3.5 font-semibold text-sm transition flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-blue-600/20"
+                        className="w-full rounded-xl bg-blue-600 hover:bg-blue-700 disabled:bg-slate-800 disabled:text-slate-500 text-white py-3.5 font-semibold text-sm transition flex items-center justify-center gap-2 cursor-pointer shadow-lg shadow-blue-600/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
                     >
                         {loading ? (
                             "Please wait..."
                         ) : isLogin ? (
                             <>
-                                <LogIn size={16} />
+                                <LogIn size={16} aria-hidden="true" />
                                 <span>Sign In</span>
                             </>
                         ) : (
                             <>
-                                <UserPlus size={16} />
+                                <UserPlus size={16} aria-hidden="true" />
                                 <span>Create Account</span>
                             </>
                         )}
@@ -149,17 +151,18 @@ export default function Login() {
                 </form>
 
                 <div className="flex items-center gap-3 py-2">
-                    <div className="h-px flex-1 bg-slate-800"></div>
+                    <div className="h-px flex-1 bg-slate-800" aria-hidden="true"></div>
                     <span className="text-xs text-slate-500 font-semibold uppercase tracking-wider">OR</span>
-                    <div className="h-px flex-1 bg-slate-800"></div>
+                    <div className="h-px flex-1 bg-slate-800" aria-hidden="true"></div>
                 </div>
 
                 <button
                     onClick={handleGoogleLogin}
                     disabled={loading}
-                    className="w-full rounded-xl border border-slate-850 hover:border-slate-700 bg-slate-900/50 hover:bg-slate-850 text-slate-300 hover:text-white py-3.5 text-sm font-semibold transition flex items-center justify-center gap-2 cursor-pointer"
+                    aria-label="Continue with Google Authentication"
+                    className="w-full rounded-xl border border-slate-850 hover:border-slate-700 bg-slate-900/50 hover:bg-slate-855 text-slate-300 hover:text-white py-3.5 text-sm font-semibold transition flex items-center justify-center gap-2 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
                 >
-                    <Sparkles size={16} className="text-amber-500 animate-pulse" />
+                    <Sparkles size={16} className="text-amber-500 animate-pulse" aria-hidden="true" />
                     <span>Continue with Google</span>
                 </button>
 
@@ -171,7 +174,7 @@ export default function Login() {
                         onClick={() =>
                             setIsLogin(!isLogin)
                         }
-                        className="ml-1.5 text-blue-400 hover:text-blue-300 font-semibold hover:underline cursor-pointer"
+                        className="ml-1.5 text-blue-400 hover:text-blue-300 font-semibold hover:underline cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500"
                     >
                         {isLogin ? "Create one" : "Sign in"}
                     </button>
