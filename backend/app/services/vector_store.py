@@ -11,8 +11,14 @@ load_dotenv()
 COLLECTION_NAME = "stadium_kb"
 
 
-def get_vector_store():
-
+def get_vector_store() -> QdrantVectorStore:
+    """
+    Establish a connection and return a configured instance of 
+    the Qdrant Vector Database client configured with Gemini embeddings.
+    
+    Returns:
+        An instance of QdrantVectorStore.
+    """
     client = QdrantClient(
         url=os.getenv("QDRANT_URL"),
         api_key=os.getenv("QDRANT_API_KEY") or None,
@@ -28,3 +34,4 @@ def get_vector_store():
         collection_name=COLLECTION_NAME,
         embedding=embeddings,
     )
+

@@ -1,3 +1,5 @@
+// eslint-disable-next-line no-unused-vars
+import React from "react";
 import { useState, useRef, useEffect } from "react";
 import api from "../services/api";
 import { Send, Bot, User, Sparkles } from "lucide-react";
