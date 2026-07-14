@@ -1,38 +1,34 @@
+"""Module for ingesting stadium KnowledgeBase documents into Qdrant Vector Store."""
+
 import json
 import os
-import time
 from pathlib import Path
+from typing import List
 
+from app.services.embeddings import GeminiBatchEmbeddings
 from dotenv import load_dotenv
-from google import genai
-from google.genai import types
 from langchain_core.documents import Document
-from langchain_core.embeddings import Embeddings
 from langchain_qdrant import QdrantVectorStore
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams
-
-from app.services.embeddings import GeminiBatchEmbeddings
-
-# ==============================================================================
-# Configuration
-# ==============================================================================
 
 load_dotenv()
 
 KB_PATH = Path("KnowledgeBase")
 COLLECTION_NAME = "stadium_kb"
 
-# ==============================================================================
-# Helper Functions
-# ==============================================================================
 
+def flatten_json(data: object, parent_key: str = "") -> List[str]:
+    """Convert nested JSON into a list of readable lines.
 
-def flatten_json(data, parent_key=""):
+    Args:
+        data: Nested JSON object, list, or primitive.
+        parent_key: Path key tracking recursion.
+
+    Returns:
+        A list of flattened text string representations.
+
     """
-    Convert nested JSON into readable text.
-    """
-
     lines = []
 
     if isinstance(data, dict):
@@ -67,7 +63,16 @@ def flatten_json(data, parent_key=""):
     return lines
 
 
-def extract_id(obj):
+def extract_id(obj: object) -> str:
+    """Extract standard identifiers from JSON objects.
+
+    Args:
+        obj: The JSON data object.
+
+    Returns:
+        The extracted ID string or 'UNKNOWN'.
+
+    """
     if not isinstance(obj, dict):
         return "UNKNOWN"
     for key, value in obj.items():
@@ -76,57 +81,13 @@ def extract_id(obj):
     return "UNKNOWN"
 
 
-from google.genai.errors import ClientError
+def load_documents() -> List[Document]:
+    """Load stadium knowledge base documents from disk.
 
+    Returns:
+        A list of parsed Document structures.
 
-# class GeminiBatchEmbeddings(Embeddings):
-#     def __init__(self, model: str = "models/gemini-embedding-2", api_key: str = None):
-#         self.model = model
-#         self.client = genai.Client(api_key=api_key)
-
-#     def _embed_with_retry(self, contents):
-#         for attempt in range(6):
-#             try:
-#                 return self.client.models.embed_content(
-#                     model=self.model,
-#                     contents=contents
-#                 )
-#             except ClientError as e:
-#                 if e.code == 429:
-#                     sleep_time = (2 ** attempt) + 10
-#                     print(f"Rate limited (429). Retrying in {sleep_time}s...")
-#                     time.sleep(sleep_time)
-#                 else:
-#                     raise e
-#             except Exception as e:
-#                 sleep_time = (2 ** attempt) + 10
-#                 print(f"Transient error: {e}. Retrying in {sleep_time}s...")
-#                 time.sleep(sleep_time)
-#         raise RuntimeError("Failed to embed content after multiple retries due to rate limits.")
-
-#     def embed_documents(self, texts: list[str]) -> list[list[float]]:
-#         chunk_size = 350
-#         embeddings = []
-#         for i in range(0, len(texts), chunk_size):
-#             chunk = texts[i:i + chunk_size]
-#             contents = [
-#                 types.Content(parts=[types.Part.from_text(text=t)])
-#                 for t in chunk
-#             ]
-#             response = self._embed_with_retry(contents)
-#             for emb in response.embeddings:
-#                 embeddings.append(emb.values)
-#             # Add a small delay between batches
-#             time.sleep(1.0)
-#         return embeddings
-
-#     def embed_query(self, text: str) -> list[float]:
-#         response = self._embed_with_retry(text)
-#         return response.embeddings[0].values
-
-
-def load_documents():
-
+    """
     documents = []
 
     for json_file in KB_PATH.glob("**/*.json"):
@@ -175,12 +136,8 @@ def load_documents():
     return documents
 
 
-# ==============================================================================
-# Main
-# ==============================================================================
-
-def main():
-
+def main() -> None:
+    """Run Qdrant vector database upload pipeline."""
     documents = load_documents()
 
     print(f"\nCreated {len(documents)} documents.\n")

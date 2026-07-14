@@ -1,6 +1,4 @@
-import pytest
-from unittest.mock import patch, AsyncMock
-from fastapi.testclient import TestClient
+from unittest.mock import AsyncMock, patch
 
 
 def test_root_endpoint(client):
@@ -16,7 +14,7 @@ def test_chat_success(mock_gen_response, client):
     mock_gen_response.return_value = "This is a mock stadium assistant reply."
     payload = {"message": "Where is the nearest charging station?"}
     response = client.post("/chat", json=payload)
-    
+
     assert response.status_code == 200
     assert response.json() == {"response": "This is a mock stadium assistant reply."}
     mock_gen_response.assert_called_once_with("Where is the nearest charging station?")
@@ -57,7 +55,7 @@ def test_rate_limiting(mock_gen_response, client):
 
     mock_gen_response.return_value = "Test response"
     payload = {"message": "Quick check"}
-    
+
     # Send 60 requests which is the limit (should pass)
     for _ in range(60):
         response = client.post("/chat", json=payload)

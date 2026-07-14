@@ -1,10 +1,11 @@
+"""Module containing Qdrant vector database store factory implementation."""
+
 import os
 
-from dotenv import load_dotenv
-from qdrant_client import QdrantClient
-from langchain_qdrant import QdrantVectorStore
-
 from app.services.embeddings import GeminiBatchEmbeddings
+from dotenv import load_dotenv
+from langchain_qdrant import QdrantVectorStore
+from qdrant_client import QdrantClient
 
 load_dotenv()
 
@@ -12,12 +13,11 @@ COLLECTION_NAME = "stadium_kb"
 
 
 def get_vector_store() -> QdrantVectorStore:
-    """
-    Establish a connection and return a configured instance of 
-    the Qdrant Vector Database client configured with Gemini embeddings.
-    
+    """Establish a connection and return a configured QdrantVectorStore.
+
     Returns:
         An instance of QdrantVectorStore.
+
     """
     client = QdrantClient(
         url=os.getenv("QDRANT_URL"),
@@ -34,4 +34,3 @@ def get_vector_store() -> QdrantVectorStore:
         collection_name=COLLECTION_NAME,
         embedding=embeddings,
     )
-
